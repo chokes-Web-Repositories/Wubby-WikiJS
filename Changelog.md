@@ -2,11 +2,13 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-13T23:34:21.959Z
+date: 2023-05-13T23:34:39.261Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
 ---
+
+<t:1650960000>
 
 # 2022
 ## December
