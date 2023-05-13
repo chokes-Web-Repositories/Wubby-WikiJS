@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-05-13T21:24:46.200Z
+date: 2023-05-13T21:44:11.900Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
@@ -77,8 +77,12 @@ dateCreated: 2023-05-11T08:27:04.372Z
 
 ##### Floating Text Block
 ![floatingtextblockv2.png](/floatingtextblockv2.png =40%x) ![floatingtextblock_config.png](/floatingtextblock_config.png =27%x)
-An entirely invisible/uncollideable part that holds floating text.
+An entirely invisible/uncollideable part that holds floating text. Can be configured through edit menu.
 
 ##### Gear Block
 ![gearblock.png](/gearblock.png =40%x) ![gearblock_config.png](/gearblock_config.png =41%x)
-A block that provides/removes said gear from the player when touched. 
+A block that provides/removes said gear from the player when touched. Can be configured through edit menu.
+
+##### Spawn Point
+![spawnpoint.png](/spawnpoint.png =40%x) ![spawnpoint_config.png](/spawnpoint_config.png =50%x)
+A block that spawns the player to block location on join/death. Can be configured through edit menu. If no spawn is present within the world, the player will join/respawn at world center.
