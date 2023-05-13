@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-05-13T21:45:18.836Z
+date: 2023-05-13T21:47:02.590Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
@@ -84,5 +84,5 @@ A block that provides/removes said gear from the player when touched. Can be con
 ![gearblock.png](/gearblock.png =40%x) ![gearblock_config.png](/gearblock_config.png =41%x)
 
 ##### Spawn Point
-A block that spawns the player to block location on join/death. Can be configured through edit menu. If no spawn is present within the world, the player will join/respawn at world center.
+A block that spawns the player to block location on join/death. If no spawn is present within the world, the player will join/respawn at world center. Can be configured through edit menu. 
 ![spawnpoint.png](/spawnpoint.png =40%x) ![spawnpoint_config.png](/spawnpoint_config.png =50%x)
