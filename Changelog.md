@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-13T18:34:23.312Z
+date: 2023-05-13T18:46:25.429Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -174,3 +174,148 @@ dateCreated: 2023-05-13T05:57:37.428Z
 +added magnet command (you can set the force!)
 +added unmagnet command
 ```
+
+
+### December 22
+```diff
++added command block
++added delay gate
++added number storage gate
++added number math gate (add, sub, mult, div, pow and sqrt)
++added number setter gate
+
+*changed drastically how wiring works so now 2 things cannot run at once in the same gate
+*new "gate cap" which determines how many actions have the gates done in total in a frame
+*changed how wiring works internally so it works faster
+
+-fixed a major bug in which gates couldn't power other gates
+-fixed a visual bug in which the preview line wouldn't show
+```
+
+
+### December 24
+```diff
++made a ton of gates n stuff placeable
++now you can set if gates are visible or not
++gate part transparency
++added hints on the properties menu, which can go from tutorials to tips and tricks
+
+*changed how gates look cuz they used to be ugly 
+*optimized the properties script
+*changed every single text inside the gates so they have better color compatability
+
+-fixed a bug in which when adding a connection it wouldn't work if the input was active
+-fixed a bug in which the not gate wouldn't power by default
+-fixed sliders from working in a weird way
+-fixed a bug in which info wouldnt display for some reason
+-fixed dropdowns from not showing the text correctly for some reason
+```
+
+
+### December 25
+```diff
++made more gates placeable
++made the prompt block placeable
++made the click block placeable
++added useactivationtime to every input gate
++added block touched
++added player touched
+
++added absolute value, factorial, sin, cosin and tan to the math gate
++now you can change an storage's value through the properties menu
++putting {INPUT} in the value of a math gate/math setter use the input instead of the selected value
+
+*changed how edit recognizes some values
+*made the properties menu faster to load
+*gates can no longer be resized
+
+-fixed the edit tool 
+-fixed a bug in which outputs would instantly power when created for some reason
+-fixed the delay gate
+-fixed some properties inside the info panels of gates not changing
+```
+
+
+### December 26
+```diff
++made even more blocks placeable
++added light block
++started implementing property changer
++added text storage
++added text editing gate
++now you can use {INPUT} on the command block
++speed command
++jump power command
++made player detector placeable
++undo and redo now compatible with wiring
++text filtering to wiring
++made text filtering detect when it's an id of an item
++repeater gate
+
+*message command now shows the message for less time
+*message command shows a smaller text
+
+-fixed a visual bug in which wires would seem active when they weren't
+-fixed not gate
+-fixed some gates not displaying the correct info
+```
+
+
+### December 28
+```diff
++property changer 
++text input gate
++added templates 
++blur command
++fov command
++fix command
++unanchored parts now respawn when falling to the void
+
+*changed how sliders work so now they don't flood the undo redo list
+*changed how sliders work so their preview loads faster
+
+-fixed a bug in which wiring would go back for no reason at all
+```
+
+
+### December 29
+```diff
++added an invisible grid under you so now if there's no block to place something, you'd still be able to place blocks
++tp
++added <1 stud grid
++holding ctrl with the size tool now resizes blocks in both ways
+
+*changed move tool so it supports <1 stud grid
+*changed entirely how resize works so it's no longer biggy and supports increments
+*changed how move tool works so it uses increments
+*resize now also supports rotated parts
+*changed the placement system so it supports <1 grid size
+*multiple selection no longer selects locked blocks
+*some gui adjustments
+
+-fixed another bug related to sliders
+-fixed a bug in which placement would place blocks up in the sky for no reason whatsoever
+-fixed a lot of templates having offset
+-fixed a selection visual bug in which it placed the selection frame 35 ontop of the mouse
+-fixed a major bug in which the selection would select random blocks for no reason whatsoever
+-fixed a grid size selector bug
+-fixed a bug in which it would automatically select some options before the player opened the edit tools
+-fixed the if gate checking strings
+-fixed the input gate completely
+```
+
+
+### December 30
+```diff
++added rejoin command
++added key input block
++added humanoid state changed block
++added a toggle for the do-on-gate system for the math gate
++selected blocks are now shared between the edit and transform tool
+
+*changed how math gates work so now they can do math without any sort of number storage
+
+-fixed tp command
+-fixed some lag issues
+
+
