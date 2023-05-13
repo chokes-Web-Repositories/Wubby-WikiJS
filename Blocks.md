@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-05-13T14:49:42.028Z
+date: 2023-05-13T21:24:46.200Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
@@ -72,9 +72,13 @@ dateCreated: 2023-05-11T08:27:04.372Z
 
 
 # Special
-### Building parts with special properties, provided a description for each one.
+### Building parts with special properties, provided a description and configuration menu (if available) for each one.
 #### {.tabset}
 
 ##### Floating Text Block
-![floatingtextblockv2.png](/floatingtextblockv2.png =40%x)
+![floatingtextblockv2.png](/floatingtextblockv2.png =40%x) ![floatingtextblock_config.png](/floatingtextblock_config.png =27%x)
 An entirely invisible/uncollideable part that holds floating text.
+
+##### Gear Block
+![gearblock.png](/gearblock.png =40%x) ![gearblock_config.png](/gearblock_config.png =41%x)
+A block that provides/removes said gear from the player when touched. 
