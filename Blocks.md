@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-05-13T02:54:41.488Z
+date: 2023-05-13T14:49:42.028Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
@@ -19,10 +19,10 @@ dateCreated: 2023-05-11T08:27:04.372Z
 #### {.tabset}
 
 ##### Block
-![cubepart.png](/cubepart.png =40%x)
+![block.png](/block.png =40%x)
 
 ##### Cone
-![conepart.png](/conepart.png =40%x)
+![cone.png](/cone.png =40%x)
 
 ##### Corner Cylinder
 ![cornercylinder.png](/cornercylinder.png =40%x)
@@ -66,6 +66,9 @@ dateCreated: 2023-05-11T08:27:04.372Z
 
 ##### Inverted Edge Sphere
 ![invertededgesphere.png](/invertededgesphere.png =40%x)
+
+##### Inverted Quarter Cylinder
+![invertedquartercylinder.png](/invertedquartercylinder.png =40%x)
 
 
 # Special
