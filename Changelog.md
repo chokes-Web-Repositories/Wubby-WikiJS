@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-13T06:15:03.361Z
+date: 2023-05-13T18:34:23.312Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -10,7 +10,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 
 # 2022
 ## December
-### December 7
+### December 6
 ```diff
 + added around 12 blocks
 + added an special category
@@ -28,7 +28,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed a bug in which blocks wouldn't load when trying to load in
 ```
 
-### December 8
+### December 7
 ```diff
 + added search bar for block search
 + added search bar for enum search
@@ -45,7 +45,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed a bug in which the selection box would not clear correctly
 ```
 
-### December 9
+### December 8
 ```diff
 + added z, x and c keybinds to select modes in the transform tool
 + holding ctrl while clicking on an already selected part will deselect it
@@ -64,7 +64,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - removed some useless lines of codes so the game runs with less lag
 ```
 
-### December 10
+### December 9
 ```diff
 + added font choosing enum
 + added floating text block
@@ -83,7 +83,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed a small lag issue with enums
 ```
 
-### December 11
+### December 10
 ```diff
 + added spiked cylinder
 + added octogon
@@ -97,7 +97,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 + added NOT gate
 ```
 
-### December 12
+### December 11
 ```diff
 +added a goddamn big button to switch between wiring & building
 +added a button to switch to connection mode
@@ -111,7 +111,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 *made green wires faster
 ```
 
-### December 17
+### December 16
 ```diff
 +added disconnect tool
 +new fancy and cool and epic animations for various shit
@@ -126,7 +126,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed a bug in which gates will sometimes assing the wrong value
 ```
 
-### December 18
+### December 17
 ```diff
 +added a command system
 
@@ -157,7 +157,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 *the amount of time in which a message in the message command is displayed depends on how long it is
 ```
 
-### December 19
+### December 18
 ```diff
 +added lighting command (aka smite but instead of a smite, it kills u with a fucking lighting 💋)
 +added nuke command
