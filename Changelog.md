@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-13T18:46:25.429Z
+date: 2023-05-13T19:14:14.033Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -317,5 +317,316 @@ dateCreated: 2023-05-13T05:57:37.428Z
 
 -fixed tp command
 -fixed some lag issues
+```
+# 2023
+## January
+### January 1
+```diff
++added tap input block
++added cmds 
++added search bar to cmds
++added some animations to the gui
++nuke command now admits coordinates
++bring command
++to command
+
+*changed how multiple selection rotate works drastically so it rotates as a tuple instead of individually
+*changed the tool menu completely
+*changed how some drags work
+*resize no longer turns off its collisions 
+
+-fixed a bug in which selection would occasionally break
+-fixed a bug in which changes would apply for only 1 person
+-fixed some major lag issues
+-fixed a bug related to physics
+-fixed a bug in which itd take a lot of time to place a block
+-fixed a lot of bugs in which routines would just fail
+-fixed tp again
+```
+
+
+### January 2
+```diff
++kick command
++unhighlight command
++untrail command
++variable blocks 🔥🔥🔥
++build vector block (broken, will fix asap)
++platformstand on property changer
++seat block
++some mobile support
+
+*changed some input gates so they support input ended and input started
+*rotate is now way less laggy
+*changed some gui elements again
+*changed the text filtering system 
+
+-fixed the unalignment bug for good 🥳🥳
+-fixed property changer block
+-fixed drags
+-tried fixing morph block
+-fixed an infinite loop in a script that broke the entire game
+-fixed a bug in which the color picker wouldnt appear again if improperly closed
+```
+
+
+### January 3
+```diff
++yoo mobile compatability 🔥🔥🔥🔥🔥
++some basic attributes
++added notifications for hints n stuff
++some more animations
+
+*when disconnecting, every possible item now has a red outline around it
+*optimized some scripts 
+
+-fixed some pc issues
+-fixed some more drags
+-fixed paint tool
+-fixed material selector
+-fixed some templates 
+-fixed dropdowns
+```
+
+
+### January 4
+```diff
++attributes managers
++surface attribute
++decal attribute
++weld attribute
++rope attribute
++killer attribute
++tripper attribute
++when editing a block, it'll show every single attribute of that block
++maxhealth command
++player identifiers in the cmds menu
+
+*revamped the happy home template
+*changed a lot of health related commands so they no longer affect godded players
+*chat now closses when selecting a block
+*:invisible now has an animation and is more transparent and no longer has a shadow
+
+-fixed a bug in which resize wouldn't resize if a block was really small
+-fixed materials (yet again)
+-fixed a bug in which dropdowns were not visible if they were at the bottom of the property panel
+```
+
+
+### January 5
+```diff
++upgraded happy home
++added baller attribute
++added controllable setting to baller
++jump power attribute
++walkspeed attribute
++animation for changing attributes
++attribute sfx
++point light attribute
++surface light attribute
++spot light attribute
++healer attribute
++damager attribute
++removelimbs command
++prismatic attribute
++rod attribute
++spring attribute
++ballsocket attribute
++teleporter attribute
++block teleporter attribute
++they work with keep velocity
++effect attribute
+
+-fixed way more bugs related to attributes
+```
+
+
+### January 8
+```diff
++number sequences
++effect attribute
++sign attribute
++copy colors with c/long press
++added teams and a lot of team related commands
++beam attribute
++highlight attribute
++copying blocks now copy attributes too
++clone block
++vehicle seat
++mesh block
++get game property block
++duplicate selection
++player chatted block
++maxhealth attribute
++teamer attribute
++time command
++gravity command
++added motor block
++added hinge block
++added servo block
++started working on data encryption
++started working on zones
+
+*brickcolors can now be seen through the color selector
+*anything that uses images now uses decal id instead of image id
+*added attributes to templates
+*duplicate selection now compatible with undo and redo
+*wires are no longer that curvy
+*optimized planet template
+*changed how tools layout so they're the same way as world builder
+*motor is now wireable
+
+-fixed color picker for mobile
+-fixed a grid related bug
+-fixed morph blocks
+-fixed teamers
+-fixed player chatted block
+-fixed a bug related to command blocks
+-fixed a small bug related to constraints 
+-fixed motor, servo and hinge from having a weird orientation
++started working on data encryption
++started working on zones
+!-fixed the grid offset bug (finnaly 🥳🥳)
+```
+
+
+### January 13
+```diff
++custom physical properties
++attribute changer block 
++thrust attribute
++gravity changer attributes
+
+*command block now can use variables too
+
+-fixed text filtering bugs 
+```
+
+### January 14
+```diff 
++added sound zone
++implemented a bunch of stuff related to zones
++added zones gui
++added create zones tool
+
+*upgraded rotate
+
+-fixed a bug with templates and physical properties
+-fixed a small issue with springs
+```
+
+
+### January 15
+```diff
++added safe zone
++added physics zone
++sound zones now update the sound in real time
++physics zone now has support for unanchored parts
++remove zones tool
++edit zones tool
++transform zones tool
++multiple selection on transform zones tool
++zones are now invisible for normal players
+
+*zones now cleanup when removed to reduce lag by a ton
+*the color selector is now bigger
+*changed how the color selector works so it's more comfortable to use
+*selection frame is no longer visible when clicking quickly
+*changed how sound zones work so they can be combined to give non square shapes to zones
+*changed zone selection slightly
+
+-fixed a bug in which tool selection would act really weird
+-fixed the color picker
+-fixed zone placing
+```
+
+
+### January 21
+```diff
++ parallel wiring
++fly command
++unfly command
++flyspeed command
++added some animations to the gui
+
+* upgraded gui a ton
+*color picker is now way bigger
+*color picker's marker now uses the inverted color of the selected color
+*frames can now be dragged from any point smoothly (unlike grabs smh 😤)
+*servers will now run faster due to physics optimization
+
+-removed grabs
+-fixed some mobile compatability bugs here and there
+-fixed AND and XOR gate
+```
+
+### January 22
+```diff
++added world id to the core gui
++added game visits to the core gui
++added block count to the game gui
++zones now support undo and redo
++! permissions
++! basic game security
++! permissions panel
++! offline perming
++perm command
++unperm/demote command
++now you'll see yourself in a lighter color in the gui's leaderboard
++press space on flight mode to go upwards
++press ctrl on flight mode to go downwards
+
+*grid size and undo/redo only pop up when building
+*command blocks can no longer run admin commands
+
+-fixed a small bug with redo and undo
+-fixed a small gui placing bug
+-removed the properties panel because the old system was really messy (gonna replace soon dw)
+```
+
+
+### January 28
+```diff
++canbuild perm
++build zones
++half sphere
++hollow sphere
++corner cylinder
++corner cylinder 2
++edge wedge
++edge sphere
++inverted edge sphere
++saving system prototype
++copy blocks in mobile by holding them down
++get block property block
++isalive to player property gate 
++properties can now opened and closed
++! game settings
++ small security improvements
+
+*buttons are now easier to click in mobile
+*staff can no longer be edited through the perms gui
+*mobile can now fly via double jump
+*wires are no longer visible by default
+*useinput in the property changer gate now also determine the selected block
+
+-fixed a bug in which attributes wouldn't be removed correctly
+-fixed unfly not working
+-touch input blocks not working
+-fixed commands being applied to everyone
+-fixed a bug in which indicators could be seen when selecting a block
+-fixed a small performance bug
+-fixed some mobile issues
+-fixed flight in mobile
+-fixed gethit
+-fixed build vector
+-fixed max health
+-fixed the block count
+-fixed a small bug related to shout
+-fixed players not being able to run commands
+-fixed property changer block
+-fixed wubby detecting the wrong device
+-fixed selection not closing when the main menu closes
+```
 
 
