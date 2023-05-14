@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-05-13T21:47:02.590Z
+date: 2023-05-14T16:04:41.294Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
@@ -86,3 +86,11 @@ A block that provides/removes said gear from the player when touched. Can be con
 ##### Spawn Point
 A block that spawns the player to block location on join/death. If no spawn is present within the world, the player will join/respawn at world center. Can be configured through edit menu. 
 ![spawnpoint.png](/spawnpoint.png =40%x) ![spawnpoint_config.png](/spawnpoint_config.png =50%x)
+
+# Input
+### Building parts that allow interaction with the player, provided a description and configuration menu (if available) for each one.
+#### {.tabset}
+
+##### Block Touch Detector
+A block that gives input on player touch. Can be configured through edit menu.
+![blocktouchdetector.png](/blocktouchdetector.png =40%x)
