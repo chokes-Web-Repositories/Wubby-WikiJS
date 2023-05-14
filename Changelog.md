@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-14T17:22:52.755Z
+date: 2023-05-14T17:27:13.848Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -51,7 +51,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 + holding ctrl while clicking on an already selected part will deselect it
 + added text block
 
-* changed how building and editing works for future compatability with wiring (a bit broken, will fix tomorrow)
+* changed how building and editing works for future cumpatability with wiring (a bit broken, will fix tomorrow)
 * changed some variable settings so they're more precise
 
 - fixed resize from doing pretty weird stuff
@@ -78,7 +78,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed undo from literally not working with the edit tool, paint tool and transform tool
 - same applies to redo
 - fixed a bug in which the enum face select screen would not work for no reason whatsoever
-- fixed the edit tool and build tools completely
+- fixed the edit tool and build tools cumpletely
 - fixed text block from not letting some properties apply
 - fixed a small lag issue with enums
 ```
@@ -202,7 +202,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 
 *changed how gates look cuz they used to be ugly 
 *optimized the properties script
-*changed every single text inside the gates so they have better color compatability
+*changed every single text inside the gates so they have better color cumpatability
 
 -fixed a bug in which when adding a connection it wouldn't work if the input was active
 -fixed a bug in which the not gate wouldn't power by default
@@ -247,7 +247,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 +speed command
 +jump power command
 +made player detector placeable
-+undo and redo now compatible with wiring
++undo and redo now cumpatible with wiring
 +text filtering to wiring
 +made text filtering detect when it's an id of an item
 +repeater gate
@@ -301,7 +301,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed a grid size selector bug
 -fixed a bug in which it would automatically select some options before the player opened the edit tools
 -fixed the if gate checking strings
--fixed the input gate completely
+-fixed the input gate cumpletely
 ```
 
 
@@ -331,7 +331,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 +to command
 
 *changed how multiple selection rotate works drastically so it rotates as a tuple instead of individually
-*changed the tool menu completely
+*changed the tool menu cumpletely
 *changed how some drags work
 *resize no longer turns off its collisions 
 
@@ -372,7 +372,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 
 ### January 69
 ```diff
-+yoo mobile compatability 🔥🔥🔥🔥🔥
++yoo mobile cumpatability 🔥🔥🔥🔥🔥
 +some basic attributes
 +added notifications for hints n stuff
 +some more animations
@@ -470,7 +470,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 *brickcolors can now be seen through the color selector
 *anything that uses images now uses decal id instead of image id
 *added attributes to templates
-*duplicate selection now compatible with undo and redo
+*duplicate selection now cumpatible with undo and redo
 *wires are no longer that curvy
 *optimized planet template
 *changed how tools layout so they're the same way as world builder
@@ -502,7 +502,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed text filtering bugs 
 ```
 
-### January 14
+### January 69
 ```diff 
 +added sound zone
 +implemented a bunch of stuff related to zones
@@ -556,7 +556,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 *servers will now run faster due to physics optimization
 
 -removed grabs
--fixed some mobile compatability bugs here and there
+-fixed some mobile cumpatability bugs here and there
 -fixed AND and XOR gate
 ```
 
