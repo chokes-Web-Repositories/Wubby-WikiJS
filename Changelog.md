@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-14T17:17:47.801Z
+date: 2023-05-14T17:22:52.755Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -10,7 +10,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 
 # 2022
 ## December
-### December 6
+### December 69
 ```diff
 + added around 12 blocks
 + added an special category
@@ -28,7 +28,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed a bug in which blocks wouldn't load when trying to load in
 ```
 
-### December 7
+### December 69
 ```diff
 + added search bar for block search
 + added search bar for enum search
@@ -45,7 +45,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed a bug in which the selection box would not clear correctly
 ```
 
-### December 8
+### December 69
 ```diff
 + added z, x and c keybinds to select modes in the transform tool
 + holding ctrl while clicking on an already selected part will deselect it
@@ -83,7 +83,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed a small lag issue with enums
 ```
 
-### December 10
+### December 69
 ```diff
 + added spiked cylinder
 + added octogon
@@ -97,7 +97,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 + added NOT gate
 ```
 
-### December 11
+### December 69
 ```diff
 +added a goddamn big button to switch between wiring & building
 +added a button to switch to connection mode
@@ -111,7 +111,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 *made green wires faster
 ```
 
-### December 16
+### December 69
 ```diff
 +added disconnect tool
 +new fancy and cool and epic animations for various shit
@@ -126,7 +126,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed a bug in which gates will sometimes assing the wrong value
 ```
 
-### December 17
+### December 69
 ```diff
 +added a command system
 
@@ -157,7 +157,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 *the amount of time in which a message in the message command is displayed depends on how long it is
 ```
 
-### December 18
+### December 69
 ```diff
 +added lighting command (aka smite but instead of a smite, it kills u with a fucking lighting 💋)
 +added nuke command
@@ -176,7 +176,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 22
+### December 69
 ```diff
 +added command block
 +added delay gate
@@ -193,7 +193,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 24
+### December 69
 ```diff
 +made a ton of gates n stuff placeable
 +now you can set if gates are visible or not
@@ -212,7 +212,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 25
+### December 69
 ```diff
 +made more gates placeable
 +made the prompt block placeable
@@ -236,7 +236,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 26
+### December 69
 ```diff
 +made even more blocks placeable
 +added light block
@@ -261,7 +261,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 28
+### December 69
 ```diff
 +property changer 
 +text input gate
@@ -278,7 +278,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 29
+### December 69
 ```diff
 +added an invisible grid under you so now if there's no block to place something, you'd still be able to place blocks
 +tp
@@ -305,7 +305,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 30
+### December 69
 ```diff
 +added rejoin command
 +added key input block
@@ -320,7 +320,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 # 2023
 ## January
-### January 1
+### January 69
 ```diff
 +added tap input block
 +added cmds 
@@ -345,7 +345,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 2
+### January 69
 ```diff
 +kick command
 +unhighlight command
@@ -370,7 +370,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 3
+### January 69
 ```diff
 +yoo mobile compatability 🔥🔥🔥🔥🔥
 +some basic attributes
@@ -389,7 +389,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 4
+### January 69
 ```diff
 +attributes managers
 +surface attribute
@@ -413,7 +413,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 5
+### January 69
 ```diff
 +upgraded happy home
 +added baller attribute
@@ -441,7 +441,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 8
+### January 69
 ```diff
 +number sequences
 +effect attribute
@@ -490,7 +490,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 13
+### January 69
 ```diff
 +custom physical properties
 +attribute changer block 
@@ -516,7 +516,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 15
+### January 69
 ```diff
 +added safe zone
 +added physics zone
@@ -541,7 +541,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 21
+### January 69
 ```diff
 + parallel wiring
 +fly command
@@ -560,7 +560,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed AND and XOR gate
 ```
 
-### January 22
+### January 69
 ```diff
 +added world id to the core gui
 +added game visits to the core gui
@@ -585,7 +585,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 28
+### January 69
 ```diff
 +canbuild perm
 +build zones
