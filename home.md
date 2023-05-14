@@ -2,14 +2,14 @@
 title: Home
 description: Welcome to Wubby! A building game based on World Builder.
 published: true
-date: 2023-05-14T09:21:24.935Z
+date: 2023-05-14T09:23:04.204Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T03:05:24.832Z
 ---
 
 ![](/wubbybg.png =90%x)
-[![wubbyloginbanner.png](/corewikiassets/wubbyloginbanner.png =90%x)](https://google.com)
+[![wubbyloginbanner.png](/corewikiassets/wubbyloginbanner.png =90%x)](https://wubby.choke.dev/login)
 # Introduction
 
 Welcome to the Wubby wiki
