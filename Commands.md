@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-05-14T16:51:55.746Z
+date: 2023-05-14T16:52:36.080Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -19,12 +19,12 @@ when said in chat, it will enable you to fly.
 ### ;kill (player)
 -----
 
-kills the (player).
+when said in chat, it kills the (player).
 
 ### ;hub (player)
 ----
 
-hubs the (player)
+when said in chat, it hubs the (player)
 
 ### ;speed (player) (number)
 ----
