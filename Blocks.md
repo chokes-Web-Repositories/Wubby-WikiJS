@@ -2,16 +2,16 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-05-14T16:55:17.937Z
+date: 2023-05-14T17:02:38.459Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
 ---
 
- > This page is incomplete and everything in this page is subject to change..
+ > This page is incomplete and everything in this page is subject to change.
  {.is-warning}
  
- > let cato edit blocks page thank u
+ > DO NOT EDIT
  {.is-info}
  
  # Basic
