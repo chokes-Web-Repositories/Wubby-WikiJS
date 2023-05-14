@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-14T16:57:20.939Z
+date: 2023-05-14T17:17:47.801Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -64,7 +64,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - removed some useless lines of codes so the game runs with less lag
 ```
 
-### December 9
+### December 69
 ```diff
 + added font choosing enum
 + added floating text block
