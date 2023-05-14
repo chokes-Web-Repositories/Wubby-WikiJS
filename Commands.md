@@ -2,21 +2,21 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-05-14T16:37:31.649Z
+date: 2023-05-14T16:40:01.001Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
 ---
 
-!fling
+!fling (player)
 -----
--flings the player uh
+-flings the (player)
 -can be spammed
 
-!kill
+!kill (player)
 -----
--kills the player
+-kills the (player)
 
-!hub
+!hub (player)
 ----
-hubs a player
+-hubs the (player)
