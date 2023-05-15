@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-15T07:23:52.404Z
+date: 2023-05-15T07:25:31.567Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -45,7 +45,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed a bug in which the selection box would not clear correctly
 ```
 
-### December 8
+### t:1670515200
 ```diff
 + added z, x and c keybinds to select modes in the transform tool
 + holding ctrl while clicking on an already selected part will deselect it
@@ -64,7 +64,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - removed some useless lines of codes so the game runs with less lag
 ```
 
-### December 9
+### t:1670601600
 ```diff
 + added font choosing enum
 + added floating text block
@@ -83,7 +83,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed a small lag issue with enums
 ```
 
-### December 10
+### t:1670688000
 ```diff
 + added spiked cylinder
 + added octogon
@@ -97,7 +97,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 + added NOT gate
 ```
 
-### December 11
+### t:1670774400
 ```diff
 +added a goddamn big button to switch between wiring & building
 +added a button to switch to connection mode
