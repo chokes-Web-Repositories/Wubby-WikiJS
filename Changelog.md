@@ -2,17 +2,15 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-15T07:01:43.553Z
+date: 2023-05-15T07:03:56.862Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
 ---
 
-<p id="tid:1">Unix timestamp: {t:1650960000}</p>
-
 # 2022
 ## December
-### December 6
+### <p id="tid:1">{t:1670279535}</p>
 ```diff
 + added around 12 blocks
 + added an special category
