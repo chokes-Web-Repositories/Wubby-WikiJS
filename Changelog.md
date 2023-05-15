@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-15T07:31:39.771Z
+date: 2023-05-15T07:34:21.277Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -10,6 +10,8 @@ dateCreated: 2023-05-13T05:57:37.428Z
 
 > This page will automatically update dates depending on your local timezone.
 {.is-info}
+
+[comment]: # (Please use https://www.unixtimestamp.com/ to add dates.)
 
 # 2022
 ## December
