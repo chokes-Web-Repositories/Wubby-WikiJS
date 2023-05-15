@@ -2,22 +2,21 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-05-15T15:36:00.004Z
+date: 2023-05-15T15:38:49.113Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
 ---
 
-> This page is incomplete and everything in this page is subject to change.
- {.is-warning}
+# Commands
+An essential part of world moderation / world mechanics that allow world owners to execute commands on players
 
-> This page is incomplete and everything in this page is subject to change.
- {.is-warning}
-
+```
 [] = required parameter
 () = optional parameter
+```
 
-# Visitor
+## Visitor
 ## {.tabset}
 ### cmds
 Opens a command list
@@ -25,7 +24,7 @@ Opens a command list
 ### rejoin
 Rejoins whoever ran this command
 
-# Builder+
+## Builder+
 ## {.tabset}
 ### blind [player]
 Makes [player] unable to see
@@ -159,7 +158,7 @@ Makes [player] visible again
 ### walkspeed [player] (amount)
 Changes [player]'s walkspeed to (amount)
 
-# Admin+
+## Admin+
 ## {.tabset}
 ### ban [player]
 Prevents [player] from joining the game
