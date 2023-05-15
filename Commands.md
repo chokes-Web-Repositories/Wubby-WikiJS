@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-05-15T09:45:56.619Z
+date: 2023-05-15T11:27:26.555Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -17,51 +17,57 @@ dateCreated: 2023-05-14T15:48:24.092Z
 ----
 when said, shows a list of all commands.
 
-#####  *(Everyone)*
+#####  *(Visitor+)*
 
 ### ;fly (player)
 -----
 
 When said in chat, it will enable you to fly.
 This can help you reach areas normal people would not be able to reach.
-##### *(Have to be Builder+ to use)*
+##### *(Builder+)*
 
 ### ;kill (player)
 -----
 
 When said in chat, it kills the (player).
-##### *(Have to be Builder+ to use.)*
+Simple act of punishment, or a way to get a person to respawn forcefully. This is abusable.
+
+##### *(Builder+)*
 
 ### ;hub (player)
 ----
 
 When said in chat, it hubs the (player).
 Can be used as punishment to the outlaws in your world.
-##### *(Have to be Admin+ to use)*
+
+##### *(Admin+)*
 
 ### ;speed (player) (number)
 ----
 
 When said in chat, it will set the (player) speed to (number).
 Idk just become the flash or something.
-#####  *(Have to be Builder+ to use)*
+
+#####  *(Builder+)*
 
 ### ;lighting (player)
 ----
 
 When said in chat, it will kill the (player) with a lightning
-#####  *(Have to be Admin+ to use)*
+#####  *(Admin+)*
 
 ### ;invisible (player)
 ----
 
 when said in chat, it makes the (player) unsee'able
-#####  *(Cant confirm perms may be Admin+)*
+
+#####  *(Cant confirm, perms may be Builder+)*
 
 ### ;visible (player)
 ----
 similar to ;invisible however it makes others be able to see you
-#####  *(Cant confirm perms may be Admin+)*
+
+#####  *(Cant confirm, perms may be Builder+)*
 
 ### ;explode (player)
 ----
