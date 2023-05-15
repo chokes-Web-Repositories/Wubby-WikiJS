@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-15T07:34:21.277Z
+date: 2023-05-15T08:54:28.912Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -634,4 +634,132 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed selection not closing when the main menu closes
 ```
 
+### t:1675008000
+```diff
++ team name and team set can now be ran by command blocks
++ stat saving
++ added stats, set stat gate, get stat gate
++ added gear block (V136)
++ added a basic loading screen (V137)
++ mobile players can now place zones (V138)
++ ok fixed a ton of bugs n stuff (V141)
+```
 
+### t:1675094400
+```diff
+* fixed the resize bug and some other bugs like wiring not throwing input sometimes or set stat being broken (V142)
+* fixed a major bug with resize in which if you were moving any tool and change tool and quickly switch to another tool, you would break the transform tool (V143)
+* fixed the following transform tool bugs
+	- quickly switching to another mode (like moving, resizing etc) would not upload to the server
+  - if you are moving smt and you change tool, the changes will update to the server
+```
+
+## February
+### t:1675180800
+```diff
+* fixed some bugs while placing blocks
+```
+
+### t:1675353600
+```diff
+* fixed a ton of bugs reported in ⁠🪲bug-reports (V145)
+	- camera lock should be fixed in mobile
+	- marbles no longer weight so you can fly with one of them
+	- confirm button not showing in mobile
+	- text input placeholder text fixed
+	- text input bottom position fixed
+	- block default to non collide (hope this annoying one is fixed)
+  - attributes now remove when clicking twice
+```
+
+### t:1675440000
+```diff
++ added a report game button
++ command blocks can now use admin commands as long as the last person who edited it is an admin and still permed
+
+* fixed a small annoying core bug
+* fixed morph block for good
+* hopefully fixed the random blocks deleting bug
+* fixed permissions and other small bugs like number setters and number math (V147)
+```
+
+### t:1675526400
+```diff
++ added a button for mobile players to fly
+
+* fixed a small block facing bug
+* fixed a major bug in which spamming the transform buttons would really bug the selected button
+* fixed flight activating when holding space
+* fixed a bug in which you couldn't jump/ go up in fly
+* fixed motor however it spins in its own axis hope u guys don't mind
+* fixed a bug in which input blocks couldn't be attribut'd
+* world name and description can now be edited (V150)
+* bug fixes (V151)
+* fixed highlight attribute being deleted
+* fixed zone placement (V152)
+```
+
+### t:1675612800
+```diff
++ added sound block (V157)
+
+* fixed sound zones
+* applied a fix to the transform bug in which the gui wouldn't pop up for some reason
+* fixed brickcolors (selecting brickcolors grr)
+* fixed zones placement (again) (V154)
+* added modulus and atan to math gate
+* added display message block (output) (V155) (lets you display notifications and chat messages)
+* fixed game settings
+* fixed game breaking bug in which the report button wasn't visible (V156)
+```
+
+### t:1676044800
+```diff
++ wubby now runs faster since ive updated the physics handler script
+
+# currently working on saving
+
+* fixed a bug in which notifications wouldn't filter + use {INPUT}
+* fixed a bug when cloning wiring
+```
+
+### t:1676131200
+```diff
+* fixed the block count and now walkspeed and jumppower game properties update in real time
+* fixed a small vulnerability related to build zones
+```
+
+### t:1676217600
+```diff
+! currently making everything work together
+```
+![](https://cdn.discordapp.com/attachments/1051156891880935565/1074366897811894412/PXL_20230212_172934727.jpg =60%x)
+
+### t:1676649600
+```diff
++ game setup gui now works
+
+* fixed a major bug in which some settings would straight up not change
+* fixed some bugs related to load in
+```
+
+### t:1676822400
+```diff
++ search games/id (allows checking which game you're about to play)
+```
+![](https://media.discordapp.net/attachments/1051156891880935565/1076619327748440225/PXL_20230218_224015185.jpg?width=496&height=662 =60%x)
+
+### t:1676908800
+```diff
++ joining a player in wubby will now teleport you to their game
++ linked the game itself with the hub
++ visits and blocks are now visible
+```
+
+### t:1677254400
+```diff
++ kick & ban now teleports you to the hub
++ kick & ban now has an optional reason parameter
+
+* fixed quick buttons on the core gui (quickly perm/kick/ban someone)
+```
