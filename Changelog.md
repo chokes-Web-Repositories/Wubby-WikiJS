@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-15T09:42:24.861Z
+date: 2023-05-15T10:20:42.130Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -783,4 +783,39 @@ dateCreated: 2023-05-13T05:57:37.428Z
 + fixed a bug in which if you loaded in before wubby, guis would not load
 + fixed a bug in which you couldn't modify game properties
 + added allow reset and allow rejoin game settings (allow rejoin enables/disables the :rejoin command (which is on by default))
++ added no collision attribute
++ added some hints here and there on attributes
++ fixed a bug in which properties would not be established
++ fixed wiring
+```
+
+### t:1679068800
+```diff
++ fixed some attributes
++ fixed a bug related to placing attributes
++ fixed a bug related to wiring on startup
++ fixed a memory leak
++ fixed bug in which wiring wouldn't wire
++ the game freezes until the entire game loads in so y'know structures like cars n such don't break on startup
+```
+
+### t:1679155200
+```diff
++fixed a bug in which sometimes some properties would not show up in the attributes menu
++ fixed thrusts
++ fixed a bug in which you couldn't move with wasd when going upwards/downwards flying
++ fixed bug that attributes wouldn't completely load in
+```
+### t:1680274800
+```diff
++ added field of view game setting
++ added extra layer of security
++ removed the following properties in the get player property block:
+VelocityX, VelocityY, VelocityZ, PositionX, PositionY, PositionZ, RotationX, RotationY, RotationZ,
+MouseHitX, MouseHitY, MouseHitZ
++ replaced them with the following properties:
+Velocity, Position, Orientation, Mouse3DPosition
++ added a "break vector block"
++ added a screen when first playing wubby that warns players to not um violate roblox tos
++  cleaned up some animations
 ```
