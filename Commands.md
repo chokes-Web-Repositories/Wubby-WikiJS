@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-05-15T11:27:26.555Z
+date: 2023-05-15T11:50:31.828Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -16,6 +16,7 @@ dateCreated: 2023-05-14T15:48:24.092Z
 ### ;cmds
 ----
 when said, shows a list of all commands.
+This command is more useful than this wiki.
 
 #####  *(Visitor+)*
 
@@ -24,6 +25,7 @@ when said, shows a list of all commands.
 
 When said in chat, it will enable you to fly.
 This can help you reach areas normal people would not be able to reach.
+
 ##### *(Builder+)*
 
 ### ;kill (player)
@@ -46,75 +48,91 @@ Can be used as punishment to the outlaws in your world.
 ----
 
 When said in chat, it will set the (player) speed to (number).
-Idk just become the flash or something.
+Time to recreate speedrun 4
 
 #####  *(Builder+)*
 
 ### ;lighting (player)
 ----
 
-When said in chat, it will kill the (player) with a lightning
+When said in chat, it will kill the (player) with lightning
+ZEUS!
+
 #####  *(Admin+)*
 
 ### ;invisible (player)
 ----
 
-when said in chat, it makes the (player) unsee'able
+when said in chat, it makes the (player) invisible.
+Haha, almost like your fathe-
 
 #####  *(Cant confirm, perms may be Builder+)*
 
 ### ;visible (player)
 ----
-similar to ;invisible however it makes others be able to see you
+makes an invisible (player) visible,invisibility can also be reverted by resetting.
 
 #####  *(Cant confirm, perms may be Builder+)*
 
 ### ;explode (player)
 ----
-when said, explodes (player) (may cause lag to low end pc's when inside explosion aura)
-#####  *(Cant confirm perms may be Admin+)*
+when said, explodes (player). if (player) is set to "all" then everyone DIES.. Also its very laggy!
+
+#####  *(Cant confirm, Builder+)*
 
 ### ;ghost (player)
 ----
-when said, turns the player into a ghost
-#####  *(Cant confirm perms may be Admin+)*
+when said, turns the player into a ghost!
+👻
+
+#####  *(Cant confirm perms may be Builder+)*
 
 ### ;message (player)
 ----
-this is similar to ;shout however you can specify (player)
-#####  *(Perms may be Visitor+)*
+this is similar to ;shout, but it only shows to the (player)'s client (they only see it)
+
+#####  *(likely Builder+)*
 
 ### ;sit (player)
 ----
-when said, forces (player) to sit
-#####  *(Cant confirm perms may be Admin+)*
+when said, forces (player) to sit.
+thats crazy
+
+#####  *(Cant confirm perms may be Builder+)*
 
 ### ;jump (player)
 ----
-when said, forces (player) to jump (can be used to get people out of seat blocks)
-#####  *(Cant confirm perms may be Admin+)*
+when said, forces (player) to jump.
+this can be used to get people out of seat blocks temporarily.
+
+#####  *(Cant confirm perms may be Builder+)*
 
 ### ;god (player)
 ----
-when said, makes (player) immune to being killed
+when said, makes (player) immune to being killed. 
+Then you reincarnate as Jesus,
 
 #####  *(Cant confirm perms may be Admin+)*
 
 ### ;ungod (player)
 ----
-when said, makes (player) able to take damage and die normally
+
+when said, makes (player) able to take damage and die normally.
+sad.
 
 #####  *(Cant confirm perms may be Admin+)*
 
 ### ;blind (player)
 ----
-when said, makes (player) not able to see
+when said, makes (player) not able to see!
+Respect the disabled. This can be used as punishment or a VFX feature.
 
 #####  *(Cant confirm perms may be Admin+)*
 
 ### ;unblind (player)
 ----
-similar to ;blind however (player) can see again
+similar to ;blind however (player) can see again.
+Oh my god the cure to blindness!!
 
 #####  *(Cant confirm perms may be Admin+)*
 
@@ -126,92 +144,95 @@ when said, makes (player)'s rotation locked
 
 ### ;ungyro (player)
 ----
-similar to ;gyro however (player) can rotate their character again
+will undo the ;gyro effect making the (player) able to rotate again!
 
 #####  *(Cant confirm perms may be Admin+)*
 
 ### ;nuke
-not sure what this does but it probably nukes a player,world
 
-#####  *(Must be owner of the world?)*
+Sends a nuclear explosion to the position of the person that said it, it is very large and insta kills. Very abusable.
+
+#####  *(Admin+)*
 
 ### ;freeze (player)
 ----
 when said, freezes a player making them unable to move.
+Good for posing people like statues.
 
 #####  *(Cant confirm perms may be Admin+)*
 
 ### ;unfreeze (player)
 ----
-similar to ;freeze however the player can move freely again
+similar to ;freeze however the player can move freely again!
 
 #####  *(Cant confirm perms may be Admin+)*
 
 ### ;fling (player)
 ----
-when said, launches (player) into a sitting state while going high to the sky
+when said, launches (player) into a sitting state while going high to the sky! Can be used as punishment or a fun way to reset someone.
 
 #####  *(Cant confirm perms may be Admin+)*
 
 ### ;trail (player)
 ----
-when said, adds a trail behind (player) whenever the (player) walks
+when said, adds a trail behind (player) whenever the (player) walks.
 
-#####  *(Cant confirm perms may be Admin+)*
+#####  *(Cant confirm perms may be Builder+)*
 
 ### ;highlight (player)
 ----
-makes the player visible through every surface
+makes an outline around a player, cna be seen through every surface. (like a spectral arrow, haha.)
 
 #####  *(Cant confirm perms may be Admin+)*
 
 ### ;sparkles (player)
 ----
-when said, adds sparkles to (player)
+when said, adds sparkles to (player).
+Shiny!
 
 #####  *(Cant confirm perms may be Admin+)*
 
 ### ;heal (player) (number)
 ----
-when said, heals (player) by (number) doesent work if health is max
+when said, heals (player) by (number) doesent work if health is already at max.
 
-#####  *(Cant confirm perms may be Admin+)*
+#####  *(Cant confirm perms may be Builder+)*
 
 ### :damage (player) (number)
 ----
 when said, reduces (player) health by (number)
 
-#####  *(Cant confirm perms may be Admin+)*
+#####  *(Cant confirm perms may be Builder+)*
 
 ### ;maxhealth (player) (number)
 ----
-when said, makes (player) max health increased by (number)
+when said, it makes (player) max health increase by (number).
 
 #####  *(Cant confirm perms may be Admin+)*
 
 ### ;jumppower (player) (number)
 ----
-when said, sets jumppower for (player) by (number) *default is 50*
+when said, sets jumppower for (player) to (number) *default is 50*.
 
-#####  *(Cant confirm perms may be Admin+)*
+#####  *(Cant confirm perms may be Builder+)*
 
 ### ;bring (player)
 ----
 when said, teleports (player) to your position
 
-#####  *(Cant confirm perms may be Admin+)*
+#####  *(Builder+)*
 
 ### ;to (player)
 ----
 when said, teleports you to (player)
 
-#####  *(Cant confirm perms may be Admin+)*
+#####  *(Builder+)*
 
 ### ;kick (player)
 ----
 when said, kicks/hubs (player) from your world.
 
-#####  *(Must be Admin+)*
+#####  *(Admin+)*
 
 
 
