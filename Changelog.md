@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-14T17:27:13.848Z
+date: 2023-05-15T00:33:11.313Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -10,7 +10,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 
 # 2022
 ## December
-### December 69
+### December 6
 ```diff
 + added around 12 blocks
 + added an special category
@@ -28,7 +28,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed a bug in which blocks wouldn't load when trying to load in
 ```
 
-### December 69
+### December 7
 ```diff
 + added search bar for block search
 + added search bar for enum search
@@ -45,13 +45,13 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed a bug in which the selection box would not clear correctly
 ```
 
-### December 69
+### December 8
 ```diff
 + added z, x and c keybinds to select modes in the transform tool
 + holding ctrl while clicking on an already selected part will deselect it
 + added text block
 
-* changed how building and editing works for future cumpatability with wiring (a bit broken, will fix tomorrow)
+* changed how building and editing works for future compatability with wiring (a bit broken, will fix tomorrow)
 * changed some variable settings so they're more precise
 
 - fixed resize from doing pretty weird stuff
@@ -64,7 +64,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - removed some useless lines of codes so the game runs with less lag
 ```
 
-### December 69
+### December 9
 ```diff
 + added font choosing enum
 + added floating text block
@@ -78,12 +78,12 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed undo from literally not working with the edit tool, paint tool and transform tool
 - same applies to redo
 - fixed a bug in which the enum face select screen would not work for no reason whatsoever
-- fixed the edit tool and build tools cumpletely
+- fixed the edit tool and build tools completely
 - fixed text block from not letting some properties apply
 - fixed a small lag issue with enums
 ```
 
-### December 69
+### December 10
 ```diff
 + added spiked cylinder
 + added octogon
@@ -97,7 +97,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 + added NOT gate
 ```
 
-### December 69
+### December 11
 ```diff
 +added a goddamn big button to switch between wiring & building
 +added a button to switch to connection mode
@@ -111,7 +111,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 *made green wires faster
 ```
 
-### December 69
+### December 16
 ```diff
 +added disconnect tool
 +new fancy and cool and epic animations for various shit
@@ -126,7 +126,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed a bug in which gates will sometimes assing the wrong value
 ```
 
-### December 69
+### December 17
 ```diff
 +added a command system
 
@@ -157,7 +157,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 *the amount of time in which a message in the message command is displayed depends on how long it is
 ```
 
-### December 69
+### December 18
 ```diff
 +added lighting command (aka smite but instead of a smite, it kills u with a fucking lighting 💋)
 +added nuke command
@@ -176,7 +176,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 69
+### December 22
 ```diff
 +added command block
 +added delay gate
@@ -193,7 +193,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 69
+### December 24
 ```diff
 +made a ton of gates n stuff placeable
 +now you can set if gates are visible or not
@@ -202,7 +202,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 
 *changed how gates look cuz they used to be ugly 
 *optimized the properties script
-*changed every single text inside the gates so they have better color cumpatability
+*changed every single text inside the gates so they have better color compatability
 
 -fixed a bug in which when adding a connection it wouldn't work if the input was active
 -fixed a bug in which the not gate wouldn't power by default
@@ -212,7 +212,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 69
+### December 25
 ```diff
 +made more gates placeable
 +made the prompt block placeable
@@ -236,7 +236,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 69
+### December 26
 ```diff
 +made even more blocks placeable
 +added light block
@@ -247,7 +247,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 +speed command
 +jump power command
 +made player detector placeable
-+undo and redo now cumpatible with wiring
++undo and redo now compatible with wiring
 +text filtering to wiring
 +made text filtering detect when it's an id of an item
 +repeater gate
@@ -261,7 +261,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 69
+### December 28
 ```diff
 +property changer 
 +text input gate
@@ -278,7 +278,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 69
+### December 29
 ```diff
 +added an invisible grid under you so now if there's no block to place something, you'd still be able to place blocks
 +tp
@@ -301,11 +301,11 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed a grid size selector bug
 -fixed a bug in which it would automatically select some options before the player opened the edit tools
 -fixed the if gate checking strings
--fixed the input gate cumpletely
+-fixed the input gate completely
 ```
 
 
-### December 69
+### December 30
 ```diff
 +added rejoin command
 +added key input block
@@ -320,7 +320,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 # 2023
 ## January
-### January 69
+### January 1
 ```diff
 +added tap input block
 +added cmds 
@@ -331,7 +331,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 +to command
 
 *changed how multiple selection rotate works drastically so it rotates as a tuple instead of individually
-*changed the tool menu cumpletely
+*changed the tool menu completely
 *changed how some drags work
 *resize no longer turns off its collisions 
 
@@ -345,7 +345,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 69
+### January 2
 ```diff
 +kick command
 +unhighlight command
@@ -370,9 +370,9 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 69
+### January 3
 ```diff
-+yoo mobile cumpatability 🔥🔥🔥🔥🔥
++yoo mobile compatability 🔥🔥🔥🔥🔥
 +some basic attributes
 +added notifications for hints n stuff
 +some more animations
@@ -389,7 +389,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 69
+### January 4
 ```diff
 +attributes managers
 +surface attribute
@@ -413,7 +413,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 69
+### January 5
 ```diff
 +upgraded happy home
 +added baller attribute
@@ -441,7 +441,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 69
+### January 8
 ```diff
 +number sequences
 +effect attribute
@@ -470,7 +470,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 *brickcolors can now be seen through the color selector
 *anything that uses images now uses decal id instead of image id
 *added attributes to templates
-*duplicate selection now cumpatible with undo and redo
+*duplicate selection now compatible with undo and redo
 *wires are no longer that curvy
 *optimized planet template
 *changed how tools layout so they're the same way as world builder
@@ -490,7 +490,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 69
+### January 13
 ```diff
 +custom physical properties
 +attribute changer block 
@@ -502,7 +502,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed text filtering bugs 
 ```
 
-### January 69
+### January 14
 ```diff 
 +added sound zone
 +implemented a bunch of stuff related to zones
@@ -516,7 +516,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 69
+### January 15
 ```diff
 +added safe zone
 +added physics zone
@@ -541,7 +541,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 69
+### January 21
 ```diff
 + parallel wiring
 +fly command
@@ -556,11 +556,11 @@ dateCreated: 2023-05-13T05:57:37.428Z
 *servers will now run faster due to physics optimization
 
 -removed grabs
--fixed some mobile cumpatability bugs here and there
+-fixed some mobile compatability bugs here and there
 -fixed AND and XOR gate
 ```
 
-### January 69
+### January 22
 ```diff
 +added world id to the core gui
 +added game visits to the core gui
@@ -585,7 +585,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 69
+### January 28
 ```diff
 +canbuild perm
 +build zones
