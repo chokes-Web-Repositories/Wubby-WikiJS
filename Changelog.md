@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-15T07:20:52.083Z
+date: 2023-05-15T07:23:52.404Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -10,7 +10,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 
 # 2022
 ## December
-### <b>t:1670256000</b>
+### <b>t:1670342400</b>
 ```diff
 + added around 12 blocks
 + added an special category
@@ -28,7 +28,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed a bug in which blocks wouldn't load when trying to load in
 ```
 
-### <b>t:1670342400</b>
+### <b>t:1670428800</b>
 ```diff
 + added search bar for block search
 + added search bar for enum search
