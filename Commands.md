@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-05-15T11:50:31.828Z
+date: 2023-05-15T11:51:24.776Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -82,7 +82,7 @@ when said, explodes (player). if (player) is set to "all" then everyone DIES.. A
 
 ### ;ghost (player)
 ----
-when said, turns the player into a ghost!
+when said, it turns the player into a ghost!
 👻
 
 #####  *(Cant confirm perms may be Builder+)*
