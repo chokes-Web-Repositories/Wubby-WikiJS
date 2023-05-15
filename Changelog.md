@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-15T09:19:49.414Z
+date: 2023-05-15T09:42:24.861Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -771,3 +771,16 @@ dateCreated: 2023-05-13T05:57:37.428Z
 + fixed loading in not loading attributes and wiring correctly
 + attributes and wiring are fixed
 + fixed saving
+```
+
+### t:1678550400
+```diff
++ attributes save
+```
+
+### t:1678636800
+```diff
++ fixed a bug in which if you loaded in before wubby, guis would not load
++ fixed a bug in which you couldn't modify game properties
++ added allow reset and allow rejoin game settings (allow rejoin enables/disables the :rejoin command (which is on by default))
+```
