@@ -2,13 +2,13 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-05-15T00:20:31.155Z
+date: 2023-05-15T00:35:45.217Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
 ---
 
-> This page is a WIP, things are subject to change (obviously)
+> This page is incomplete and everything in this page is subject to change.
  {.is-warning}
 
 ## {.tabset}
