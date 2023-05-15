@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-05-15T09:27:51.129Z
+date: 2023-05-15T09:44:40.468Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -12,6 +12,13 @@ dateCreated: 2023-05-14T15:48:24.092Z
  {.is-warning}
 
 ## {.tabset}
+
+### ;cmds
+----
+when said, shows a list of all commands.
+
+#####  *(Everyone)*
+
 ### ;fly (player)
 -----
 
@@ -80,6 +87,125 @@ when said, forces (player) to sit
 ----
 when said, forces (player) to jump (can be used to get people out of seat blocks)
 #####  *(Cant confirm perms may be Admin+)*
+
+### ;god (player)
+----
+when said, makes (player) immune to being killed
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;ungod (player)
+----
+when said, makes (player) able to take damage and die normally
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;blind (player)
+----
+when said, makes (player) not able to see
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;unblind (player)
+----
+similar to ;blind however (player) can see again
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;gyro (player)
+----
+when said, makes (player)'s rotation locked
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;ungyro (player)
+----
+similar to ;gyro however (player) can rotate their character again
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;nuke
+not sure what this does but it probably nukes a player,world
+
+#####  *(Must be owner of the world?)*
+
+### ;freeze (player)
+----
+when said, freezes a player making them unable to move.
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;unfreeze (player)
+----
+similar to ;freeze however the player can move freely again
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;fling (player)
+----
+when said, launches (player) into a sitting state while going high to the sky
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;trail (player)
+----
+when said, adds a trail behind (player) whenever the (player) walks
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;highlight (player)
+----
+makes the player visible through every surface
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;sparkles (player)
+----
+when said, adds sparkles to (player)
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;heal (player) (number)
+----
+when said, heals (player) by (number) doesent work if health is max
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### :damage (player) (number)
+----
+when said, reduces (player) health by (number)
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;maxhealth (player) (number)
+----
+when said, makes (player) max health increased by (number)
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;jumppower (player) (number)
+----
+when said, sets jumppower for (player) by (number) *default is 50*
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;bring (player)
+----
+when said, teleports (player) to your position
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;to (player)
+----
+when said, teleports you to (player)
+
+#####  *(Cant confirm perms may be Admin+)*
+
+### ;kick (player)
+----
+when said, kicks/hubs (player) from your world.
+
+#####  *(Must be Admin+)*
 
 
 
