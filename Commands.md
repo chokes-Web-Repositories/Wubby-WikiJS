@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-05-15T11:51:24.776Z
+date: 2023-05-15T15:36:00.004Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -11,228 +11,188 @@ dateCreated: 2023-05-14T15:48:24.092Z
 > This page is incomplete and everything in this page is subject to change.
  {.is-warning}
 
+> This page is incomplete and everything in this page is subject to change.
+ {.is-warning}
+
+[] = required parameter
+() = optional parameter
+
+# Visitor
 ## {.tabset}
+### cmds
+Opens a command list
 
-### ;cmds
-----
-when said, shows a list of all commands.
-This command is more useful than this wiki.
+### rejoin
+Rejoins whoever ran this command
 
-#####  *(Visitor+)*
+# Builder+
+## {.tabset}
+### blind [player]
+Makes [player] unable to see
 
-### ;fly (player)
------
+### blur [player] (size)
+Blurs [player]'s screen by (size) amount
 
-When said in chat, it will enable you to fly.
-This can help you reach areas normal people would not be able to reach.
+### bring [player]
+Teleports [player] to whoever ran this command
 
-##### *(Builder+)*
+### damage/dmg [player] (amount)
+Decreases [player]'s health by (amount)
 
-### ;kill (player)
------
+### explode/exp [player]
+Explodes [player], the explosion might move nearby objects
 
-When said in chat, it kills the (player).
-Simple act of punishment, or a way to get a person to respawn forcefully. This is abusable.
+### fix/removeeffects [player]
+Removes every single effect applied to [player] (blur, fov, blindness, etc.)
 
-##### *(Builder+)*
+### fling [player] (amount)
+Flings [player] at a speed of (amount)
 
-### ;hub (player)
-----
+### fly [player]
+Makes [player] fly
 
-When said in chat, it hubs the (player).
-Can be used as punishment to the outlaws in your world.
+### flyspeed [player] (amount)
+Sets [player]'s flying speed to (amount)
 
-##### *(Admin+)*
+### fov/fieldofview [player] (fov)
+Sets [player]'s field of view to (fov)
 
-### ;speed (player) (number)
-----
+### freeze/anchor [player]
+Freezes [player], [player] wont be able to move
 
-When said in chat, it will set the (player) speed to (number).
-Time to recreate speedrun 4
+### ghost/gh [player]
+Turns [player] into a ghost
 
-#####  *(Builder+)*
+### god [player]
+Makes [player] invincible from all damage (unless killed)
 
-### ;lighting (player)
-----
+### gyro [player]
+Prevents [player] from changing orientation
 
-When said in chat, it will kill the (player) with lightning
-ZEUS!
+### heal [player] (amount)
+Increases [player]'s health by (amount) OR sets it to the [player]'s maxhealth if (amount) is not specified
 
-#####  *(Admin+)*
+### highlight [player] (brickcolor)
+Makes [player] visible through walls with the color (brickcolor)
 
-### ;invisible (player)
-----
+### invisible/inv/invis/hide [player] (isVisible)
+Makes [player] invisible, if (isVisible) is "false", the player won't be able to see themselves
 
-when said in chat, it makes the (player) invisible.
-Haha, almost like your fathe-
+### jump [player]
+Forces [player] to jump
 
-#####  *(Cant confirm, perms may be Builder+)*
+### jumppower [player] (amount)
+Changes [player]'s jumppower to (amount)
 
-### ;visible (player)
-----
-makes an invisible (player) visible,invisibility can also be reverted by resetting.
+### kill/die [player]
+Kills [player]
 
-#####  *(Cant confirm, perms may be Builder+)*
+### lightning/smite/thunder [player]
+Summons Zeus and throws a lightning bolt at [player]
 
-### ;explode (player)
-----
-when said, explodes (player). if (player) is set to "all" then everyone DIES.. Also its very laggy!
+### magnet [player] (amount)
+Attracts every single player to [player] with a force of (amount)
 
-#####  *(Cant confirm, Builder+)*
+### maxhealth [player] (amount)
+Sets [player]'s maximum health to (amount)
 
-### ;ghost (player)
-----
-when said, it turns the player into a ghost!
-👻
+### message/m/msg/shout/announce [player] (message)
+Displays (message) in [player]'s screen
 
-#####  *(Cant confirm perms may be Builder+)*
+### nuke [player]/[coordinates]
+Places a nuke in [player]/[coordinates]
 
-### ;message (player)
-----
-this is similar to ;shout, but it only shows to the (player)'s client (they only see it)
+### removelimbs [player]
+Removes [player]'s limbs
 
-#####  *(likely Builder+)*
+### respawn [player]
+Respawns [player], Basically removes the [player]'s character and places it where it was
 
-### ;sit (player)
-----
-when said, forces (player) to sit.
-thats crazy
+### sit/trip [player]
+Forces [player] to sit
 
-#####  *(Cant confirm perms may be Builder+)*
+### sparkles/sparkle [player] (color)
+Gives [player] some sparkles with the color (color)
 
-### ;jump (player)
-----
-when said, forces (player) to jump.
-this can be used to get people out of seat blocks temporarily.
+### team name/teams name [teamName] [newName]
+Changes [teamName]'s name to [newName]
 
-#####  *(Cant confirm perms may be Builder+)*
+### team set/teams set [player] [teamName]
+Sets [player]'s team to [teamName]
 
-### ;god (player)
-----
-when said, makes (player) immune to being killed. 
-Then you reincarnate as Jesus,
+### to/tp/teleport (player) (player2)/(coordinates)
+If no parameters are entered, this command will teleport whoever ran this command to their mouse position
+If (player) is entered, this command will teleport whoever ran this command to (player)
+If (player) and (player2) are entered, this command will teleport (player) to (player2)
+If (coordinates) are entered, this command will teleport whoever ran this command to (coordinates)
 
-#####  *(Cant confirm perms may be Admin+)*
+### trail [player] (color)
+Puts a trail in [player], its color will be (color)
 
-### ;ungod (player)
-----
+### unblind [player]
+Makes [player] able to see again
 
-when said, makes (player) able to take damage and die normally.
-sad.
+### unblur [player]
+Unblurs [player]'s screen
 
-#####  *(Cant confirm perms may be Admin+)*
+### unfly [player]
+Removes [player]'s ability to fly
 
-### ;blind (player)
-----
-when said, makes (player) not able to see!
-Respect the disabled. This can be used as punishment or a VFX feature.
+### unfreeze/thaw/unanchor [player]
+Unfreezes [player]
 
-#####  *(Cant confirm perms may be Admin+)*
+### ungod [player]
+Makes [player] vulnerable to damage
 
-### ;unblind (player)
-----
-similar to ;blind however (player) can see again.
-Oh my god the cure to blindness!!
+### ungyro [player]
+Allows [player] to change orientation again
 
-#####  *(Cant confirm perms may be Admin+)*
+### unhighlight [player]
+Removes [player]'s highlight
 
-### ;gyro (player)
-----
-when said, makes (player)'s rotation locked
+### unmagnet [player]
+Removes [player]'s magnet
 
-#####  *(Cant confirm perms may be Admin+)*
+### visible/vis [player]
+Makes [player] visible again
 
-### ;ungyro (player)
-----
-will undo the ;gyro effect making the (player) able to rotate again!
+### walkspeed [player] (amount)
+Changes [player]'s walkspeed to (amount)
 
-#####  *(Cant confirm perms may be Admin+)*
+# Admin+
+## {.tabset}
+### ban [player]
+Prevents [player] from joining the game
 
-### ;nuke
+### kick [player] (reason)
+Kicks [player] with the reason (reason)
 
-Sends a nuclear explosion to the position of the person that said it, it is very large and insta kills. Very abusable.
+### stat/stats add [statName]
+Creates a new stat with the name [statName]
 
-#####  *(Admin+)*
+### stat/stats name [statName] [newName]
+Changes [statName]'s name to [newName]
 
-### ;freeze (player)
-----
-when said, freezes a player making them unable to move.
-Good for posing people like statues.
+### stat/stats remove [statName]
+Removes the stat under the name [statName]
 
-#####  *(Cant confirm perms may be Admin+)*
+### stat/stats set [statName] [player] (value)
+Sets [player]'s [statName] value to (value)
 
-### ;unfreeze (player)
-----
-similar to ;freeze however the player can move freely again!
+### stat/stats visible [statName] (isVisible)
+Toggles the visibility of [statName], if (isVisible) is "false", [statName] will not be shown on the playerlist
 
-#####  *(Cant confirm perms may be Admin+)*
+### team/teams add [teamName] (teamColor)
+Creates a new team with the name [teamName] and the color (teamColor). If (teamColor) is not specified, the team will be created with a random color
 
-### ;fling (player)
-----
-when said, launches (player) into a sitting state while going high to the sky! Can be used as punishment or a fun way to reset someone.
+### team/teams autoassign [teamName] (isEnabled)
+Sets if new players should be automatically assigned to [teamName] or not. If there are multiple teams with this setting enabled, the player will be assigned to the team with the least players
 
-#####  *(Cant confirm perms may be Admin+)*
+### team/teams color [teamName] [teamColor]
+Changes [teamName]'s color to (teamColor)
 
-### ;trail (player)
-----
-when said, adds a trail behind (player) whenever the (player) walks.
+### team/teams remove [teamName]
+Removes the team under the name [teamName]
 
-#####  *(Cant confirm perms may be Builder+)*
-
-### ;highlight (player)
-----
-makes an outline around a player, cna be seen through every surface. (like a spectral arrow, haha.)
-
-#####  *(Cant confirm perms may be Admin+)*
-
-### ;sparkles (player)
-----
-when said, adds sparkles to (player).
-Shiny!
-
-#####  *(Cant confirm perms may be Admin+)*
-
-### ;heal (player) (number)
-----
-when said, heals (player) by (number) doesent work if health is already at max.
-
-#####  *(Cant confirm perms may be Builder+)*
-
-### :damage (player) (number)
-----
-when said, reduces (player) health by (number)
-
-#####  *(Cant confirm perms may be Builder+)*
-
-### ;maxhealth (player) (number)
-----
-when said, it makes (player) max health increase by (number).
-
-#####  *(Cant confirm perms may be Admin+)*
-
-### ;jumppower (player) (number)
-----
-when said, sets jumppower for (player) to (number) *default is 50*.
-
-#####  *(Cant confirm perms may be Builder+)*
-
-### ;bring (player)
-----
-when said, teleports (player) to your position
-
-#####  *(Builder+)*
-
-### ;to (player)
-----
-when said, teleports you to (player)
-
-#####  *(Builder+)*
-
-### ;kick (player)
-----
-when said, kicks/hubs (player) from your world.
-
-#####  *(Admin+)*
-
-
-
+### unban [player]
+Allows [player] to join the game
