@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-05-15T09:44:40.468Z
+date: 2023-05-15T09:45:56.619Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -76,7 +76,7 @@ when said, turns the player into a ghost
 ### ;message (player)
 ----
 this is similar to ;shout however you can specify (player)
-#####  *(Cant confirm perms may be Visitor+)*
+#####  *(Perms may be Visitor+)*
 
 ### ;sit (player)
 ----
