@@ -2,11 +2,14 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-15T07:25:31.567Z
+date: 2023-05-15T07:31:39.771Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
 ---
+
+> This page will automatically update dates depending on your local timezone.
+{.is-info}
 
 # 2022
 ## December
@@ -111,7 +114,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 *made green wires faster
 ```
 
-### December 16
+### t:1671206400
 ```diff
 +added disconnect tool
 +new fancy and cool and epic animations for various shit
@@ -126,7 +129,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed a bug in which gates will sometimes assing the wrong value
 ```
 
-### December 17
+### t:1671292800
 ```diff
 +added a command system
 
@@ -157,7 +160,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 *the amount of time in which a message in the message command is displayed depends on how long it is
 ```
 
-### December 18
+### t:1671379200
 ```diff
 +added lighting command (aka smite but instead of a smite, it kills u with a fucking lighting 💋)
 +added nuke command
@@ -176,7 +179,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 22
+### t:1671724800
 ```diff
 +added command block
 +added delay gate
@@ -193,7 +196,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 24
+### t:1671897600
 ```diff
 +made a ton of gates n stuff placeable
 +now you can set if gates are visible or not
@@ -212,7 +215,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 25
+### t:1671984000
 ```diff
 +made more gates placeable
 +made the prompt block placeable
@@ -236,7 +239,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 26
+### t:1672070400
 ```diff
 +made even more blocks placeable
 +added light block
@@ -261,7 +264,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 28
+### t:1672243200
 ```diff
 +property changer 
 +text input gate
@@ -278,7 +281,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 29
+### t:1672329600
 ```diff
 +added an invisible grid under you so now if there's no block to place something, you'd still be able to place blocks
 +tp
@@ -305,7 +308,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### December 30
+### t:1672416000
 ```diff
 +added rejoin command
 +added key input block
@@ -320,7 +323,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 # 2023
 ## January
-### January 1
+### t:1672588800
 ```diff
 +added tap input block
 +added cmds 
@@ -345,7 +348,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 2
+### t:1672675200
 ```diff
 +kick command
 +unhighlight command
@@ -370,7 +373,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 3
+### t:1672761600
 ```diff
 +yoo mobile compatability 🔥🔥🔥🔥🔥
 +some basic attributes
@@ -389,7 +392,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 4
+### t:1672848000
 ```diff
 +attributes managers
 +surface attribute
@@ -413,7 +416,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 5
+### t:1672934400
 ```diff
 +upgraded happy home
 +added baller attribute
@@ -441,7 +444,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 8
+### t:1673193600
 ```diff
 +number sequences
 +effect attribute
@@ -490,7 +493,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 13
+### t:1673625600
 ```diff
 +custom physical properties
 +attribute changer block 
@@ -502,7 +505,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed text filtering bugs 
 ```
 
-### January 14
+### t:1673712000
 ```diff 
 +added sound zone
 +implemented a bunch of stuff related to zones
@@ -516,7 +519,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 15
+### t:1673798400
 ```diff
 +added safe zone
 +added physics zone
@@ -541,7 +544,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 21
+### t:1674316800
 ```diff
 + parallel wiring
 +fly command
@@ -560,7 +563,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed AND and XOR gate
 ```
 
-### January 22
+### t:1674403200
 ```diff
 +added world id to the core gui
 +added game visits to the core gui
@@ -585,7 +588,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### January 28
+### t:1674921600
 ```diff
 +canbuild perm
 +build zones
