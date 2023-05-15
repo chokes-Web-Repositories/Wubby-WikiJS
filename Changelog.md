@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-15T08:57:07.045Z
+date: 2023-05-15T09:19:49.414Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -766,3 +766,8 @@ dateCreated: 2023-05-13T05:57:37.428Z
 
 * fixed quick buttons on the core gui (quickly perm/kick/ban someone)
 ```
+### t:1678032000
+```diff
++ fixed loading in not loading attributes and wiring correctly
++ attributes and wiring are fixed
++ fixed saving
