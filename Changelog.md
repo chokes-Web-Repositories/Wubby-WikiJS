@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-16T11:47:56.657Z
+date: 2023-05-16T13:42:34.214Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -18,7 +18,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 
 # 2022
 ## December
-### <b>t:1670342400</b>
+### <b>t:1670342400:D</b>
 ```diff
 + added around 12 blocks
 + added an special category
@@ -36,7 +36,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed a bug in which blocks wouldn't load when trying to load in
 ```
 
-### <b>t:1670428800</b>
+### <b>t:1670428800:D</b>
 ```diff
 + added search bar for block search
 + added search bar for enum search
@@ -53,7 +53,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed a bug in which the selection box would not clear correctly
 ```
 
-### t:1670515200
+### t:1670515200:D
 ```diff
 + added z, x and c keybinds to select modes in the transform tool
 + holding ctrl while clicking on an already selected part will deselect it
@@ -72,7 +72,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - removed some useless lines of codes so the game runs with less lag
 ```
 
-### t:1670601600
+### t:1670601600:D
 ```diff
 + added font choosing enum
 + added floating text block
@@ -91,7 +91,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 - fixed a small lag issue with enums
 ```
 
-### t:1670688000
+### t:1670688000:D
 ```diff
 + added spiked cylinder
 + added octogon
@@ -105,7 +105,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 + added NOT gate
 ```
 
-### t:1670774400
+### t:1670774400:D
 ```diff
 +added a goddamn big button to switch between wiring & building
 +added a button to switch to connection mode
@@ -119,7 +119,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 *made green wires faster
 ```
 
-### t:1671206400
+### t:1671206400:D
 ```diff
 +added disconnect tool
 +new fancy and cool and epic animations for various shit
@@ -134,7 +134,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed a bug in which gates will sometimes assing the wrong value
 ```
 
-### t:1671292800
+### t:1671292800:D
 ```diff
 +added a command system
 
@@ -165,7 +165,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 *the amount of time in which a message in the message command is displayed depends on how long it is
 ```
 
-### t:1671379200
+### t:1671379200:D
 ```diff
 +added lighting command (aka smite but instead of a smite, it kills u with a fucking lighting 💋)
 +added nuke command
@@ -184,7 +184,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1671724800
+### t:1671724800:D
 ```diff
 +added command block
 +added delay gate
@@ -201,7 +201,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1671897600
+### t:1671897600:D
 ```diff
 +made a ton of gates n stuff placeable
 +now you can set if gates are visible or not
@@ -220,7 +220,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1671984000
+### t:1671984000:D
 ```diff
 +made more gates placeable
 +made the prompt block placeable
@@ -244,7 +244,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1672070400
+### t:1672070400:D
 ```diff
 +made even more blocks placeable
 +added light block
@@ -269,7 +269,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1672243200
+### t:1672243200:D
 ```diff
 +property changer 
 +text input gate
@@ -286,7 +286,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1672329600
+### t:1672329600:D
 ```diff
 +added an invisible grid under you so now if there's no block to place something, you'd still be able to place blocks
 +tp
@@ -313,7 +313,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1672416000
+### t:1672416000:D
 ```diff
 +added rejoin command
 +added key input block
@@ -328,7 +328,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 # 2023
 ## January
-### t:1672588800
+### t:1672588800:D
 ```diff
 +added tap input block
 +added cmds 
@@ -353,7 +353,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1672675200
+### t:1672675200:D
 ```diff
 +kick command
 +unhighlight command
@@ -378,7 +378,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1672761600
+### t:1672761600:D
 ```diff
 +yoo mobile compatability 🔥🔥🔥🔥🔥
 +some basic attributes
@@ -397,7 +397,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1672848000
+### t:1672848000:D
 ```diff
 +attributes managers
 +surface attribute
@@ -421,7 +421,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1672934400
+### t:1672934400:D
 ```diff
 +upgraded happy home
 +added baller attribute
@@ -449,7 +449,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1673193600
+### t:1673193600:D
 ```diff
 +number sequences
 +effect attribute
@@ -498,7 +498,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1673625600
+### t:1673625600:D
 ```diff
 +custom physical properties
 +attribute changer block 
@@ -510,7 +510,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed text filtering bugs 
 ```
 
-### t:1673712000
+### t:1673712000:D
 ```diff 
 +added sound zone
 +implemented a bunch of stuff related to zones
@@ -524,7 +524,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1673798400
+### t:1673798400:D
 ```diff
 +added safe zone
 +added physics zone
@@ -549,7 +549,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1674316800
+### t:1674316800:D
 ```diff
 + parallel wiring
 +fly command
@@ -568,7 +568,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed AND and XOR gate
 ```
 
-### t:1674403200
+### t:1674403200:D
 ```diff
 +added world id to the core gui
 +added game visits to the core gui
@@ -593,7 +593,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 
-### t:1674921600
+### t:1674921600:D
 ```diff
 +canbuild perm
 +build zones
@@ -637,7 +637,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 -fixed selection not closing when the main menu closes
 ```
 
-### t:1675008000
+### t:1675008000:D
 ```diff
 + team name and team set can now be ran by command blocks
 + stat saving
@@ -648,7 +648,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 + ok fixed a ton of bugs n stuff (V141)
 ```
 
-### t:1675094400
+### t:1675094400:D
 ```diff
 * fixed the resize bug and some other bugs like wiring not throwing input sometimes or set stat being broken (V142)
 * fixed a major bug with resize in which if you were moving any tool and change tool and quickly switch to another tool, you would break the transform tool (V143)
@@ -658,12 +658,12 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 ## February
-### t:1675180800
+### t:1675180800:D
 ```diff
 * fixed some bugs while placing blocks
 ```
 
-### t:1675353600
+### t:1675353600:D
 ```diff
 * fixed a ton of bugs reported in ⁠🪲bug-reports (V145)
 	- camera lock should be fixed in mobile
@@ -675,7 +675,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
   - attributes now remove when clicking twice
 ```
 
-### t:1675440000
+### t:1675440000:D
 ```diff
 + added a report game button
 + command blocks can now use admin commands as long as the last person who edited it is an admin and still permed
@@ -686,7 +686,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 * fixed permissions and other small bugs like number setters and number math (V147)
 ```
 
-### t:1675526400
+### t:1675526400:D
 ```diff
 + added a button for mobile players to fly
 
@@ -702,7 +702,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 * fixed zone placement (V152)
 ```
 
-### t:1675612800
+### t:1675612800:D
 ```diff
 + added sound block (V157)
 
@@ -716,7 +716,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 * fixed game breaking bug in which the report button wasn't visible (V156)
 ```
 
-### t:1676044800
+### t:1676044800:D
 ```diff
 + wubby now runs faster since ive updated the physics handler script
 
@@ -726,19 +726,19 @@ dateCreated: 2023-05-13T05:57:37.428Z
 * fixed a bug when cloning wiring
 ```
 
-### t:1676131200
+### t:1676131200:D
 ```diff
 * fixed the block count and now walkspeed and jumppower game properties update in real time
 * fixed a small vulnerability related to build zones
 ```
 
-### t:1676217600
+### t:1676217600:D
 ```diff
 ! currently making everything work together
 ```
 ![](https://cdn.discordapp.com/attachments/1051156891880935565/1074366897811894412/PXL_20230212_172934727.jpg =60%x)
 
-### t:1676649600
+### t:1676649600:D
 ```diff
 + game setup gui now works
 
@@ -746,20 +746,20 @@ dateCreated: 2023-05-13T05:57:37.428Z
 * fixed some bugs related to load in
 ```
 
-### t:1676822400
+### t:1676822400:D
 ```diff
 + search games/id (allows checking which game you're about to play)
 ```
 ![](https://media.discordapp.net/attachments/1051156891880935565/1076619327748440225/PXL_20230218_224015185.jpg?width=496&height=662 =60%x)
 
-### t:1676908800
+### t:1676908800:D
 ```diff
 + joining a player in wubby will now teleport you to their game
 + linked the game itself with the hub
 + visits and blocks are now visible
 ```
 
-### t:1677254400
+### t:1677254400:D
 ```diff
 + kick & ban now teleports you to the hub
 + kick & ban now has an optional reason parameter
@@ -768,19 +768,19 @@ dateCreated: 2023-05-13T05:57:37.428Z
 ```
 
 ## March
-### t:1678032000
+### t:1678032000:D
 ```diff
 + fixed loading in not loading attributes and wiring correctly
 + attributes and wiring are fixed
 + fixed saving
 ```
 
-### t:1678550400
+### t:1678550400:D
 ```diff
 + attributes save
 ```
 
-### t:1678636800
+### t:1678636800:D
 ```diff
 + fixed a bug in which if you loaded in before wubby, guis would not load
 + fixed a bug in which you couldn't modify game properties
@@ -791,7 +791,7 @@ dateCreated: 2023-05-13T05:57:37.428Z
 + fixed wiring
 ```
 
-### t:1679068800
+### t:1679068800:D
 ```diff
 + fixed some attributes
 + fixed a bug related to placing attributes
@@ -801,14 +801,14 @@ dateCreated: 2023-05-13T05:57:37.428Z
 + the game freezes until the entire game loads in so y'know structures like cars n such don't break on startup
 ```
 
-### t:1679155200
+### t:1679155200:D
 ```diff
 +fixed a bug in which sometimes some properties would not show up in the attributes menu
 + fixed thrusts
 + fixed a bug in which you couldn't move with wasd when going upwards/downwards flying
 + fixed bug that attributes wouldn't completely load in
 ```
-### t:1680274800
+### t:1680274800:D
 ```diff
 + added field of view game setting
 + added extra layer of security
