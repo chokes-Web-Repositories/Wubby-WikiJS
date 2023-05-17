@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-05-17T00:53:11.798Z
+date: 2023-05-17T00:53:51.094Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
@@ -73,7 +73,9 @@ dateCreated: 2023-05-11T08:27:04.372Z
  
  
  # Special
- ### Building parts with special properties, provided a description and configuration menu (if available) for each one.
+>   Building parts with special properties, provided a description and configuration menu (if available) for each one.
+{.is-info}
+
  #### {.tabset}
  
  ##### Floating Text Block
@@ -89,7 +91,9 @@ dateCreated: 2023-05-11T08:27:04.372Z
  ![spawnpoint.png](/spawnpoint.png =40%x) ![spawnpoint_config.png](/spawnpoint_config.png =50%x)
  
  # Input
- ### Building parts that allow interaction with the player, provided a description and configuration menu (if available) for each one.
+>   Building parts that allow interaction with the player, provided a description and configuration menu (if available) for each one.
+{.is-info}
+
  #### {.tabset}
  
  ##### Block Touch Detector
