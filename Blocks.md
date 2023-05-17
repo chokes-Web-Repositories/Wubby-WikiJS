@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-05-16T14:39:17.140Z
+date: 2023-05-17T00:53:11.798Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
@@ -12,7 +12,10 @@ dateCreated: 2023-05-11T08:27:04.372Z
  {.is-warning}
  
  # Basic
- ### Basic building parts. Can be positioned/shaped/rotated and can inhabit any color or material.
+> Basic building parts. Can be positioned/shaped/rotated and can inhabit any color or material.
+{.is-info}
+
+
 
  #### {.tabset}
  
