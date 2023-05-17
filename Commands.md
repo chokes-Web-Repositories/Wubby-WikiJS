@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-05-15T15:38:49.113Z
+date: 2023-05-17T00:56:40.070Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -16,7 +16,7 @@ An essential part of world moderation / world mechanics that allow world owners 
 () = optional parameter
 ```
 
-## Visitor
+## Visitor+
 ## {.tabset}
 ### cmds
 Opens a command list
