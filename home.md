@@ -2,11 +2,14 @@
 title: Home
 description: Welcome to Wubby! A building game based on World Builder.
 published: true
-date: 2023-05-18T08:46:21.287Z
+date: 2023-05-18T08:52:58.794Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T03:05:24.832Z
 ---
+
+> Griefing a page will result in your edit permissions being revoked
+{.is-warning}
 
 > Wubby is expected to probably (not guaranteed) release t:1684944000:R
 {.is-info}
@@ -19,8 +22,6 @@ Welcome to the Wubby wiki
 
 Wubby is a building-based game based on World Builder
 
-> Griefing a page will result in your edit permissions being revoked
-{.is-warning}
 
 # Links
 - [Discord server *Come chat with us here and get game updates!*](https://discord.gg/YHtthk2dYX)
