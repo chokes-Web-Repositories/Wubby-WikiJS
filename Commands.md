@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-05-19T02:55:38.815Z
+date: 2023-05-19T02:56:01.025Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -10,7 +10,6 @@ dateCreated: 2023-05-14T15:48:24.092Z
 
 # Commands
 > An essential part of world moderation / world mechanics that allow world owners to execute commands on players
-> 
 {.is-info}
 
 ```
