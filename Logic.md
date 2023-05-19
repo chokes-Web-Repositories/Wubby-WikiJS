@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-05-19T21:58:08.263Z
+date: 2023-05-19T21:59:02.237Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -14,7 +14,7 @@ dateCreated: 2023-05-19T13:12:59.267Z
 > true = wire is on
 > false = wire is off
 > 
-> An input is where the wire goes into the gate, and output is where is goes out.
+> An input is where the wire goes into the gate, and output is where is goes out. If an output is "given," then that means the output wire has been turned on.
 {.is-info}
 
 
