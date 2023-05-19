@@ -2,7 +2,7 @@
 title: Bloquea
 description: Los componentes básicos de cada mundo
 published: true
-date: 2023-05-19T15:23:44.570Z
+date: 2023-05-19T15:24:10.360Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T14:23:29.123Z
@@ -11,7 +11,7 @@ dateCreated: 2023-05-11T14:23:29.123Z
 > Esta página está incompleta y todo lo que contiene está sujeto a cambios.
  {.is-warning}
  
- > Básico
+# Básico
 > Piezas básicas de construcción. Se pueden posicionar/formar/rotar y pueden habitar cualquier color o material.
 {.is-info}
 
