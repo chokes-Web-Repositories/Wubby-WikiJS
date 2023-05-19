@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-05-19T21:56:27.001Z
+date: 2023-05-19T21:58:08.263Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -10,6 +10,13 @@ dateCreated: 2023-05-19T13:12:59.267Z
 
 > This page is incomplete and everything in this page is subject to change.
 {.is-warning}
+
+> true = wire is on
+> false = wire is off
+> 
+> An input is where the wire goes into the gate, and output is where is goes out.
+{.is-info}
+
 
 ## {.tabset}
 
