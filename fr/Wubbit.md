@@ -1,8 +1,8 @@
 ---
 title: Wubbit
-description: The currency used in Wubby
+description: La monnaie utilisée dans Wubby.
 published: true
-date: 2023-05-20T16:34:31.793Z
+date: 2023-05-20T16:35:30.345Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-20T16:34:31.793Z
