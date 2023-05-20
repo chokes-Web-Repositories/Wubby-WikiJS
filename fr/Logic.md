@@ -2,7 +2,7 @@
 title: Logique
 description: Les blocs qui permettent de créer une mécanique dans votre monde
 published: true
-date: 2023-05-20T16:56:09.354Z
+date: 2023-05-20T17:07:36.354Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-20T16:52:51.109Z
@@ -18,17 +18,17 @@ dateCreated: 2023-05-20T16:52:51.109Z
 
 Il s'agit de blocs qui permettent à un joueur disposant de droits de construction d'ajouter des fonctionnalités supplémentaires à son monde :
 
-- [KEY] to sprint
+- [CLE] de sprinter
 
-- [KEY] to activate ability
+- [CLE] pour activer la capacité
 
-and etc.
+et etc.
 
 > Une entrée est l'endroit où la porte reçoit un signal d'un fil qui lui est connecté.
 > Une sortie est l'endroit où la porte envoie un signal à un fil qui lui est relié.
 >
-> "true" = signal actif
-> "false" = signal inactif
+> "vrai" = signal actif
+> "faux" = signal inactif
 {.is-info}
 
 ## {.tabset}
@@ -41,54 +41,52 @@ and etc.
 Démonstration
 
 <div class="input-container">
-<label for="AND_input1">Input 1:</label> <input type="checkbox" id="AND_input1" class="input">
+<label for="AND_input1">Entrée 1:</label> <input type="checkbox" id="AND_input1" class="input">
   
-<label for="AND_input2">Input 2:</label> <input type="checkbox" id="AND_input2" class="input">
+<label for="AND_input2">Entrée 2:</label> <input type="checkbox" id="AND_input2" class="input">
   
-<button id="performANDButton" class="button">Perform AND operation</button>
-<p id="AND_result">Result:</p>
+<button id="performANDButton" class="button">Effectuer l'opération ET</button>
+<p id="AND_result">Résultat:</p>
 </div>
 
  
 
-### OR Gate
+### Porte OU
 
-> The OR gate takes a single or multiple input signal(s) and produces an output if a single input is **true**
-
+> La porte OU prend un ou plusieurs signaux d'entrée et produit une sortie si une seule entrée est **vraie**.
 {.is-info}
 
 Demo:
 
 <div class="input-container">
 
-<label for="OR_input1">Input 1:</label> <input type="checkbox" id="OR_input1" class="input">
+<label for="OR_input1">Entrée 1:</label> <input type="checkbox" id="OR_input1" class="input">
 
   
 
-<label for="OR_input2">Input 2:</label> <input type="checkbox" id="OR_input2" class="input">
+<label for="OR_input2">Entrée 2:</label> <input type="checkbox" id="OR_input2" class="input">
 
-<button id="performORButton" class="button">Perform OR operation</button>
+<button id="performORButton" class="button">Effectuer l'opération OU</button>
 
-<p id="OR_result">Result:</p>
+<p id="OR_result">Résultat:</p>
 
 </div>
 
-### NOT Gate
+### Porte NOT
 
-> The NOT gate, also called an inverter, takes a single input signal and produces the opposite output. 
-
+> La porte NOT, également appelée inverseur, prend un seul signal d'entrée et produit la sortie opposée. 
 {.is-info}
 
-Demo:
+Démonstration:
 
 <div class="input-container">
 
-<label for="NOT_input1">Input:</label> <input type="checkbox" id="NOT_input1" class="input">
+<label for="NOT_input1">Entrée:</label> <input type="checkbox" id="NOT_input1" class="input">
 
   
 
-<button id="performNOTButton" class="button">Perform NOT operation</button>
+<button id="performNOTButton" class="button">Effectuer l'opération NOT</button>
 
-<p id="NOT_result">Result:</p>
+<p id="NOT_result">Résultat:</p>
 
 </div>
