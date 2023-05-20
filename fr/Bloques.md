@@ -2,7 +2,7 @@
 title: Blocs
 description: Les bloques de construction utilisés dans chaque monde
 published: true
-date: 2023-05-20T14:19:36.253Z
+date: 2023-05-20T14:19:47.900Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-20T14:16:50.433Z
