@@ -2,16 +2,16 @@
 title: Inicio
 description: ¡Bienvenido a Wubby! Un juego de construcción roblox basado en (el contenido ahora eliminado) World Builder.
 published: true
-date: 2023-05-20T01:15:12.736Z
+date: 2023-05-20T14:28:55.773Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T06:15:06.876Z
 ---
 
-> Si haces un "Griefing" en una página, se revocarán tus permisos de edición
+> La destrucción sin motivo de páginas revocarán tus permisos de edición.
 {.is-warning}
 
-> Se espera que Wubby probablemente (no garantizado) libere t:1684944000:R
+> Se espera que Wubby probablemente (no garantizado) salga t:1684944000:R
 {.is-info}
 
 ![](/wubbybg.png =90%x){.align-center}
@@ -20,7 +20,7 @@ dateCreated: 2023-05-11T06:15:06.876Z
 
 Bienvenido a la wiki oficial de Wubby
 
-Wubby es un juego basado en la construcción basado en el ahora retirado juego, World Builder
+Wubby es un juego de construcción basado en el ahora juego retirado "World Builder".
 
 # Enlaces
 - [Servidor Discord *¡Ven a chatear con nosotros aquí y recibe actualizaciones del juego!*](https://discord.gg/YHtthk2dYX)
