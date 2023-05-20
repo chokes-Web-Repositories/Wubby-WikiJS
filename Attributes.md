@@ -2,37 +2,37 @@
 title: Attributes
 description: Block modifiers
 published: true
-date: 2023-05-15T06:18:10.877Z
+date: 2023-05-20T17:19:34.891Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T06:38:38.143Z
 ---
 
-> This page is incomplete and everything in this page is subject to change.
+> Cette page est incomplète et tout ce qu'elle contient est susceptible d'être modifié.
 {.is-warning}
 
 ## {.tabset}
-### Highlight
-Used to highlight a block, can be set to be seen through walls or not.
+### Mise en valeur.
+Utilisé pour mettre en évidence un bloc, il peut être configuré pour être vu à travers les murs ou non.
 
 ![highlight.png](/highlight.png =40%x)
-### Healer
-Makes a block heal a player, can be set to specify the heal rate and cooldown.
+### Guérisseur
+Permet à un bloc de soigner un joueur. Le taux de soin et le temps de recharge peuvent être spécifiés.
 
 ![playerheal.gif](/playerheal.gif =40%x)
 ### Damager
-Makes a block damage a player, can be set to specify the damage rate and cooldown.
+Permet à un bloc d'infliger des dégâts à un joueur. Il est possible de spécifier le taux de dégâts et le temps de recharge.
 
 ![playerheal.gif](/playerdamage.gif =40%x)
-### Effect
-Emits a specified particle effect from the block
+### Effet
+Emet un effet de particule spécifié à partir du bloc
 
 ![particle.png](/particle.png =40%x)
-### Killer
-Kills a player when they touch the block
+### Tueur
+Tue un joueur lorsqu'il touche le bloc
 
 ![killer.png](/killer.png =40%x)
-### Rope
-Attaches a rope between two blocks
+### Corde
+Attache une corde entre deux blocs
 
 ![rope.png](/rope.png =40%x)
