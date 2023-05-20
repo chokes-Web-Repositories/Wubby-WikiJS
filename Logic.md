@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-05-20T12:55:39.358Z
+date: 2023-05-20T12:56:10.395Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -11,7 +11,7 @@ dateCreated: 2023-05-19T13:12:59.267Z
 > This page is incomplete and everything in this page is subject to change.
 {.is-warning}
 
-> This page explains advanced features, some users may not understand everything in this page.
+> This page explains advanced features, some players may not understand everything in this page.
 {.is-warning}
 
 # Logic
