@@ -2,7 +2,7 @@
 title: Bloquea
 description: Los componentes básicos de cada mundo
 published: true
-date: 2023-05-19T16:10:39.321Z
+date: 2023-05-20T14:42:46.941Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T14:23:29.123Z
@@ -16,7 +16,7 @@ dateCreated: 2023-05-11T14:23:29.123Z
 
  
 # Básico
-> Piezas básicas de construcción. Se pueden posicionar/formar/rotar y pueden habitar cualquier color o material.
+> Bloques básicos de construcción. Se pueden colocar/mover/girar y también los puedes modificar a tu gusto.
 {.is-info}
 
 
@@ -35,10 +35,10 @@ dateCreated: 2023-05-11T14:23:29.123Z
  ##### Cilindro de esquina 2
 ![cylindercorner2.png](/cornercylinder2.png =40%x)
  
- ##### Cuña de esquina 
+ ##### Rampa de esquina 
 ![cornerwedge.png](/cornerwedge.png =40%x)
  
- ##### Cuña de esquina 2
+ ##### Rampa de esquina 2
  ![cornerwedge2.png](/cornerwedge2.png =40%x)
  
  ##### Cubo
@@ -47,10 +47,10 @@ dateCreated: 2023-05-11T14:23:29.123Z
  ##### Cilindro
  ![cylinder.png](/cylinder.png =40%x)
  
- ##### Tapa de cilindro
+ ##### Tapón
 ![cylindercap.png](/cylindercap.png =40%x)
  
- ##### Esfera de bordes
+ ##### Borde de esfera
  ![edgesphere.png](/edgesphere.png =40%x)
  
  ##### Cuña de borde
@@ -69,7 +69,7 @@ dateCreated: 2023-05-11T14:23:29.123Z
  ##### Cilindro invertido
  ![invertedcylinder.png](/invertedcylinder.png =40%x)
  
- ##### Esfera de bordes invertidos
+ ##### Borde de esfera invertido
 ![invertededgesphere.png](/invertededgesphere.png =40%x)
  
  ##### Cuarto de cilindro invertido
@@ -77,29 +77,29 @@ dateCreated: 2023-05-11T14:23:29.123Z
  
  
  # Especial
-> Construir piezas con propiedades especiales, proporcionando una descripción y un menú de configuración (si está disponible) para cada una.
+> Bloques de construcción con propiedades especiales, acompañados con una descripción y un menú de configuraciones (si están disponibles) para cada una.
 {.is-info}
 
  #### {.tabset}
  
  ##### Bloque de texto flotante
- Una parte completamente invisible/no colapsable que contiene texto flotante. Se puede configurar a través del menú de edición.
+ Un bloque completamente invisible/no golpeable que contiene texto flotante. Se puede configurar a través del menú de edición.
 ![Bloqtextflotantev2.png](/floatingtextblockv2.png =40%x) ![Bloqtextflotante_config.png](/floatingtextblock_config.png =27%x)
  
- ##### Bloque de engranajes
- Un bloque que proporciona/quita dicho equipo al jugador cuando se toca. Se puede configurar a través del menú de edición.
+ ##### Bloque de herramienta
+ Un bloque que proporciona/quita una herramienta al jugador cuando éste lo toca. Se puede configurar a través del menú de edición.
  ![gearblock.png](/gearblock.png =40%x) ![gearblock_config.png](/gearblock_config.png =41%x)
  
- ##### Punto de aparición
- Un bloque que desova al jugador en la ubicación del bloque al unirse/morir. Si no hay spawn dentro del mundo, el jugador se unirá/respawneará en el centro del mundo. Puede ser configurado a través del menú de edición. 
+ ##### Punto de reaparición
+ Un bloque que regera al jugador en la ubicación del bloque al unirse/morir. Si no hay un punto de regeneración dentro del mundo, el jugador aparecerá en el centro del mundo. Puede ser configurado a través del menú de edición. 
  ![spawnpoint.png](/spawnpoint.png =40%x) ![spawnpoint_config.png](/spawnpoint_config.png =50%x)
  
- # Input
-> Partes del edificio que permiten la interacción con el jugador, proporcionando una descripción y un menú de configuración (si está disponible) para cada una.
+ # Entrada
+> Bloques que permiten la interacción con el jugador, proporcionando una descripción y un menú de configuración (si está disponible) para cada una.
 {.is-info}
 
  #### {.tabset}
  
- ##### Bloque Detector de Tacto
+ ##### Sensor de contacto
  Un bloque que da entrada al toque del jugador. Se puede configurar a través del menú de edición.
  ![blocktouchdetector.png](/blocktouchdetector.png =40%x)
