@@ -2,7 +2,7 @@
 title: Logique
 description: Les blocs qui permettent de créer une mécanique dans votre monde
 published: true
-date: 2023-05-20T17:07:36.354Z
+date: 2023-05-20T17:13:57.727Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-20T16:52:51.109Z
@@ -18,24 +18,24 @@ dateCreated: 2023-05-20T16:52:51.109Z
 
 Il s'agit de blocs qui permettent à un joueur disposant de droits de construction d'ajouter des fonctionnalités supplémentaires à son monde :
 
-- [CLE] de sprinter
+- [TOUCHE CLAVIER] pour sprinter
 
-- [CLE] pour activer la capacité
+- [TOUCHE CLAVIER] pour activer quelque chose
 
 et etc.
 
-> Une entrée est l'endroit où la porte reçoit un signal d'un fil qui lui est connecté.
-> Une sortie est l'endroit où la porte envoie un signal à un fil qui lui est relié.
+> Un signal d'entrée est l'endroit où le bloc de logique reçoit un signal d'un cable qui lui est connecté.
+> Un signal de sortie est l'endroit où le bloc de logique envoie un signal à un fil qui lui est connecté.
 >
-> "vrai" = signal actif
-> "faux" = signal inactif
+> "true" = signal actif
+> "false" = signal inactif
 {.is-info}
 
 ## {.tabset}
 
-### Porte ET
+### Gate ET
 
-> La porte ET prend un ou plusieurs signaux d'entrée et produit une sortie si toutes les entrées sont **vraies**.
+> La Gate ET prend un ou plusieurs signaux d'entrée et produit un signal de sortie si toutes les entrées sont **true**.
 {.is-info}
 
 Démonstration
@@ -51,12 +51,12 @@ Démonstration
 
  
 
-### Porte OU
+### Gate OU
 
-> La porte OU prend un ou plusieurs signaux d'entrée et produit une sortie si une seule entrée est **vraie**.
+> La gate OU prend un ou plusieurs signaux d'entrée et produit un signal de sortie si une seule entrée est **true**.
 {.is-info}
 
-Demo:
+Démonstration:
 
 <div class="input-container">
 
@@ -72,9 +72,9 @@ Demo:
 
 </div>
 
-### Porte NOT
+### Gate NOT
 
-> La porte NOT, également appelée inverseur, prend un seul signal d'entrée et produit la sortie opposée. 
+> La Gate NOT, également appelée inverseur, prend un seul signal d'entrée et produit le signal de sortie opposée. 
 {.is-info}
 
 Démonstration:
