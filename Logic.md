@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-05-20T13:02:29.229Z
+date: 2023-05-20T13:13:54.145Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -22,12 +22,16 @@ These are blocks that allow a player with build permissions to add extra functio
 and etc.
 > An input is where the gate recieves a signal from a wire connected to it
 > An output is where the gate sends a signal to a wire connected from it
+>
+> "true" = active signal
+> "false" = inactive signal
 {.is-info}
 
 ## {.tabset}
 
 ### AND Gate
-Requires all wires connected to the gate to be activated, otherwise outputs no signal from the gate.
+> The AND gate takes a single or multiple input signal(s) and produces an output if all inputs are **true**.
+{.is-info}
 
 Demo:
 <div class="input-container">
@@ -51,7 +55,8 @@ Demo:
 </div>
 
 ### NOT Gate
-The NOT gate, also called an inverter, takes a single input signal and produces the opposite output. 
+> The NOT gate, also called an inverter, takes a single input signal and produces the opposite output. 
+{.is-info}
 
 - When the input is true (1), the output is false (0), and vice versa. 
 
