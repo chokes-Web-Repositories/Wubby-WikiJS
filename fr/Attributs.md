@@ -2,7 +2,7 @@
 title: Attributs
 description: Effets sur les blocs
 published: true
-date: 2023-05-20T16:43:37.548Z
+date: 2023-05-20T17:17:17.859Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-20T16:40:14.566Z
@@ -13,7 +13,7 @@ dateCreated: 2023-05-20T16:40:14.566Z
 
 ## {.tabset}
 ### Fluo
-Utilisé pour fluoté des blocks, peut être activé une option pour voir à travers les murs ou non.
+Utilisé pour fluoter des blocks, peut être activé une option pour voir à travers les murs ou non.
 
 ![highlight.png](/highlight.png =40%x)
 ### Attribut à soin
