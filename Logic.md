@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-05-19T22:00:29.697Z
+date: 2023-05-20T10:36:57.659Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -22,6 +22,21 @@ dateCreated: 2023-05-19T13:12:59.267Z
 
 ### AND Gate
 if all inputs are **true**, then it will give an output. But if only ONE of the inputs is false, there will be no output.
+<body>
+  <h1>AND Gate</h1>
+  
+  <label for="input1">Input 1:</label>
+  <input type="checkbox" id="input1" class="input">
+  <br>
+  
+  <label for="input2">Input 2:</label>
+  <input type="checkbox" id="input2" class="input">
+  <br>
+  
+  <button onclick="performAND()">Perform AND</button>
+  
+  <p id="result"></p>
+</body>
 
 ### OR Gate
 only one or more **true** inputs is needed to give an output, if all of the inputs are false there will be no output.
