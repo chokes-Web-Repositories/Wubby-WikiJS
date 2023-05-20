@@ -2,7 +2,7 @@
 title: Accueil
 description: Bienvenue sur Wubby ! Un jeu de construction roblox basé sur World Builder (dont le contenu a été supprimé).
 published: true
-date: 2023-05-20T13:41:23.861Z
+date: 2023-05-20T13:42:20.235Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-20T13:33:50.353Z
@@ -15,7 +15,7 @@ dateCreated: 2023-05-20T13:33:50.353Z
 {.is-info}
 
 ![](/wubbybg.png =90%x){.align-center}
-[ ![wubbyloginbanner.png](/corewikiassets/wubbyloginbanner.png =90%x){.align-center}](https://shlink.choke.dev/WubbyWikiLogin)
+[ ![wubbyloginbanner.png](/corewikiassets/wubbyloginbanner_french.png =90%x){.align-center}](https://shlink.choke.dev/WubbyWikiLogin)
 
 # Introduction
 
