@@ -2,7 +2,7 @@
 title: Accueil
 description: Bienvenue sur Wubby ! Un jeu de construction roblox basé sur World Builder (dont le contenu a été supprimé).
 published: true
-date: 2023-05-20T16:15:02.891Z
+date: 2023-05-20T16:20:03.121Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-20T13:33:50.353Z
