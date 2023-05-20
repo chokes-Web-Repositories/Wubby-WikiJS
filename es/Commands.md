@@ -2,7 +2,7 @@
 title: Comandos
 description: Acciones que pueden ejecutarse sobre un jugador
 published: true
-date: 2023-05-19T16:04:19.466Z
+date: 2023-05-20T18:11:49.801Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T16:04:19.466Z
@@ -29,7 +29,7 @@ Vuelve a unirse a quien ejecutó este comando
 Busca en todos los servidores de Wubby y echa a Abe de ese servidor.
 (comando de broma y será borrado de esta lista muy pronto)
 
-# Builder+
+### Builder+
 ## {.tabset}
 ### blind [jugador]
 Hace que [jugador] no pueda ver
