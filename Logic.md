@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-05-20T12:37:43.426Z
+date: 2023-05-20T12:42:28.222Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -24,15 +24,22 @@ if all inputs are **true**, then it will give an output. But if only ONE of the 
 
 Demo:
 <div class="input-container">
-<label for="input1">Input 1:</label> <input type="checkbox" id="input1" class="input">
+<label for="AND_input1">Input 1:</label> <input type="checkbox" id="AND_input1" class="input">
   
-<label for="input2">Input 2:</label> <input type="checkbox" id="input2" class="input">
-<button id="performButton" class="button">Perform AND operation</button>
+<label for="AND_input2">Input 2:</label> <input type="checkbox" id="AND_input2" class="input">
+<button id="performANDButton" class="button">Perform AND operation</button>
 <p id="result">Result:</p>
-    </div>
+</div>
  
 ### OR Gate
 only one or more **true** inputs is needed to give an output, if all of the inputs are false there will be no output.
+<div class="input-container">
+<label for="OR_input1">Input 1:</label> <input type="checkbox" id="OR_input1" class="input">
+  
+<label for="OR_input2">Input 2:</label> <input type="checkbox" id="OR_input2" class="input">
+<button id="performORButton" class="button">Perform OR operation</button>
+<p id="OR_result">Result:</p>
+</div>
 
 ### NOT Gate
 if NONE of the inputs are **true**, then there will be an output. if ONE or MORE of the inputs are true, then there will be an output.
