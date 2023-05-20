@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-05-20T12:56:10.395Z
+date: 2023-05-20T13:02:29.229Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -27,7 +27,7 @@ and etc.
 ## {.tabset}
 
 ### AND Gate
-if all inputs are **true**, then it will give an output. But if only ONE of the inputs is false, there will be no output.
+Requires all wires connected to the gate to be activated, otherwise outputs no signal from the gate.
 
 Demo:
 <div class="input-container">
@@ -39,7 +39,7 @@ Demo:
 </div>
  
 ### OR Gate
-only one or more **true** inputs is needed to give an output, if all of the inputs are false there will be no output.
+Only requires a single wire connected to the gate to be activated, otherwise outputs no signal from the gate.
 
 Demo:
 <div class="input-container">
@@ -51,13 +51,14 @@ Demo:
 </div>
 
 ### NOT Gate
-if NONE of the inputs are **true**, then there will be an output. if ONE or MORE of the inputs are true, then there will be an output.
+The NOT gate, also called an inverter, takes a single input signal and produces the opposite output. 
+
+- When the input is true (1), the output is false (0), and vice versa. 
 
 Demo:
 <div class="input-container">
-<label for="NOT_input1">Input 1:</label> <input type="checkbox" id="NOT_input1" class="input">
+<label for="NOT_input1">Input:</label> <input type="checkbox" id="NOT_input1" class="input">
   
-<label for="NOT_input2">Input 2:</label> <input type="checkbox" id="NOT_input2" class="input">
 <button id="performNOTButton" class="button">Perform NOT operation</button>
 <p id="NOT_result">Result:</p>
 </div>
