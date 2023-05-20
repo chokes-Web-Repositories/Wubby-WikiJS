@@ -2,7 +2,7 @@
 title: Accueil
 description: Bienvenue sur Wubby ! Un jeu de construction roblox basé sur World Builder (dont le contenu a été supprimé).
 published: true
-date: 2023-05-20T16:20:03.121Z
+date: 2023-05-20T16:45:57.925Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-20T13:33:50.353Z
@@ -25,3 +25,5 @@ Wubby est un jeu de construction basé sur le jeu World Builder, aujourd'hui dis
 - [Jeu Roblox *Réservé aux testeurs, il sera bientôt disponible.*](https://www.roblox.com/games/12519560096/Wubby)
 - [Groupe Roblox *Rejoignez le groupe pour les événements !*](https://www.roblox.com/groups/16993480)
 {.links-list}
+
+Dédicace à Cody, Solar et Alpha : )
