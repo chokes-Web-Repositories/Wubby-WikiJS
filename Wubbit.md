@@ -1,8 +1,8 @@
 ---
 title: Wubbit
-description: uhh 
+description: The currency used in Wubby
 published: true
-date: 2023-05-20T02:27:59.976Z
+date: 2023-05-20T02:28:20.119Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-20T02:26:11.914Z
