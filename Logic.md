@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-05-20T11:01:24.603Z
+date: 2023-05-20T11:23:30.756Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -16,6 +16,13 @@ dateCreated: 2023-05-19T13:12:59.267Z
 > 
 > An input is where the wire goes into the gate, and output is where it goes out. If an output is "given," then that means the output wire has been turned on.
 {.is-info}
+
+<label for="input1">Input 1:</label>
+<input type="checkbox" id="input1" class="input">
+<label for="input2">Input 2:</label>
+<input type="checkbox" id="input2" class="input">
+<button onclick="performAND()">Perform AND</button>
+<p id="result"></p>
 
 ## {.tabset}
 
