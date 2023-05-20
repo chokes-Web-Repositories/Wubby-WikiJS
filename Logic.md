@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-05-20T13:13:54.145Z
+date: 2023-05-20T13:15:32.707Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -43,7 +43,8 @@ Demo:
 </div>
  
 ### OR Gate
-Only requires a single wire connected to the gate to be activated, otherwise outputs no signal from the gate.
+> The OR gate takes a single or multiple input signal(s) and produces an output if a single input is **true**
+{.is-info}
 
 Demo:
 <div class="input-container">
@@ -57,8 +58,6 @@ Demo:
 ### NOT Gate
 > The NOT gate, also called an inverter, takes a single input signal and produces the opposite output. 
 {.is-info}
-
-- When the input is true (1), the output is false (0), and vice versa. 
 
 Demo:
 <div class="input-container">
