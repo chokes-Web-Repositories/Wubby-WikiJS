@@ -2,7 +2,7 @@
 title: Attributs
 description: Effets sur les blocs
 published: true
-date: 2023-05-20T16:41:54.082Z
+date: 2023-05-20T16:43:37.548Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-20T16:40:14.566Z
