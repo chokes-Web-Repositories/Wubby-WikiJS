@@ -2,7 +2,7 @@
 title: Bloquea
 description: Los componentes básicos de cada mundo
 published: true
-date: 2023-05-20T14:42:46.941Z
+date: 2023-05-20T14:44:41.709Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T14:23:29.123Z
@@ -101,5 +101,5 @@ dateCreated: 2023-05-11T14:23:29.123Z
  #### {.tabset}
  
  ##### Sensor de contacto
- Un bloque que da entrada al toque del jugador. Se puede configurar a través del menú de edición.
+ Un bloque que da señal cuando entra en contacto con un bloque (NO CON EL JUGADOR). Se puede configurar a través del menú de edición.
  ![blocktouchdetector.png](/blocktouchdetector.png =40%x)
