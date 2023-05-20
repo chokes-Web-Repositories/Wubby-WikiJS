@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-05-20T12:18:05.720Z
+date: 2023-05-20T12:28:37.659Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
