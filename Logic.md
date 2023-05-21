@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-05-20T13:15:32.707Z
+date: 2023-05-21T03:56:23.426Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -40,19 +40,6 @@ Demo:
 <label for="AND_input2">Input 2:</label> <input type="checkbox" id="AND_input2" class="input">
 <button id="performANDButton" class="button">Perform AND operation</button>
 <p id="AND_result">Result:</p>
-</div>
- 
-### OR Gate
-> The OR gate takes a single or multiple input signal(s) and produces an output if a single input is **true**
-{.is-info}
-
-Demo:
-<div class="input-container">
-<label for="OR_input1">Input 1:</label> <input type="checkbox" id="OR_input1" class="input">
-  
-<label for="OR_input2">Input 2:</label> <input type="checkbox" id="OR_input2" class="input">
-<button id="performORButton" class="button">Perform OR operation</button>
-<p id="OR_result">Result:</p>
 </div>
 
 ### NOT Gate
