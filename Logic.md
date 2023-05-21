@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-05-21T03:56:23.426Z
+date: 2023-05-21T04:05:46.617Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -53,3 +53,6 @@ Demo:
 <button id="performNOTButton" class="button">Perform NOT operation</button>
 <p id="NOT_result">Result:</p>
 </div>
+
+### XOR Gate
+The XOR gate takes multiple input signals and produces an output if the number of true inputs are odd.
