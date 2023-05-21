@@ -1,8 +1,8 @@
 ---
-title: FAQs
-description: The wiki's frequently asked questions.
+title: Frequently Asked Questions
+description: Issues that can be solved here
 published: true
-date: 2023-05-21T06:33:26.000Z
+date: 2023-05-21T06:33:48.305Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-21T06:33:10.736Z
