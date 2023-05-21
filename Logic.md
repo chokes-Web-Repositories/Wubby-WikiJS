@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-05-21T04:24:37.496Z
+date: 2023-05-21T04:25:10.953Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -69,5 +69,5 @@ Demo:
 <label for="XOR_input4">Input 4:</label> <input type="checkbox" id="XOR_input4" class="input">
   
 <button id="performXORButton" class="button">Perform XOR operation</button>
-<p id="NOT_result">Result:</p>
+<p id="XOR_result">Result:</p>
 </div>
