@@ -1,8 +1,8 @@
 ---
-title: FAQ
+title: FAQs
 description: The wiki's frequently asked questions.
 published: true
-date: 2023-05-21T06:33:10.736Z
+date: 2023-05-21T06:33:26.000Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-21T06:33:10.736Z
