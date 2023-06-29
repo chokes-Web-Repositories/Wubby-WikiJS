@@ -2,7 +2,7 @@
 title: Home
 description: Welcome to Wubby! A roblox building game based on (the now content deleted) World Builder.
 published: true
-date: 2023-06-28T13:12:09.373Z
+date: 2023-06-29T01:33:36.660Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T03:05:24.832Z
@@ -15,7 +15,7 @@ dateCreated: 2023-05-11T03:05:24.832Z
 {.is-warning}
 
 > Wubby has been confirmed to release t:1688486400:R (t:1688486400:F). 
-{.is-info}
+{.is-success}
 
 
 # Introduction
