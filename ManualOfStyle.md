@@ -1,8 +1,8 @@
 ---
-title: Untitled Page
-description: 
+title: Manual of Style
+description: Documentation on how to properly style a wiki page
 published: true
-date: 2023-07-02T10:00:04.728Z
+date: 2023-07-02T16:37:33.196Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-02T10:00:04.728Z
