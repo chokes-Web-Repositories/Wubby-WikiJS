@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-05-21T04:29:01.768Z
+date: 2023-07-04T19:17:03.638Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -13,6 +13,35 @@ dateCreated: 2023-05-19T13:12:59.267Z
 
 > This page explains advanced features, some players may not understand everything in this page.
 {.is-warning}
+
+# Input
+## {.tabset}
+### Block Touch Detector
+PLACEHOLDER, PLEASE EDIT ME!
+
+### Click Block
+PLACEHOLDER, PLEASE EDIT ME!
+
+### Humanoid State Block
+PLACEHOLDER, PLEASE EDIT ME!
+
+### Key Input Block
+PLACEHOLDER, PLEASE EDIT ME!
+
+### Player Chatted Block
+PLACEHOLDER, PLEASE EDIT ME!
+
+### Player Touch Detector
+PLACEHOLDER, PLEASE EDIT ME!
+
+### Prompt Block
+PLACEHOLDER, PLEASE EDIT ME!
+
+### REPEATER Gate
+PLACEHOLDER, PLEASE EDIT ME!
+
+### Tap Input Block
+PLACEHOLDER, PLEASE EDIT ME!
 
 # Logic
 These are blocks that allow a player with build permissions to add extra functionality to their world, these examples include:
