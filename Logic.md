@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-07-04T19:17:03.638Z
+date: 2023-07-04T23:21:03.929Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -20,7 +20,11 @@ dateCreated: 2023-05-19T13:12:59.267Z
 PLACEHOLDER, PLEASE EDIT ME!
 
 ### Click Block
-PLACEHOLDER, PLEASE EDIT ME!
+Emits a signal when clicked on. 
+Configurations: 
+- Activation Time: Amount of time to delay output. Default is 1. 
+- Max Distance: How far you can click this block. Default is 32.
+- Toggleable: Whether if this block acts like a switch. Default is true.
 
 ### Humanoid State Block
 PLACEHOLDER, PLEASE EDIT ME!
@@ -35,7 +39,12 @@ PLACEHOLDER, PLEASE EDIT ME!
 PLACEHOLDER, PLEASE EDIT ME!
 
 ### Prompt Block
-PLACEHOLDER, PLEASE EDIT ME!
+Emits a signal when it's Proximity Prompt has been triggered
+Configurations:
+- Activation Time: Amount of time to delay output. Default is 1.
+- Hold Duration: Amount of time to trigger the prompt. Default is 0.5
+- Key: Key to hold when triggering the prompt. Default is E.
+- Toggleable: Whether if this block acts like a switch. Default is true.
 
 ### REPEATER Gate
 PLACEHOLDER, PLEASE EDIT ME!
