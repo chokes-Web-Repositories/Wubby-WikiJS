@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-07-05T12:02:38.436Z
+date: 2023-07-05T15:08:58.522Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -821,7 +821,7 @@ Velocity, Position, Orientation, Mouse3DPosition
 + added a screen when first playing wubby that warns players to not um violate roblox tos
 +  cleaned up some animations
 ```
-
+## July
 ### t:1688520360:D
 ```diff
 ! released wubby
