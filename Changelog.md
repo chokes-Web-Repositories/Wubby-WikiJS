@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-05-16T13:42:34.214Z
+date: 2023-07-05T12:02:38.436Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -820,4 +820,25 @@ Velocity, Position, Orientation, Mouse3DPosition
 + added a "break vector block"
 + added a screen when first playing wubby that warns players to not um violate roblox tos
 +  cleaned up some animations
+```
+
+### t:1688520360:D
+```diff
+! released wubby
++attribute changers now use the input if the property matches
+
+*raised free worlds from 20 to 50
+*gears no longer show up when you're building
+
+-fixed the if gate from always powering true with text
+-fixed the game property gate
+-fixed a big vulnerability that would let you edit ANYTHING in the game
+-removed "ghost servers"
+-fixed f11
+-fixed searching by id
+-somewhat fixed actives
+-fixed boolean values on the attribute changer block
+-fixed the morph block
+-fixed the 2 owner bug more or less
+-fixed some problems with duplicating
 ```
