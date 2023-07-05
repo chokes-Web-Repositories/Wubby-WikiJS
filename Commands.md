@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-05-19T07:12:42.942Z
+date: 2023-07-05T11:59:52.819Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -25,9 +25,6 @@ Opens a command list
 ### rejoin
 Rejoins whoever ran this command
 
-### kickabe
-Searches every server in Wubby and kicks [Abe](https://roblox.com/users/663611757) from that server.
-(joke command and will be deleted from this list soon enough)
 
 ## Builder+
 ## {.tabset}
