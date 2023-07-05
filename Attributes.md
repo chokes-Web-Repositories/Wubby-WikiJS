@@ -2,7 +2,7 @@
 title: Attributes
 description: Block modifiers
 published: true
-date: 2023-05-20T17:21:48.054Z
+date: 2023-07-05T05:57:19.839Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T06:38:38.143Z
@@ -36,3 +36,6 @@ Kills a player when they touch the block
 Attaches a rope between two blocks
 
 ![rope.png](/rope.png =40%x)
+
+### Spotlight
+A more direct emitting of light that goes in the specific direction of which is set.
