@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-05-17T00:53:51.094Z
+date: 2023-07-06T21:26:36.723Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
@@ -92,6 +92,9 @@ dateCreated: 2023-05-11T08:27:04.372Z
  
  # Input
 >   Building parts that allow interaction with the player, provided a description and configuration menu (if available) for each one.
+{.is-info}
+
+> For more information visit [this page](https://wubby.choke.dev/en/Logic#input).
 {.is-info}
 
  #### {.tabset}
