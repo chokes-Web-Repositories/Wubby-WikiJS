@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-07-06T12:37:46.354Z
+date: 2023-07-06T12:38:55.547Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -19,7 +19,7 @@ dateCreated: 2023-05-19T13:12:59.267Z
 ### Block Touch Detector
 Emits a signal when touched by a player or an unachored block.
 Configurations:
-- Activation Time: Amount of time to delay output. Default is 1
+- Activation Time: How long it activates for. Default is 1
 - Color To Filter: When filter color is true, only blocks with this color will trigger it. Default is pearl.
 - Filter Color: Whether if this block will only trigger when a block with the specified color touches it. Default is false.
 
