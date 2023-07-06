@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-07-06T10:43:20.942Z
+date: 2023-07-06T12:37:46.354Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -26,7 +26,7 @@ Configurations:
 ### Click Block
 Emits a signal when clicked on. 
 Configurations: 
-- Activation Time: Amount of time to delay output. Default is 1. 
+- Activation Time: How long it activates for. Default is 1. 
 - Max Distance: How far you can click this block. Default is 32.
 - Toggleable: Whether if this block acts like a switch. Default is true.
 
@@ -43,9 +43,9 @@ PLACEHOLDER, PLEASE EDIT ME!
 PLACEHOLDER, PLEASE EDIT ME!
 
 ### Prompt Block
-Emits a signal when it's Proximity Prompt has been triggered
+Emits a signal when it's Proximity Prompt has been triggered.
 Configurations:
-- Activation Time: Amount of time to delay output. Default is 1.
+- Activation Time: How long it activates for. Default is 1.
 - Hold Duration: Amount of time to trigger the prompt. Default is 0.5
 - Key: Key to hold when triggering the prompt. Default is E.
 - Toggleable: Whether if this block acts like a switch. Default is true.
