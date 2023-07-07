@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-07-05T15:08:58.522Z
+date: 2023-07-07T01:45:22.058Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -841,4 +841,25 @@ Velocity, Position, Orientation, Mouse3DPosition
 -fixed the morph block
 -fixed the 2 owner bug more or less
 -fixed some problems with duplicating
+```
+
+### t:1688665363:D
+```diff
++added a daily streak system
++added featuring
++added stat teleporter attribute
++added delay property on every teleporter
++added ignoredeactivation property in the delay gate
+
+*message command no longer requires a player
+
+-! fixed actives for once
+-! fixed wiring breaking for no reason when rejoining
+-fixed fonts turning weird when rejoining
+-fixed set stat gate
+-fixed settings saving
+-fixed stat visible
+-fixed textures not appearing
+-fixed banning people
+-fixed welds with property changers 
 ```
