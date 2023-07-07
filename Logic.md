@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-07-06T12:38:55.547Z
+date: 2023-07-07T03:37:02.734Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -84,6 +84,54 @@ Demo:
 <p id="AND_result">Result:</p>
 </div>
 
+### BOOL SETTER Gate
+> Sets the bool value to the connected BOOL STORAGE Gate
+{.is-info}
+
+### BOOL STORAGE Gate
+> Stores a bool value
+{.is-info}
+
+### BOOL SWITCH Gate
+> Inverts the bool value of a BOOL STORAGE Gate
+{.is-info}
+
+### BREAK VECTOR Block
+> Converts Vector Outputs (GET BLOCK PROPERTY Position) into a specified axis
+{.is-info}
+
+### BUILD VECTOR Block
+???
+
+### CHANGE SIGNAL Block
+> Transforms the output of something to a specified signal
+> (text to bool)
+{.is-info}
+
+### DELAY Gate
+> Delays a signal for X seconds
+{.is-info}
+
+### GET BLOCK PROPERTY
+> Retrieves a property about a block (Positon, Transparency, etc.) 
+{.is-info}
+
+### GET GAME PROPERTY Gate
+> Retrieves a property about the world (NumPlayers, ClockTime, etc.)
+{.is-info}
+
+### GET PLAYER PROPERTY Gate
+Retrieves a property about a player (DisplayName, Health, etc.)
+
+### GET STAT Gate
+Returns the stat value of X for an inputted player
+
+### IF Gate
+Checks if the inputted value is the same as the value on the gate
+
+### MATH Gate
+Performs math operations on the specified value
+
 ### NOT Gate
 > The NOT gate, also called an inverter, takes a single input signal and produces the opposite output. 
 {.is-info}
@@ -96,20 +144,28 @@ Demo:
 <p id="NOT_result">Result:</p>
 </div>
 
-### XOR Gate
-> The XOR gate takes multiple input signals and produces an output if the number of true inputs are odd.
+### NUMBER SETTER Gate
+Sets the value of a NUMBER STORAGE Gate
+
+### NUMBER STORAGE Gate
+Stores a number value
+
+### OR Gate
+> The OR gate takes one or multiple input signals and produces an output if at least one input is **true**.
 {.is-info}
 
-Demo:
-<div class="input-container">
-<label for="XOR_input1">Input 1:</label> <input type="checkbox" id="XOR_input1" class="input">
-  
-<label for="XOR_input2">Input 2:</label> <input type="checkbox" id="XOR_input2" class="input">
+### SET STAT Gate
+> Sets the stat of [STATNAME] to [STATVALUE] for the inputted player
+{.is-info}
 
-<label for="XOR_input3">Input 3:</label> <input type="checkbox" id="XOR_input3" class="input">
+### TEXT EDITING Gate
+> Sets text to a TEXT STORAGE Gate
+{.is-info}
 
-<label for="XOR_input4">Input 4:</label> <input type="checkbox" id="XOR_input4" class="input">
-  
-<button id="performXORButton" class="button">Perform XOR operation</button>
-<p id="XOR_result">Result:</p>
-</div>
+### TEXT INPUT Gate
+> Waits for user input and outputs what the user typed
+{.is-info}
+
+### TEXT STORAGE Gate
+> Stores a text value
+{.is-info}
