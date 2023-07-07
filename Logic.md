@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-07-07T03:40:04.214Z
+date: 2023-07-07T10:05:33.510Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -149,7 +149,8 @@ Demo:
 </div>
 
 ### NUMBER SETTER Gate
-> Sets the value of a NUMBER STORAGE Gate
+Sets the value of a NUMBER STORAGE Gate
+> Use `<minimumNumber>`, `<maximumNumber>` as the value to randomly generate a number between `<minimumNumber>` and `<maximumNumber>`.
 {.is-info}
 
 ### NUMBER STORAGE Gate
