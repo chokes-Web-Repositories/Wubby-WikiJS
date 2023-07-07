@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-07-07T03:37:02.734Z
+date: 2023-07-07T03:37:50.461Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -121,16 +121,20 @@ Demo:
 {.is-info}
 
 ### GET PLAYER PROPERTY Gate
-Retrieves a property about a player (DisplayName, Health, etc.)
+> Retrieves a property about a player (DisplayName, Health, etc.)
+{.is-info}
 
 ### GET STAT Gate
-Returns the stat value of X for an inputted player
+> Returns the stat value of X for an inputted player
+{.is-info}
 
 ### IF Gate
-Checks if the inputted value is the same as the value on the gate
+> Checks if the inputted value is the same as the value on the gate
+{.is-info}
 
 ### MATH Gate
-Performs math operations on the specified value
+> Performs math operations on the specified value
+{.is-info}
 
 ### NOT Gate
 > The NOT gate, also called an inverter, takes a single input signal and produces the opposite output. 
@@ -145,10 +149,12 @@ Demo:
 </div>
 
 ### NUMBER SETTER Gate
-Sets the value of a NUMBER STORAGE Gate
+> Sets the value of a NUMBER STORAGE Gate
+{.is-info}
 
 ### NUMBER STORAGE Gate
-Stores a number value
+> Stores a number value
+{.is-info}
 
 ### OR Gate
 > The OR gate takes one or multiple input signals and produces an output if at least one input is **true**.
