@@ -2,7 +2,7 @@
 title: Attributes
 description: Block modifiers
 published: true
-date: 2023-07-05T05:57:19.839Z
+date: 2023-07-08T06:35:50.365Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T06:38:38.143Z
@@ -17,7 +17,7 @@ Used to highlight a block, can be set to be seen through walls or not.
 
 ![highlight.png](/highlight.png =40%x)
 ### Healer
-Makes a block damage a player, can be set to specify the damage rate and cooldown.
+Makes a block heal a player, can be set to specify the healing rate and cooldown.
 
 ![playerheal.gif](/playerheal.gif =40%x)
 ### Damager
