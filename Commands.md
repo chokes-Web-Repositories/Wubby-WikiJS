@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-07-05T11:59:52.819Z
+date: 2023-07-08T05:01:07.773Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -10,6 +10,9 @@ dateCreated: 2023-05-14T15:48:24.092Z
 
 # Commands
 > An essential part of world moderation / world mechanics that allow world owners to execute commands on players
+{.is-info}
+
+> There are 9 command prefixes which are : ; ! ? > / $ ^ and - .
 {.is-info}
 
 ```
