@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-07-07T01:45:22.058Z
+date: 2023-07-09T00:02:07.516Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -862,4 +862,28 @@ Velocity, Position, Orientation, Mouse3DPosition
 -fixed textures not appearing
 -fixed banning people
 -fixed welds with property changers 
+```
+### t:1688832062:D
+```diff
++added cooldown property to the clone block
++added target rotation to clone blocks
++added dodecahedron
++added fence
++added egg
++added stairs
+
+*you can now wire things from outputs which just yields until their assigned task is done
+*reporting now requieres atleast 10 characters (stupid reports really went down to zero with this change lol)
+*morph blocks now waits until your character has loaded in preventing some issues
+*clicking twice on the same block while placing 2 block attributes no longer does anything
+
+-fixed global banning
+-fixed an issue that would let players change ANY PROPERTY through the property changer
+-fixed baller movement
+-fixed wiring not hiding the inventory correctly
+-fixed menu not hiding the inventory correctly
+-fixed changing some attributes
+-fixed delay on teleporters
+-fixed stat teles
+-fixed some animations
 ```
