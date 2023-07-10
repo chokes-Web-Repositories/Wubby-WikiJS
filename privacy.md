@@ -2,7 +2,7 @@
 title: Privacy Policy
 description: 
 published: true
-date: 2023-07-10T09:24:22.458Z
+date: 2023-07-10T09:38:42.730Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-10T09:21:38.322Z
