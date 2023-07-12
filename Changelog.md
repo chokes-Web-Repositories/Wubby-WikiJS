@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-07-09T00:02:07.516Z
+date: 2023-07-12T00:24:14.335Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -886,4 +886,22 @@ Velocity, Position, Orientation, Mouse3DPosition
 -fixed delay on teleporters
 -fixed stat teles
 -fixed some animations
+```
+
+### t:1689092597:D
+```diff
++added lookvector property for the get player property gate
++added stat block (for lazy people)
++added player event block
++added nukechoco command
+
+* changed how parallel wiring works
+*changed some documentation
+
+-fixed a bug that would make the set stat gate multiply decimals
+-fixed change signal block
+-fixed apply impulse on physics zones
+-fixed text input on bottom from not showing the controls
+-fixed temp bans lo
+-fixed kickabe command
 ```
