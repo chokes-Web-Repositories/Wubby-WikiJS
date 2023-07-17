@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-07-12T00:24:14.335Z
+date: 2023-07-17T00:47:47.292Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -904,4 +904,24 @@ Velocity, Position, Orientation, Mouse3DPosition
 -fixed text input on bottom from not showing the controls
 -fixed temp bans lo
 -fixed kickabe command
+```
+
+### t:1689526009:D
+```diff
++added clean command
++added some properties that allow you to change how body parts are
+
+*changed how some numbers are filtered
+*lowered the chances of actives not loading in on the first try
+*clone blocks can no longer clone other clone blocks
+
+-fixed changing size to effects
+-fixed tshirt property
+-fixed shirt property
+-fixed pants property
+-fixed target rotation on clone blocks
+-fixed resizing in build zones
+-fixed /c system and /team
+-fixed rotation increment for plus
+-fixed useinput in the property changer
 ```
