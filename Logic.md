@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-07-07T10:06:45.483Z
+date: 2023-07-28T16:20:41.629Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -17,7 +17,8 @@ dateCreated: 2023-05-19T13:12:59.267Z
 # Input
 ## {.tabset}
 ### Block Touch Detector
-Emits a signal when touched by a player or an unachored block.
+Emits a signal when touched by an unachored block or gear debris.
+Outputs the part that touched it.
 Configurations:
 - Activation Time: How long it activates for. Default is 1
 - Color To Filter: When filter color is true, only blocks with this color will trigger it. Default is pearl.
@@ -25,19 +26,37 @@ Configurations:
 
 ### Click Block
 Emits a signal when clicked on. 
+Outputs the player's username.
 Configurations: 
 - Activation Time: How long it activates for. Default is 1. 
 - Max Distance: How far you can click this block. Default is 32.
 - Toggleable: Whether if this block acts like a switch. Default is true.
 
 ### Humanoid State Block
-PLACEHOLDER, PLEASE EDIT ME!
+Emits a signal when a humanoid changes to the specified state.
+Outputs the player's username.
+Configurations:
+- Activation Time: How long it activates for. Default is 1.
+- State: The block fires when a humanoid enters this state. Default is Landed.
+- Use Activation Time: If this is off, then the block will only stop firing once the humanoid exits the state. Default is true.
 
 ### Key Input Block
-PLACEHOLDER, PLEASE EDIT ME!
+Emits a signal when a player presses the selected key or mobile button.
+Outputs the player's username.
+Configurations:
+- Activation Time: How long it activates for. Default is 1.
+- Input Detection Type: Determines if the block will fire if the input ended, or started.
+- Use Activation Time: When this is off, the block will only stop firing once the player releases the key. This can only be turned off if the "Input Detection Type" is set to "InputStarted", otherwise this setting will be forced.
+- Mobile Button Enabled: If this is on, touchscreen players will get a button on their screen that activates the block.
+- Mobile Button Position: The UDIM2 position of the mobile button on a players screen if "Mobile Button Enabled" is on.
+- Mobile Button Text: What the text on the block's mobile button will be if "Mobile Button Enabled" is on.
 
 ### Player Chatted Block
-PLACEHOLDER, PLEASE EDIT ME!
+Emits a signal evrey time a player chats.
+Can output either the player's username or what they said depending on the "Output Type" setting.
+Configurations:
+- Activation Time: How long it activates for. Default is 1.
+- Output Type: Determines if the block will output the players chat message or their username when its fired. Default is "Message".
 
 ### Player Touch Detector
 PLACEHOLDER, PLEASE EDIT ME!
