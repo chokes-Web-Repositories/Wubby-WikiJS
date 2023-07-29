@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-07-08T05:01:07.773Z
+date: 2023-07-29T14:05:38.131Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -200,3 +200,17 @@ Removes the team under the name [teamName]
 
 ### unban [player]
 Allows [player] to join the game
+
+## Staff+
+## {.tabset}
+### globalban [player] [reason]
+Permanently bans [player] from wubby with [reason]
+
+### globaltempban [player] [reason]
+Unbans [player] from wubby
+
+### putonreview
+Puts a world under review until ger approves it
+
+### feature
+Toggles if a world will appear on the featured tab or not
