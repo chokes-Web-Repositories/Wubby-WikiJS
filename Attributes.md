@@ -2,7 +2,7 @@
 title: Attributes
 description: Block modifiers
 published: true
-date: 2023-07-31T10:43:06.899Z
+date: 2023-07-31T10:53:17.790Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T06:38:38.143Z
@@ -40,7 +40,8 @@ Attaches a rope between two blocks
 ### Spotlight
 A more direct emitting of light that goes in the specific direction of which is set.
 
+
+
 ### Decal, Texture
 Paste the image on the blocks.
-
-! 
+![image.png](/image.png)
