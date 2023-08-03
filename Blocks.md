@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-08-03T06:37:13.599Z
+date: 2023-08-03T06:38:14.508Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
@@ -68,35 +68,3 @@ dateCreated: 2023-05-11T08:27:04.372Z
  
  ##### Inverted Quarter Cylinder
  ![invertedquartercylinder.png](/invertedquartercylinder.png =40%x)
- 
- 
- # Special
->   Building parts with special properties, provided a description and configuration menu (if available) for each one.
-{.is-info}
-
- #### {.tabset}
- 
- ##### Floating Text Block
- An entirely invisible/uncollideable part that holds floating text. Can be configured through edit menu.
- ![floatingtextblockv2.png](/floatingtextblockv2.png =40%x) ![floatingtextblock_config.png](/floatingtextblock_config.png =27%x)
- 
- ##### Gear Block
- A block that provides/removes said gear from the player when touched. Can be configured through edit menu.
- ![gearblock.png](/gearblock.png =40%x) ![gearblock_config.png](/gearblock_config.png =41%x)
- 
- ##### Spawn Point
- A block that spawns the player to block location on join/death. If no spawn is present within the world, the player will join/respawn at world center. Can be configured through edit menu. 
- ![spawnpoint.png](/spawnpoint.png =40%x) ![spawnpoint_config.png](/spawnpoint_config.png =50%x)
- 
- # Input
->   Building parts that allow interaction with the player, provided a description and configuration menu (if available) for each one.
-{.is-info}
-
-> For more information visit [this page](https://wubby.choke.dev/en/Logic#input).
-{.is-info}
-
- #### {.tabset}
- 
- ##### Block Touch Detector
- A block that gives input on player touch. Can be configured through edit menu.
- ![blocktouchdetector.png](/blocktouchdetector.png =40%x)
