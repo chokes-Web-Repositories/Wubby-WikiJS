@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-08-03T03:19:36.594Z
+date: 2023-08-03T06:32:32.327Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -217,14 +217,12 @@ Demo:
 </div>
 
 # <i class="fa-duotone fa-inbox-out"></i> Output
-
-| Block Name            | Image | Description |
-|-----------------------|-------|-------------|
-| Attach Block          |       |             |
-| Attribute Changer     |       |             |
-| Clone Block           |       |             |
-| Command Block         |       |             |
-| Message Display Block |       |             |
-| Path Block            |       |             |
-| Property Changer      |       |             |
-| Wiring Variable Block |       |             |
+## {.tabset}
+### Attach Block
+### Attribute Changer
+### Clone Block
+### Command Block
+### Message Display Block
+### Path Block
+### Property Changer
+### Wiring Variable Block
