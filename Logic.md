@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-08-03T03:12:46.402Z
+date: 2023-08-03T03:19:36.594Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -215,3 +215,16 @@ Demo:
 <button id="performXORButton" class="button">Perform XOR operation</button>
 <p id="XOR_result">Result:</p>
 </div>
+
+# <i class="fa-duotone fa-inbox-out"></i> Output
+
+| Block Name            | Image | Description |
+|-----------------------|-------|-------------|
+| Attach Block          |       |             |
+| Attribute Changer     |       |             |
+| Clone Block           |       |             |
+| Command Block         |       |             |
+| Message Display Block |       |             |
+| Path Block            |       |             |
+| Property Changer      |       |             |
+| Wiring Variable Block |       |             |
