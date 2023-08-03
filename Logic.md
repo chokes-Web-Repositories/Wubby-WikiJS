@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-08-03T06:32:32.327Z
+date: 2023-08-03T06:45:10.283Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -94,15 +94,6 @@ and etc.
 > The AND gate takes a single or multiple input signal(s) and produces an output if all inputs are **true**.
 {.is-info}
 
-Demo:
-<div class="input-container">
-<label for="AND_input1">Input 1:</label> <input type="checkbox" id="AND_input1" class="input">
-  
-<label for="AND_input2">Input 2:</label> <input type="checkbox" id="AND_input2" class="input">
-<button id="performANDButton" class="button">Perform AND operation</button>
-<p id="AND_result">Result:</p>
-</div>
-
 ### BOOL SETTER Gate
 > Sets the bool value to the connected BOOL STORAGE Gate
 {.is-info}
@@ -159,14 +150,6 @@ Demo:
 > The NOT gate, also called an inverter, takes a single input signal and produces the opposite output. 
 {.is-info}
 
-Demo:
-<div class="input-container">
-<label for="NOT_input1">Input:</label> <input type="checkbox" id="NOT_input1" class="input">
-  
-<button id="performNOTButton" class="button">Perform NOT operation</button>
-<p id="NOT_result">Result:</p>
-</div>
-
 ### NUMBER SETTER Gate
 Sets the value of a NUMBER STORAGE Gate
 > Use `<minimumNumber>`, `<maximumNumber>` as the value to randomly generate a number between `<minimumNumber>` and `<maximumNumber>`.
@@ -201,20 +184,6 @@ Sets the value of a NUMBER STORAGE Gate
 ### XOR Gate
 > The XOR gate takes multiple input signals and produces an output if the number of true inputs are odd.
 {.is-info}
-
-Demo:
-<div class="input-container">
-<label for="XOR_input1">Input 1:</label> <input type="checkbox" id="XOR_input1" class="input">
-  
-<label for="XOR_input2">Input 2:</label> <input type="checkbox" id="XOR_input2" class="input">
-
-<label for="XOR_input3">Input 3:</label> <input type="checkbox" id="XOR_input3" class="input">
-
-<label for="XOR_input4">Input 4:</label> <input type="checkbox" id="XOR_input4" class="input">
-  
-<button id="performXORButton" class="button">Perform XOR operation</button>
-<p id="XOR_result">Result:</p>
-</div>
 
 # <i class="fa-duotone fa-inbox-out"></i> Output
 ## {.tabset}
