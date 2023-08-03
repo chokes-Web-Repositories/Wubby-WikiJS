@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-08-03T07:02:54.366Z
+date: 2023-08-03T07:04:42.923Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -69,7 +69,7 @@ dateCreated: 2023-05-14T15:48:24.092Z
 | stat/stats add | `[statName]` | Creates a new stat with the name `[statName]` |
 | stat/stats name | `[statName]` `[newName]` | Changes `[statName]`'s name to `[newName]` |
 | stat/stats remove | `[statName]` | Removes the stat under the name `[statName]` |
-| stat/stats set | `[statName]` `[player]` (value) | Sets `[player]`'s `[statName]` value to (value) |
+| stat/stats set | `[statName]` `[player]` `(value)` | Sets `[player]`'s `[statName]` value to `(value)` |
 | stat/stats visible | `[statName]` `(isVisible)` | Toggles the visibility of `[statName]`, if `(isVisible)` is "false", `[statName]` will not be shown on the playerlist |
 | team/teams add | `[teamName]` `(teamColor)` | Creates a new team with the name `[teamName]` and the color `(teamColor)`. If `(teamColor)` is not specified, the team will be created with a random color |
 | team/teams autoassign | `[teamName]` `(isEnabled)` | Sets if new players should be automatically assigned to `[teamName]` or not. If there are multiple teams with this setting enabled, the player will be assigned to the team with the least players |
