@@ -2,7 +2,7 @@
 title: Attributes
 description: Block modifiers
 published: true
-date: 2023-08-03T22:03:11.670Z
+date: 2023-08-03T22:04:37.014Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T06:38:38.143Z
@@ -14,6 +14,7 @@ dateCreated: 2023-05-11T06:38:38.143Z
 | Attribute Name | Description | Preview |
 |----------------|-------------|---------|
 | Baller | Makes the player roll when touched. | ![baller.png](/baller.png =40%x) |
+| Beam | Sets a trail between two blocks. | ![image.png](/attributes/image.png)
 | Damager | Makes a block damage a player, can be set to specify the damage rate and cooldown. | ![playerdamage.gif](/playerdamage.gif =40%x) |
 | Decal, Texture | Paste the image on the blocks. | ![image.png](/image.png =40%x) |
 | Effect | Emits a specified particle effect from the block | ![particle.png](/particle.png =40%x) |
