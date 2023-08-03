@@ -2,7 +2,7 @@
 title: Attributes
 description: Block modifiers
 published: true
-date: 2023-08-03T22:08:16.144Z
+date: 2023-08-03T22:12:48.487Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T06:38:38.143Z
@@ -19,14 +19,29 @@ dateCreated: 2023-05-11T06:38:38.143Z
 | Damager | Makes a block damage a player, can be set to specify the damage rate and cooldown. | ![playerdamage.gif](/playerdamage.gif =40%x) |
 | Decal, Texture | Paste the image on the blocks. | ![image.png](/image.png =40%x) |
 | Effect | Emits a specified particle effect from the block | ![particle.png](/particle.png =40%x) |
+| GravityChanger | - | - |
 | Healer | Makes a block heal a player, can be set to specify the healing rate and cooldown. | ![playerheal.gif](/playerheal.gif =40%x) |
 | Highlight | Used to highlight a block, can be set to be seen through walls or not. | ![highlight.png](/highlight.png =40%x) |
+| JumpPower | - | - |
 | Killer | Kills a player when they touch the block | ![killer.png](/killer.png =40%x) |
+| LockPosition | - | - |
+| LockRotation | - | - |
 | Maxhealth | Makes the player heal to max health. | - |
+| NoCollision | - | - |
+| PathModifier | - | - |
+| PointLight | - | - |
+| Prismatic | - | - |
+| Rod | - | - |
 | Rope | Attaches a rope between two blocks | ![rope.png](/rope.png =40%x) |
+| Sign | - | - |
 | Spotlight | A more direct emitting of light that goes in the specific direction of which is set. | ![spotlight.png](/spotlight.png =40%x) |
+| Spring | - | - |
+| StatTeleporter | - | - |
 | Surfaces | Set the surfaces for blocks. (from the left to right are: Glue/Weld, Universal, Stud, Inlet.) | ![surfaces.png](/surfaces.png =40%x) |
-| Teleporter | Teleport player from A to B | ![teleporter.png](/teleporter.png =40%x) |
+| SurfaceLight | - | - |
 | Teamer | Set the player to another teams. | - |
+| Teleporter | Teleport player from A to B | ![teleporter.png](/teleporter.png =40%x) |
+| Thrust | - | - |
 | Tripper | Makes the player sit down, trip. | ![tripper.png](/tripper.png =40%x) |
+| WalkSpeed | - | - |
 | Weld | Connect A part to B part when unanchored. | - |
