@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-07-29T14:05:38.131Z
+date: 2023-08-03T06:41:47.017Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -20,7 +20,7 @@ dateCreated: 2023-05-14T15:48:24.092Z
 () = optional parameter
 ```
 
-## Visitor+
+## <i class="fa-duotone fa-user"></i> Visitor+
 ## {.tabset}
 ### cmds
 Opens a command list
@@ -29,7 +29,7 @@ Opens a command list
 Rejoins whoever ran this command
 
 
-## Builder+
+## <i class="fa-duotone fa-user-helmet-safety"></i> Builder+
 ## {.tabset}
 ### blind [player]
 Makes [player] unable to see
@@ -163,7 +163,7 @@ Makes [player] visible again
 ### walkspeed [player] (amount)
 Changes [player]'s walkspeed to (amount)
 
-## Admin+
+## <i class="fa-duotone fa-user-police-tie"></i> Admin+
 ## {.tabset}
 ### ban [player]
 Prevents [player] from joining the game
@@ -201,7 +201,7 @@ Removes the team under the name [teamName]
 ### unban [player]
 Allows [player] to join the game
 
-## Staff+
+## <i class="fa-duotone fa-user-secret"></i> Staff+
 ## {.tabset}
 ### globalban [player] [reason]
 Permanently bans [player] from wubby with [reason]
