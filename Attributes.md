@@ -2,7 +2,7 @@
 title: Attributes
 description: Block modifiers
 published: true
-date: 2023-08-03T22:12:48.487Z
+date: 2023-08-04T10:44:24.154Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T06:38:38.143Z
@@ -19,21 +19,21 @@ dateCreated: 2023-05-11T06:38:38.143Z
 | Damager | Makes a block damage a player, can be set to specify the damage rate and cooldown. | ![playerdamage.gif](/playerdamage.gif =40%x) |
 | Decal, Texture | Paste the image on the blocks. | ![image.png](/image.png =40%x) |
 | Effect | Emits a specified particle effect from the block | ![particle.png](/particle.png =40%x) |
-| GravityChanger | - | - |
+| GravityChanger | Changes the player's gravity when touched. | - |
 | Healer | Makes a block heal a player, can be set to specify the healing rate and cooldown. | ![playerheal.gif](/playerheal.gif =40%x) |
 | Highlight | Used to highlight a block, can be set to be seen through walls or not. | ![highlight.png](/highlight.png =40%x) |
 | JumpPower | - | - |
 | Killer | Kills a player when they touch the block | ![killer.png](/killer.png =40%x) |
-| LockPosition | - | - |
-| LockRotation | - | - |
+| LockPosition | Locks the current position of the block. | - |
+| LockRotation | Locks the current rotation of the block.| - |
 | Maxhealth | Makes the player heal to max health. | - |
 | NoCollision | - | - |
 | PathModifier | - | - |
 | PointLight | - | - |
 | Prismatic | - | - |
 | Rod | - | - |
-| Rope | Attaches a rope between two blocks | ![rope.png](/rope.png =40%x) |
-| Sign | - | - |
+| Rope | Attaches a rope between two blocks, | ![rope.png](/rope.png =40%x) |
+| Sign | Displays a GUI containing text that builders/owner can edit. | - |
 | Spotlight | A more direct emitting of light that goes in the specific direction of which is set. | ![spotlight.png](/spotlight.png =40%x) |
 | Spring | - | - |
 | StatTeleporter | - | - |
