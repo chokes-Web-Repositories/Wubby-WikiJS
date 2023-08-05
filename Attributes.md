@@ -2,46 +2,46 @@
 title: Attributes
 description: Block modifiers
 published: true
-date: 2023-08-04T10:44:24.154Z
+date: 2023-08-05T03:00:36.886Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T06:38:38.143Z
 ---
 
-> This page is incomplete and everything in this page is subject to change.
+> This page is incomplete and everything on this page is subject to change.
 {.is-warning}
 
-| Attribute Name | Description | Preview |
-|----------------|-------------|---------|
-| Baller | Makes the player roll when touched. | ![baller.png](/baller.png =40%x) |
-| Beam | Sets a trail between two blocks. | ![beam.png](/attributes/beam.png) |
-| BlockTeleporter | Also known as MTele, This attribute will teleport the unanchored block to the destination. | ![blockteleporter.gif](/attributes/blockteleporter.gif) |
-| Damager | Makes a block damage a player, can be set to specify the damage rate and cooldown. | ![playerdamage.gif](/playerdamage.gif =40%x) |
-| Decal, Texture | Paste the image on the blocks. | ![image.png](/image.png =40%x) |
-| Effect | Emits a specified particle effect from the block | ![particle.png](/particle.png =40%x) |
-| GravityChanger | Changes the player's gravity when touched. | - |
-| Healer | Makes a block heal a player, can be set to specify the healing rate and cooldown. | ![playerheal.gif](/playerheal.gif =40%x) |
-| Highlight | Used to highlight a block, can be set to be seen through walls or not. | ![highlight.png](/highlight.png =40%x) |
-| JumpPower | - | - |
-| Killer | Kills a player when they touch the block | ![killer.png](/killer.png =40%x) |
-| LockPosition | Locks the current position of the block. | - |
-| LockRotation | Locks the current rotation of the block.| - |
-| Maxhealth | Makes the player heal to max health. | - |
-| NoCollision | - | - |
-| PathModifier | - | - |
-| PointLight | - | - |
-| Prismatic | - | - |
-| Rod | - | - |
-| Rope | Attaches a rope between two blocks, | ![rope.png](/rope.png =40%x) |
-| Sign | Displays a GUI containing text that builders/owner can edit. | - |
-| Spotlight | A more direct emitting of light that goes in the specific direction of which is set. | ![spotlight.png](/spotlight.png =40%x) |
-| Spring | - | - |
-| StatTeleporter | - | - |
-| Surfaces | Set the surfaces for blocks. (from the left to right are: Glue/Weld, Universal, Stud, Inlet.) | ![surfaces.png](/surfaces.png =40%x) |
-| SurfaceLight | - | - |
-| Teamer | Set the player to another teams. | - |
-| Teleporter | Teleport player from A to B | ![teleporter.png](/teleporter.png =40%x) |
-| Thrust | - | - |
-| Tripper | Makes the player sit down, trip. | ![tripper.png](/tripper.png =40%x) |
-| WalkSpeed | - | - |
-| Weld | Connect A part to B part when unanchored. | - |
+| Attribute Name   | Description                                                                                     | Preview                                                 |
+|------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| Baller           | Makes the player roll when touched.                                                             | ![baller.png](/baller.png =40%x)                        |
+| Beam             | Sets a trail between two blocks.                                                                | ![beam.png](/attributes/beam.png)                       |
+| BlockTeleporter  | Teleports unanchored blocks to a specified destination when triggered.                          | ![blockteleporter.gif](/attributes/blockteleporter.gif) |
+| Damager          | Damages players at a specified rate and cooldown.                                               | ![playerdamage.gif](/playerdamage.gif =40%x)            |
+| Decal, Texture   | Allows pasting images onto blocks for customizing the environment.                              | ![image.png](/image.png =40%x)                          |
+| Effect           | Emits a specified particle effect from the block.                                               | ![particle.png](/particle.png =40%x)                    |
+| GravityChanger   | Alters the block's gravity.                                                                     | -                                                       |
+| Healer           | Heals players at a specified rate and cooldown.                                                 | ![playerheal.gif](/playerheal.gif =40%x)                |
+| Highlight        | Highlights a block, making it stand out from others.                                            | ![highlight.png](/highlight.png =40%x)                  |
+| JumpPower        | Modifies the player's jumping power.                                                            | -                                                       |
+| Killer           | Instantly kills players upon touch.                                                             | ![killer.png](/killer.png =40%x)                        |
+| LockPosition     | Fixes the current position of the block.                                                        | -                                                       |
+| LockRotation     | Locks the current rotation of the block.                                                        | -                                                       |
+| Maxhealth        | Alters the player's maximum health.                                                             | -                                                       |
+| NoCollision      | Allows the block to have no collision with other objects.                                       | -                                                       |
+| PathModifier     | Modifies the path of every NPC in the world.                                                    | -                                                       |
+| PointLight       | Adds a light source to the block.                                                               | -                                                       |
+| Prismatic        | Creates a rigid joint between two Blocks, allowing them to slide along one axis but not rotate. | -                                                       |
+| Rod              | Creates a rod-like connection between two blocks.                                               | -                                                       |
+| Rope             | Attaches a rope between two blocks.                                                             | ![rope.png](/rope.png =40%x)                            |
+| Sign             | Displays a text GUI when hovered.                                                               | -                                                       |
+| Spotlight        | Emits light in a specific direction.                                                            | ![spotlight.png](/spotlight.png =40%x)                  |
+| Spring           | Adds spring-like behavior between two blocks.                                                   | -                                                       |
+| StatTeleporter   | Teleports players based on if they meet a certain stat requirement.                             | -                                                       |
+| Surfaces         | Alters a block's surfaces for a specific side.                                                  | ![surfaces.png](/surfaces.png =40%x)                    |
+| SurfaceLight     | Adds light to a specific side of the block.                                                     | -                                                       |
+| Teamer           | Sets the player to another team upon touch.                                                     | -                                                       |
+| Teleporter       | Teleports players between two points.                                                           | ![teleporter.png](/teleporter.png =40%x)                |
+| Thrust           | Applies a force or thrust to the block.                                                         | -                                                       |
+| Tripper          | Makes the player sit down.                                                                      | ![tripper.png](/tripper.png =40%x)                      |
+| WalkSpeed        | Adjusts the player's walking speed.                                                             | -                                                       |
+| Weld             | Connects two parts when unanchored.                                                             | -                                                       |
