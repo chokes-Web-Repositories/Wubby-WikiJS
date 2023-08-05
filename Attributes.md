@@ -2,7 +2,7 @@
 title: Attributes
 description: Block modifiers
 published: true
-date: 2023-08-05T03:11:33.413Z
+date: 2023-08-05T13:35:14.830Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T06:38:38.143Z
@@ -36,7 +36,7 @@ dateCreated: 2023-05-11T06:38:38.143Z
 | Sign             | Displays a text GUI when hovered.                                                               | ![sign.gif](/attributes/sign.gif =75%x)                 |
 | Spotlight        | Emits light in a specific direction.                                                            | ![spotlight.png](/spotlight.png =75%x)                  |
 | Spring           | Adds spring-like behavior between two blocks.                                                   | -                                                       |
-| StatTeleporter   | Teleports players based on if they meet a certain stat requirement.                             | -                                                       |
+| StatTeleporter   | Teleports players based on whether they meet a certain stat requirement or not.                             | -                                                       |
 | Surfaces         | Alters a block's surfaces for a specific side.                                                  | ![surfaces.png](/surfaces.png =75%x)                    |
 | SurfaceLight     | Adds light to a specific side of the block.                                                     | -                                                       |
 | Teamer           | Sets the player to another team upon touch.                                                     | -                                                       |
