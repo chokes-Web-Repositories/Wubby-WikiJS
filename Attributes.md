@@ -2,7 +2,7 @@
 title: Attributes
 description: Block modifiers
 published: true
-date: 2023-08-05T03:10:20.130Z
+date: 2023-08-05T03:11:33.413Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T06:38:38.143Z
@@ -13,17 +13,17 @@ dateCreated: 2023-05-11T06:38:38.143Z
 
 | Attribute Name   | Description                                                                                     | Preview                                                 |
 |------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| Baller           | Makes the player roll when touched.                                                             | ![baller.png](/baller.png =40%x)                        |
+| Baller           | Makes the player roll when touched.                                                             | ![baller.png](/baller.png =75%x)                        |
 | Beam             | Sets a trail between two blocks.                                                                | ![beam.png](/attributes/beam.png)                       |
 | BlockTeleporter  | Teleports unanchored blocks to a specified destination when triggered.                          | ![blockteleporter.gif](/attributes/blockteleporter.gif) |
-| Damager          | Damages players at a specified rate and cooldown.                                               | ![playerdamage.gif](/playerdamage.gif =40%x)            |
-| Decal, Texture   | Allows pasting images onto blocks for customizing the environment.                              | ![image.png](/image.png =40%x)                          |
-| Effect           | Emits a specified particle effect from the block.                                               | ![particle.png](/particle.png =40%x)                    |
+| Damager          | Damages players at a specified rate and cooldown.                                               | ![playerdamage.gif](/playerdamage.gif =75%x)            |
+| Decal, Texture   | Allows pasting images onto blocks for customizing the environment.                              | ![image.png](/image.png =75%x)                          |
+| Effect           | Emits a specified particle effect from the block.                                               | ![particle.png](/particle.png =75%x)                    |
 | GravityChanger   | Alters the block's gravity.                                                                     | -                                                       |
-| Healer           | Heals players at a specified rate and cooldown.                                                 | ![playerheal.gif](/playerheal.gif =40%x)                |
-| Highlight        | Highlights a block, making it stand out from others.                                            | ![highlight.png](/highlight.png =40%x)                  |
+| Healer           | Heals players at a specified rate and cooldown.                                                 | ![playerheal.gif](/playerheal.gif =75%x)                |
+| Highlight        | Highlights a block, making it stand out from others.                                            | ![highlight.png](/highlight.png =75%x)                  |
 | JumpPower        | Modifies the player's jumping power.                                                            | -                                                       |
-| Killer           | Instantly kills players upon touch.                                                             | ![killer.png](/killer.png =40%x)                        |
+| Killer           | Instantly kills players upon touch.                                                             | ![killer.png](/killer.png =75%x)                        |
 | LockPosition     | Fixes the current position of the block.                                                        | -                                                       |
 | LockRotation     | Locks the current rotation of the block.                                                        | -                                                       |
 | Maxhealth        | Alters the player's maximum health.                                                             | -                                                       |
@@ -32,16 +32,16 @@ dateCreated: 2023-05-11T06:38:38.143Z
 | PointLight       | Adds a light source to the block.                                                               | -                                                       |
 | Prismatic        | Creates a rigid joint between two Blocks, allowing them to slide along one axis but not rotate. | -                                                       |
 | Rod              | Creates a rod-like connection between two blocks.                                               | -                                                       |
-| Rope             | Attaches a rope between two blocks.                                                             | ![rope.png](/rope.png =40%x)                            |
-| Sign             | Displays a text GUI when hovered.                                                               | ![sign.gif](/attributes/sign.gif =40%x)                 |
-| Spotlight        | Emits light in a specific direction.                                                            | ![spotlight.png](/spotlight.png =40%x)                  |
+| Rope             | Attaches a rope between two blocks.                                                             | ![rope.png](/rope.png =75%x)                            |
+| Sign             | Displays a text GUI when hovered.                                                               | ![sign.gif](/attributes/sign.gif =75%x)                 |
+| Spotlight        | Emits light in a specific direction.                                                            | ![spotlight.png](/spotlight.png =75%x)                  |
 | Spring           | Adds spring-like behavior between two blocks.                                                   | -                                                       |
 | StatTeleporter   | Teleports players based on if they meet a certain stat requirement.                             | -                                                       |
-| Surfaces         | Alters a block's surfaces for a specific side.                                                  | ![surfaces.png](/surfaces.png =40%x)                    |
+| Surfaces         | Alters a block's surfaces for a specific side.                                                  | ![surfaces.png](/surfaces.png =75%x)                    |
 | SurfaceLight     | Adds light to a specific side of the block.                                                     | -                                                       |
 | Teamer           | Sets the player to another team upon touch.                                                     | -                                                       |
-| Teleporter       | Teleports players between two points.                                                           | ![teleporter.png](/teleporter.png =40%x)                |
+| Teleporter       | Teleports players between two points.                                                           | ![teleporter.png](/teleporter.png =75%x)                |
 | Thrust           | Applies a force or thrust to the block.                                                         | -                                                       |
-| Tripper          | Makes the player sit down.                                                                      | ![tripper.png](/tripper.png =40%x)                      |
+| Tripper          | Makes the player sit down.                                                                      | ![tripper.png](/tripper.png =75%x)                      |
 | WalkSpeed        | Adjusts the player's walking speed.                                                             | -                                                       |
 | Weld             | Connects two parts when unanchored.                                                             | -                                                       |
