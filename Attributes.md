@@ -2,7 +2,7 @@
 title: Attributes
 description: Block modifiers
 published: true
-date: 2023-08-05T03:00:36.886Z
+date: 2023-08-05T03:10:20.130Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T06:38:38.143Z
@@ -33,7 +33,7 @@ dateCreated: 2023-05-11T06:38:38.143Z
 | Prismatic        | Creates a rigid joint between two Blocks, allowing them to slide along one axis but not rotate. | -                                                       |
 | Rod              | Creates a rod-like connection between two blocks.                                               | -                                                       |
 | Rope             | Attaches a rope between two blocks.                                                             | ![rope.png](/rope.png =40%x)                            |
-| Sign             | Displays a text GUI when hovered.                                                               | -                                                       |
+| Sign             | Displays a text GUI when hovered.                                                               | ![sign.gif](/attributes/sign.gif =40%x)                 |
 | Spotlight        | Emits light in a specific direction.                                                            | ![spotlight.png](/spotlight.png =40%x)                  |
 | Spring           | Adds spring-like behavior between two blocks.                                                   | -                                                       |
 | StatTeleporter   | Teleports players based on if they meet a certain stat requirement.                             | -                                                       |
