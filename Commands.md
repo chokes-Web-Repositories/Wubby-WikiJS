@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-08-03T07:04:42.923Z
+date: 2023-08-05T23:58:11.287Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -81,6 +81,7 @@ dateCreated: 2023-05-14T15:48:24.092Z
 | Command | Arguments | Description |
 |-----|---------|-------------|
 | globalban | `[player]` `[reason]` | Permanently bans `[player]` from wubby with `[reason]` |
-| globaltempban | `[player]` `[reason]` | Unbans `[player]` from wubby |
+| globaltempban | `[player]` `[duration]` `[reason]` | Temporarily bans `[player]` from wubby for `[duration]` days with `[reason]` |
+| globalunban | `[player]` | Unbans `[player]` from wubby |
 | putonreview | - | Puts a world under review until ger approves it |
 | feature | - | Toggles if a world will appear on the featured tab or not |
