@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-08-05T23:58:11.287Z
+date: 2023-08-06T11:28:01.254Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -41,6 +41,7 @@ dateCreated: 2023-05-14T15:48:24.092Z
 | magnet | `[player]` `(amount)` | Attracts every single player to `[player]` with a force of `(amount)` |
 | maxhealth | `[player]` `(amount)` | Sets `[player]`'s maximum health to `(amount)` |
 | message/m/msg/shout/announce | `[player]` (message) | Displays (message) in `[player]`'s screen |
+| mute | `[player` | Disables `[player]`'s ability to talk, Only works for permissions below you. (Builder cannot mute Admins+)
 | nuke `[player]`/`[coordinates]` | Places a nuke in `[player]`/`[coordinates]` |
 | removelimbs | `[player]` | Removes `[player]`'s limbs |
 | respawn | `[player]` | Respawns `[player]`, Basically removes the `[player]`'s character and places it where it was |
