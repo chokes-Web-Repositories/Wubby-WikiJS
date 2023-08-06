@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-08-06T11:28:01.254Z
+date: 2023-08-06T11:28:46.037Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -59,6 +59,7 @@ dateCreated: 2023-05-14T15:48:24.092Z
 | ungyro | `[player]` | Allows `[player]` to change orientation again |
 | unhighlight | `[player]` | Removes `[player]`'s highlight |
 | unmagnet | `[player]` | Removes `[player]`'s magnet |
+| unmute | `[player]` | Allows `[player]` to talk again. |
 | visible/vis | `[player]` | Makes `[player]` visible again |
 | walkspeed | `[player]` `(amount)` | Changes `[player]`'s walkspeed to `(amount)` |
 
