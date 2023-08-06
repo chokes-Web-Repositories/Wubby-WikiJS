@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-08-03T06:45:10.283Z
+date: 2023-08-06T00:31:52.237Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -15,6 +15,7 @@ dateCreated: 2023-05-19T13:12:59.267Z
 {.is-warning}
 
 # <i class="fa-duotone fa-inbox-in"></i> Input
+These are blocks that are used to power wiring systems. They do not receive wiring inputs, and can only output.
 ## {.tabset}
 ### Block Touch Detector
 Emits a signal when touched by an unachored block or gear debris.
@@ -186,6 +187,7 @@ Sets the value of a NUMBER STORAGE Gate
 {.is-info}
 
 # <i class="fa-duotone fa-inbox-out"></i> Output
+These wiring blocks carry out functions that usually dont return a output. They power the next gate AFTER they are finished with their function.
 ## {.tabset}
 ### Attach Block
 ### Attribute Changer
