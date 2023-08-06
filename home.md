@@ -2,7 +2,7 @@
 title: Home
 description: Welcome to Wubby! A roblox building game based on (the now content deleted) World Builder.
 published: true
-date: 2023-08-06T14:37:58.524Z
+date: 2023-08-06T14:38:34.025Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T03:05:24.832Z
@@ -27,5 +27,5 @@ Wubby is a building-based game based on building games on Roblox such as Sandbox
 - [<i class="fa-brands fa-discord"></i> Discord server *Come chat with us here and get game updates!*](https://discord.gg/YHtthk2dYX)
 - [Roblox game *Updated frequently*](https://www.roblox.com/games/12519560096/Wubby)
 - [<i class="fa-solid fa-user-group"></i> Roblox group *Come join the group for events!*](https://www.roblox.com/groups/16993480)
-- [<i class="fa-solid fa-shirt"></i> Wubby Merch *This drip is not for the faint hearted and high pressure, proceed with extreme caution, you have been warned.*](https://www.roblox.com/catalog?Category=1&CreatorName=Wubby%20Fan%20Club&CreatorType=Group&salesTypeFilter=1)
+- [<i class="fa-solid fa-shirt"></i> Wubby Merch *Rock the Wubby look!*](https://www.roblox.com/catalog?Category=1&CreatorName=Wubby%20Fan%20Club&CreatorType=Group&salesTypeFilter=1)
 {.links-list}
