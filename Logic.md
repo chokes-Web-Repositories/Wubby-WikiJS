@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-08-06T00:31:52.237Z
+date: 2023-08-08T04:07:04.586Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -71,10 +71,14 @@ Configurations:
 - Toggleable: Whether if this block acts like a switch. Default is true.
 
 ### REPEATER Gate
-PLACEHOLDER, PLEASE EDIT ME!
+Will repeatedly send a signal after a set amount of seconds for a set amount of time.
+
+- Activation time: how long the signal will last until it loops back again.
+
+
 
 ### Tap Input Block
-PLACEHOLDER, PLEASE EDIT ME!
+PLACEHOLDER
 
 # <i class="fa-duotone fa-microchip"></i> Logic
 These are blocks that allow a player with build permissions to add extra functionality to their world, these examples include:
