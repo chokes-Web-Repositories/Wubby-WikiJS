@@ -2,7 +2,7 @@
 title: Zones
 description: sample text
 published: true
-date: 2023-08-11T11:22:00.401Z
+date: 2023-08-11T13:37:49.411Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-09T00:54:16.236Z
@@ -38,3 +38,6 @@ The sound zone allows you to play sounds in specific regions, and only inside th
 You can change the playback speed and the volume, which essentially allows you to speed up or slow down the song, and louden it or quieten it. 
 > This zone can be used for ambience in areas, a forest or a sewer, for example.
 {.is-info}
+
+# Safe Zone
+![safezone.png](/zones/safezone.png)
