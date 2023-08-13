@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-08-05T01:44:32.332Z
+date: 2023-08-13T07:51:19.459Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
@@ -34,3 +34,13 @@ dateCreated: 2023-05-11T08:27:04.372Z
 | Inverted Cylinder | ![invertedcylinder.png](/invertedcylinder.png =40%x) |
 | Inverted Edge Sphere | ![invertededgesphere.png](/invertededgesphere.png =40%x) |
 | Inverted Quarter Cylinder | ![invertedquartercylinder.png](/invertedquartercylinder.png =40%x) |
+| Dodecahedron | ![dodecahedron.png](/dodecahedron.png =40%x) (will fix the bg inconsistency soon)| 
+| Egg | ![egg.png](/egg.png =40%x) |
+| Fence | ![fence.png](/fence.png =40%x) |
+| Frustrum | ![frustrum.png](/frustrum.png =40%x) |
+| Head | ![head.png](/head.png =40%x) |
+| Hexagon Ring | ![hexagonring.png](/hexagonring.png =40%x) |
+| Hexagonal Cone | ![hexagonalcone.png](/hexagonalcone.png =40%x) |
+| Hollow Cylinder | ![hollowcylinder.png](/hollowcylinder.png =40%x) |
+| Pyramid | ![pyramid.png](/pyramid.png =40%x) |
+| Quarter Cylinder | ![quartercylinder.png](/quartercylinder.png =40%x) |
