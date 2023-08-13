@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-08-13T07:51:19.459Z
+date: 2023-08-13T07:54:55.846Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
@@ -42,5 +42,6 @@ dateCreated: 2023-05-11T08:27:04.372Z
 | Hexagon Ring | ![hexagonring.png](/hexagonring.png =40%x) |
 | Hexagonal Cone | ![hexagonalcone.png](/hexagonalcone.png =40%x) |
 | Hollow Cylinder | ![hollowcylinder.png](/hollowcylinder.png =40%x) |
+| Octagon | ![octagon.png](/octagon.png =40%x) |
 | Pyramid | ![pyramid.png](/pyramid.png =40%x) |
 | Quarter Cylinder | ![quartercylinder.png](/quartercylinder.png =40%x) |
