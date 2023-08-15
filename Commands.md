@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-08-06T11:28:46.037Z
+date: 2023-08-15T09:49:04.103Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -42,7 +42,7 @@ dateCreated: 2023-05-14T15:48:24.092Z
 | maxhealth | `[player]` `(amount)` | Sets `[player]`'s maximum health to `(amount)` |
 | message/m/msg/shout/announce | `[player]` (message) | Displays (message) in `[player]`'s screen |
 | mute | `[player` | Disables `[player]`'s ability to talk, Only works for permissions below you. (Builder cannot mute Admins+)
-| nuke `[player]`/`[coordinates]` | Places a nuke in `[player]`/`[coordinates]` |
+| nuke | `[player]`/`[coordinates]` | Places a nuke in `[player]`/`[coordinates]` |
 | removelimbs | `[player]` | Removes `[player]`'s limbs |
 | respawn | `[player]` | Respawns `[player]`, Basically removes the `[player]`'s character and places it where it was |
 | sit/trip | `[player]` | Forces `[player]` to sit |
