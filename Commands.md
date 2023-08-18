@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-08-15T09:49:04.103Z
+date: 2023-08-18T12:36:33.035Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -20,6 +20,7 @@ dateCreated: 2023-05-14T15:48:24.092Z
 | blind | `[player]` | Makes `[player]` unable to see |
 | blur | `[player]` `(size)` | Blurs `[player]`'s screen by `(size)` amount |
 | bring | `[player]` | Teleports `[player]` to whoever ran this command |
+| clip | `[player]` | Stops `[player]` from walking through walls |
 | damage/dmg | `[player]` `(amount)` | Decreases `[player]`'s health by `(amount)` |
 | explode/exp | `[player]` | Explodes `[player]`, the explosion might move nearby objects |
 | fix/removeeffects | `[player]` | Removes every single effect applied to `[player]` (blur, fov, blindness, etc.) |
@@ -41,6 +42,7 @@ dateCreated: 2023-05-14T15:48:24.092Z
 | magnet | `[player]` `(amount)` | Attracts every single player to `[player]` with a force of `(amount)` |
 | maxhealth | `[player]` `(amount)` | Sets `[player]`'s maximum health to `(amount)` |
 | message/m/msg/shout/announce | `[player]` (message) | Displays (message) in `[player]`'s screen |
+| noclip | `[player]` | Allows `[player]` to walk through walls. |
 | mute | `[player` | Disables `[player]`'s ability to talk, Only works for permissions below you. (Builder cannot mute Admins+)
 | nuke | `[player]`/`[coordinates]` | Places a nuke in `[player]`/`[coordinates]` |
 | removelimbs | `[player]` | Removes `[player]`'s limbs |
