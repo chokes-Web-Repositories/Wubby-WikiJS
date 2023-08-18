@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-08-18T12:36:33.035Z
+date: 2023-08-18T12:37:25.479Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -13,6 +13,7 @@ dateCreated: 2023-05-14T15:48:24.092Z
 |-----|---------|
 | cmds | Opens a command list |
 | rejoin | Rejoins whoever ran this command |
+| notepad | Opens a GUI that allows you to write anything in it. |
 
 # <i class="fa-duotone fa-user-helmet-safety"></i> Builder+
 | Command | Arguments | Description |
