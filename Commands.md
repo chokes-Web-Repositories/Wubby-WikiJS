@@ -2,11 +2,15 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-08-19T06:20:00.938Z
+date: 2023-08-19T06:21:13.170Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
 ---
+
+> If `[player]` is omitted, it will default to the player that ran the command
+{.is-info}
+
 
 # <i class="fa-duotone fa-user"></i> Visitor+
 | Command | Description |
