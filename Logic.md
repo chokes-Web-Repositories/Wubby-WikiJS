@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-08-08T04:07:04.586Z
+date: 2023-08-20T05:23:53.417Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-19T13:12:59.267Z
@@ -60,7 +60,11 @@ Configurations:
 - Output Type: Determines if the block will output the players chat message or their username when its fired. Default is "Message".
 
 ### Player Touch Detector
-PLACEHOLDER, PLEASE EDIT ME!
+Emits a signal when a Player/NPC touches this block.
+Configurations:
+- Activation Time: How long it activates for. Default is 1.
+- Detect: A dropdown menu with the items: Players, NPCs, Everything.
+- Use Activation Time: When this is off, the block will only stop firing once the Player/NPC stops touching the block.
 
 ### Prompt Block
 Emits a signal when it's Proximity Prompt has been triggered.
@@ -192,12 +196,30 @@ Sets the value of a NUMBER STORAGE Gate
 
 # <i class="fa-duotone fa-inbox-out"></i> Output
 These wiring blocks carry out functions that usually dont return a output. They power the next gate AFTER they are finished with their function.
+> The tabs here are unfinished.
+{.is-warning}
 ## {.tabset}
 ### Attach Block
 ### Attribute Changer
 ### Clone Block
 ### Command Block
+> Runs a command like it was from a normal player.
+{.is-info}
+
+Configurations:
+- Commands: The command the block will run. Default is `:message all hi!!!`.
 ### Message Display Block
+> Display a message.
+{.is-info}
+
+Configurations:
+- Affect: A dropdown menu with the options: Everyone, SpecificPlayer.
+- Message Color: The color of the message.
+- Description: The message description. Only works if the Message Type is set to `Notification`.
+- Message Time: The time the message will be shown. Only works if the Message Type is set to `Notification`. Use `0` to calculate the message time. The input is `0` by default.
+- Title: The title of the message.
+- Message Type: A dropdown menu with the options: Notification, Chat, Console, Shout, Bubble.
+- Notification Image ID: The Image ID for the notification. Only works if the Message Type is set to `Notification`.
 ### Path Block
 ### Property Changer
 ### Wiring Variable Block
