@@ -2,7 +2,7 @@
 title: Zones
 description: sample text
 published: true
-date: 2023-08-11T13:37:49.411Z
+date: 2023-08-20T04:45:09.935Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-09T00:54:16.236Z
@@ -40,4 +40,19 @@ You can change the playback speed and the volume, which essentially allows you t
 {.is-info}
 
 # Safe Zone
+A Safe Zone is a zone that gives the Player a forcefield while the Player is inside it.
+
+> This can be useful for lobbies, and safe zones for fighting games.
+{.is-info}
+
 ![safezone.png](/zones/safezone.png)
+
+# Physics Zone
+A Physics Zone is a zone that affects the **physics of Players** that are inside it. 
+You can use this for:
+- Low gravity zones (like space)
+- High gravity zones
+- Normal gravity zones
+- etc
+
+![image_2023-08-20_114049526.png](/zones/image_2023-08-20_114049526.png)
