@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-08-13T07:54:55.846Z
+date: 2023-08-20T05:42:49.070Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
@@ -45,3 +45,13 @@ dateCreated: 2023-05-11T08:27:04.372Z
 | Octagon | ![octagon.png](/octagon.png =40%x) |
 | Pyramid | ![pyramid.png](/pyramid.png =40%x) |
 | Quarter Cylinder | ![quartercylinder.png](/quartercylinder.png =40%x) |
+
+# <i class="fa-regular fa-wand-magic-sparkles"></i> Special
+> Special Parts.
+{.is-info}
+
+| Block Name | Preview |
+|-----|---------|
+| Text Block | ![image_2023-08-20_123511782.png](/blocks/image_2023-08-20_123511782.png =40%x) |
+| Vehicle Seat | ![image_2023-08-20_123733620.png](/blocks/image_2023-08-20_123733620.png =40%x) |
+| NPC Block | ![image_2023-08-20_123944283.png](/blocks/image_2023-08-20_123944283.png =40%x) |
