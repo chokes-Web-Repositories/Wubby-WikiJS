@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-07-17T00:47:47.292Z
+date: 2023-08-20T05:48:56.548Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-13T05:57:37.428Z
@@ -12,6 +12,10 @@ dateCreated: 2023-05-13T05:57:37.428Z
 {.is-warning}
 
 > This page will automatically update dates depending on your local timezone.
+{.is-info}
+
+> Wubby was released on t:1688520360:D
+Wubby was last updated on t:1689526009:D
 {.is-info}
 
 [comment]: # (Please use https://www.unixtimestamp.com/ to add dates.)
