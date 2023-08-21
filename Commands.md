@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-08-20T04:51:04.668Z
+date: 2023-08-21T01:31:26.438Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-14T15:48:24.092Z
@@ -18,23 +18,26 @@ dateCreated: 2023-05-14T15:48:24.092Z
 | cmds | Opens a command list |
 | rejoin | Rejoins whoever ran this command |
 | notepad | Opens a GUI that allows you to write anything in it. |
-> The notepad GUI looks like this:
-![image_2023-08-20_114938813.png](/image_2023-08-20_114938813.png)
-{.is-info}
+
 # <i class="fa-duotone fa-user-helmet-safety"></i> Builder+
 | Command | Arguments | Description |
 |-----|---------|-------------|
 | blind | `[player]` | Makes `[player]` unable to see |
 | blur | `[player]` `(size)` | Blurs `[player]`'s screen by `(size)` amount |
 | bring | `[player]` | Teleports `[player]` to whoever ran this command |
+| burn | `[player]` `(damage)` `(showEffect)` | Sets `[player]` on fire, taking `(damage)` every second. Setting `(showEffect)` to false makes the fire invisible |
+| cameraoffset | `[player]` `[offset]` | Offsets `[player]`'s camera to `[offset]` |
+| camerashake | `[player]` `[time]` `[force]` | Shakes `[player]`'s camera for [time] seconds with a force of  [force]
 | clip | `[player]` | Stops `[player]` from walking through walls |
 | damage/dmg | `[player]` `(amount)` | Decreases `[player]`'s health by `(amount)` |
+| disablefreecam | `[player]` | Disables freecam for `[player]` |
 | explode/exp | `[player]` | Explodes `[player]`, the explosion might move nearby objects |
 | fix/removeeffects | `[player]` | Removes every single effect applied to `[player]` (blur, fov, blindness, etc.) |
 | fling | `[player]` `(amount)` | Flings `[player]` at a speed of `(amount)` |
 | fly | `[player]` | Makes `[player]` fly |
 | flyspeed | `[player]` `(amount)` | Sets `[player]`'s flying speed to `(amount)` |
 | fov/fieldofview | `[player]` `(fov)` | Sets `[player]`'s field of view to `(fov)` |
+| freecamstiff | `[player]` `[velStiff]` `[panStiff]` | Sets [player]'s freecam velocity stiffness to `[velstiff]` and its pan stiffness to `[panstiff]` |
 | freeze/anchor | `[player]` | Freezes `[player]`, `[player]` wont be able to move |
 | ghost/gh | `[player]` | Turns `[player]` into a ghost |
 | god | `[player]` | Makes `[player]` invincible from all damage (unless killed) |
@@ -58,6 +61,7 @@ dateCreated: 2023-05-14T15:48:24.092Z
 | sparkles/sparkle | `[player]` `(color)` | Gives `[player]` some sparkles with the color `(color)` |
 | team name/teams name | `[teamName]` `[newName]` | Changes `[teamName]`'s name to `[newName]` |
 | team set/teams set | `[player]` `[teamName]` | Sets `[player]`'s team to `[teamName]` |
+| time | `[time]` | Sets the world time to `[time]` |
 | to/tp/teleport | ``(player)`` `(player2)`/`(coordinates)` | If no parameters are entered, this command will teleport whoever ran this command to their mouse position. If ``(player)`` is entered, this command will teleport whoever ran this command to ``(player)``. If ``(player)`` and `(player2)` are entered, this command will teleport ``(player)`` to `(player2)`. If `(coordinates)` are entered, this command will teleport whoever ran this command to `(coordinates)`. |
 | trail | `[player]` `(color)` | Puts a trail in `[player]`, its color will be `(color)` |
 | unblind | `[player]` | Makes `[player]` able to see again |
@@ -87,6 +91,11 @@ dateCreated: 2023-05-14T15:48:24.092Z
 | team/teams color | `[teamName]` `[teamColor]` | Changes `[teamName]`'s color to `(teamColor)` |
 | team/teams remove | `[teamName]` | Removes the team under the name `[teamName]` |
 | unban | `[player]` | Allows `[player]` to join the game |
+
+# <i class="fa-solid fa-user-crown"></i> Creator+
+| Command | Arguments | Description |
+|-----|---------|-------------|
+| clearduplicates | - | Clears every block that has the same size, rotation and position as another block |
 
 # <i class="fa-duotone fa-user-secret"></i> Staff+
 | Command | Arguments | Description |
