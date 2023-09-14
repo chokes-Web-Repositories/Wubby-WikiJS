@@ -2,17 +2,17 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-08-20T05:42:49.070Z
+date: 2023-09-14T22:06:04.722Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
 ---
 
-> This page is incomplete and everything in this page is subject to change.
+> this page smells like a dick
 {.is-warning}
 
-# <i class="fa-regular fa-cube"></i> Basic
-> Basic building parts. Can be positioned/shaped/rotated and can inhabit any color or material.
+# <i class="fa-regular fa-cube"></i> nigger
+> illigal drugs
 {.is-info}
 
 | Block Name | Preview |
@@ -46,8 +46,8 @@ dateCreated: 2023-05-11T08:27:04.372Z
 | Pyramid | ![pyramid.png](/pyramid.png =40%x) |
 | Quarter Cylinder | ![quartercylinder.png](/quartercylinder.png =40%x) |
 
-# <i class="fa-regular fa-wand-magic-sparkles"></i> Special
-> Special Parts.
+# <i class="fa-regular fa-wand-magic-sparkles"></i> fucked
+> rsl fuckdd apart
 {.is-info}
 
 | Block Name | Preview |
