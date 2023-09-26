@@ -2,7 +2,7 @@
 title: Attributes
 description: Block modifiers
 published: true
-date: 2023-08-05T13:35:14.830Z
+date: 2023-09-26T21:01:41.143Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-11T06:38:38.143Z
@@ -27,7 +27,7 @@ dateCreated: 2023-05-11T06:38:38.143Z
 | LockPosition     | Fixes the current position of the block.                                                        | -                                                       |
 | LockRotation     | Locks the current rotation of the block.                                                        | -                                                       |
 | Maxhealth        | Alters the player's maximum health.                                                             | -                                                       |
-| NoCollision      | Allows the block to have no collision with other objects.                                       | -                                                       |
+| NoCollision      | Allows the block to have no collision with other objects.                                       | ![nocollision.gif](/nocollision.gif =75%x)                                    |
 | PathModifier     | Modifies the path of every NPC in the world.                                                    | -                                                       |
 | PointLight       | Adds a light source to the block.                                                               | -                                                       |
 | Prismatic        | Creates a rigid joint between two Blocks, allowing them to slide along one axis but not rotate. | -                                                       |
