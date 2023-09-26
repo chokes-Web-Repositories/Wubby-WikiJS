@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-09-26T20:49:28.544Z
+date: 2023-09-26T21:24:53.399Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
@@ -49,7 +49,26 @@ dateCreated: 2023-05-11T08:27:04.372Z
 | Hollow Cylinder | ![hollowcylinder.png](/hollowcylinder.png =40%x) |
 | Octagon | ![octagon.png](/octagon.png =40%x) |
 | Pyramid | ![pyramid.png](/pyramid.png =40%x) |
+| Pyramidal Hexagon | ![pyramidalhexagon.png](/pyramidalhexagon.png =40%x) |
 | Quarter Cylinder | ![quartercylinder.png](/quartercylinder.png =40%x) |
+| Pentagon | ![pentagon.png](/pentagon.png =40%x) |
+| Pentagon Ring | ![pentagonring.png](/pentagonring.png =40%x) |
+| Pentagonal Cone | ![pentagonalcome.png](/pentagonalcone.png =40%x) |
+| Ring | ![ring.png](/ring.png =40%x) |
+| Seat Block | ![seatblock.png](/seatblock.png =40%x) |
+| Sphere | ![sphere.png](/sphere.png =40%x) |
+| Spiked Cylinder | ![spikedcylinder.png](/spikedcylinder.png =40%x) |
+| Square Ring | ![squarering.png](/squarering.png =40%x) |
+| Squashed Ring | ![squashedring.png](/squashedring.png =40%x) |
+| Stairs | ![stairs.png](/stairs.png =40%x) |
+| Star | ![star.png](/star.png =40%x) |
+| Thick Hollow Cylinder | ![thickhollowcylinder.png](/thickhollowcylinder.png =40%x) |
+| Thin Hollow Cylinder | ![thinhollowcylinder.png](/thinhollowcylinder.png =40%x) |
+| Triangle | ![triangle.png](/triangle.png =40%x) |
+| Triangle Ring | ![trianglering.png](/trianglering.png =40%x) |
+| Triangular Cone | ![triangularcone.png](/triangularcone.png =40%x) |
+| Truss | ![truss.png](/truss.png =40%x) |
+| Wedge | ![wedge.png](/wedge.png =40%x) |
 
 # <i class="fa-regular fa-wand-magic-sparkles"></i> Special
 
