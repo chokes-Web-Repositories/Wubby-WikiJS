@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2023-09-26T21:24:53.399Z
+date: 2023-09-26T21:27:33.313Z
 tags: blocks
 editor: markdown
 dateCreated: 2023-05-11T08:27:04.372Z
@@ -54,19 +54,19 @@ dateCreated: 2023-05-11T08:27:04.372Z
 | Pentagon | ![pentagon.png](/pentagon.png =40%x) |
 | Pentagon Ring | ![pentagonring.png](/pentagonring.png =40%x) |
 | Pentagonal Cone | ![pentagonalcome.png](/pentagonalcone.png =40%x) |
-| Ring | ![ring.png](/ring.png =40%x) |
+| Ring | ![ring.png](/blocks/ring.png =40%x) |
 | Seat Block | ![seatblock.png](/seatblock.png =40%x) |
 | Sphere | ![sphere.png](/sphere.png =40%x) |
 | Spiked Cylinder | ![spikedcylinder.png](/spikedcylinder.png =40%x) |
-| Square Ring | ![squarering.png](/squarering.png =40%x) |
-| Squashed Ring | ![squashedring.png](/squashedring.png =40%x) |
-| Stairs | ![stairs.png](/stairs.png =40%x) |
-| Star | ![star.png](/star.png =40%x) |
-| Thick Hollow Cylinder | ![thickhollowcylinder.png](/thickhollowcylinder.png =40%x) |
-| Thin Hollow Cylinder | ![thinhollowcylinder.png](/thinhollowcylinder.png =40%x) |
-| Triangle | ![triangle.png](/triangle.png =40%x) |
-| Triangle Ring | ![trianglering.png](/trianglering.png =40%x) |
-| Triangular Cone | ![triangularcone.png](/triangularcone.png =40%x) |
+| Square Ring | ![.png](/blocks/squarering.png =40%x) |
+| Squashed Ring | ![squashedring.png](/blocks/squashedring.png =40%x) |
+| Stairs | ![stairs.png](/blocks/stairs.png =40%x) |
+| Star | ![star.png](/blocks/star.png =40%x) |
+| Thick Hollow Cylinder | ![thickhollowcylinder.png](/blocks/thickhollowcylinder.png =40%x) |
+| Thin Hollow Cylinder | ![thinhollowcylinder.png](/blocks/thinhollowcylinder.png =40%x) |
+| Triangle | ![triangle.png](/blocks/triangle.png =40%x) |
+| Triangle Ring | ![trianglering.png](/blocks/trianglering.png =40%x) |
+| Triangular Cone | ![triangularcone.png](/blocks/triangularcone.png =40%x) |
 | Truss | ![truss.png](/truss.png =40%x) |
 | Wedge | ![wedge.png](/wedge.png =40%x) |
 
