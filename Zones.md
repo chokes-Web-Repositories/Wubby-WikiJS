@@ -2,7 +2,7 @@
 title: Zones
 description: sample text
 published: true
-date: 2023-08-20T04:45:09.935Z
+date: 2023-09-26T21:08:44.442Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-09T00:54:16.236Z
@@ -34,7 +34,7 @@ You cannot build outside the area.
 
 # Sound Zone
 
-The sound zone allows you to play sounds in specific regions, and only inside that region. If anyone enters the area, they will hear the sound, until they go outside.
+The sound zone allows you to play any sounds in specific regions, and only inside that region. If anyone enters the area, they will hear the sound, until they go outside.
 You can change the playback speed and the volume, which essentially allows you to speed up or slow down the song, and louden it or quieten it. 
 > This zone can be used for ambience in areas, a forest or a sewer, for example.
 {.is-info}
