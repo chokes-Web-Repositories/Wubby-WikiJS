@@ -105,3 +105,4 @@ dateCreated: 2023-05-14T15:48:24.092Z
 | globalunban | `[player]` | Unbans `[player]` from wubby |
 | putonreview | - | Puts a world under review until ger approves it |
 | feature | - | Toggles if a world will appear on the featured tab or not |
+| clearworlddata | - | Clears all information about a world. |
