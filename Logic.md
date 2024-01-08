@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-08T13:40:51.125Z
+date: 2024-01-08T15:28:00.376Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -75,11 +75,21 @@ Configurations:
 - Toggleable: Whether if this block acts like a switch. Default is true.
 
 ### REPEATER Gate
-Will repeatedly send a signal after a set amount of seconds for a set amount of time.
+If repeat mode is Constant, will repeatedly send a signal after a set amount of seconds for a set amount of time.
+
+If repeat mode is Enumerated, will go from Start to Finish when fired and output the current Index.
+
+If repeat mode is Repetition, will go from Start to Finish when fired and output the input
 
 - Activation time: how long the signal will last until it loops back again.
 
+- Delay: how long to wait before the next loop starts
 
+- Loop type: how the repeater will behave
+
+- Start index: the starting number the repeater will use
+
+- Finish index: the ending number the repeater will use
 
 ### Tap Input Block
 PLACEHOLDER
