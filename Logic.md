@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-08T15:28:00.376Z
+date: 2024-01-08T15:30:02.055Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -73,23 +73,6 @@ Configurations:
 - Hold Duration: Amount of time to trigger the prompt. Default is 0.5
 - Key: Key to hold when triggering the prompt. Default is E.
 - Toggleable: Whether if this block acts like a switch. Default is true.
-
-### REPEATER Gate
-If repeat mode is Constant, will repeatedly send a signal after a set amount of seconds for a set amount of time.
-
-If repeat mode is Enumerated, will go from Start to Finish when fired and output the current Index.
-
-If repeat mode is Repetition, will go from Start to Finish when fired and output the input
-
-- Activation time: how long the signal will last until it loops back again.
-
-- Delay: how long to wait before the next loop starts
-
-- Loop type: how the repeater will behave
-
-- Start index: the starting number the repeater will use
-
-- Finish index: the ending number the repeater will use
 
 ### Tap Input Block
 PLACEHOLDER
@@ -183,6 +166,24 @@ Sets the value of a NUMBER STORAGE Gate
 ### OR Gate
 > The OR gate takes one or multiple input signals and produces an output if at least one input is **true**.
 {.is-info}
+
+### REPEATER Gate
+
+If repeat mode is Constant, will repeatedly send a signal after a set amount of seconds for a set amount of time.
+
+If repeat mode is Enumerated, will go from Start to Finish when fired and output the current Index.
+
+If repeat mode is Repetition, will go from Start to Finish when fired and output the input
+
+- Activation time: how long the signal will last until it loops back again.
+
+- Delay: how long to wait before the next loop starts
+
+- Loop type: how the repeater will behave
+
+- Start index: the starting number the repeater will use
+
+- Finish index: the ending number the repeater will use
 
 ### SET STAT Gate
 > Sets the stat of [STATNAME] to [STATVALUE] for the inputted player
