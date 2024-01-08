@@ -2,10 +2,10 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2023-08-20T05:23:53.417Z
+date: 2024-01-08T13:40:51.125Z
 tags: 
 editor: markdown
-dateCreated: 2023-05-19T13:12:59.267Z
+dateCreated: 2024-01-08T13:40:49.408Z
 ---
 
 > This page is incomplete and everything in this page is subject to change.

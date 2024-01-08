@@ -2,10 +2,10 @@
 title: Frequently Asked Questions
 description: Issues that can be solved here
 published: true
-date: 2023-05-21T06:33:48.305Z
+date: 2024-01-08T13:40:46.497Z
 tags: 
 editor: markdown
-dateCreated: 2023-05-21T06:33:10.736Z
+dateCreated: 2024-01-08T13:40:44.996Z
 ---
 
 # Authentication

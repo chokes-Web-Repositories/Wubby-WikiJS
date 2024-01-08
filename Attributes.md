@@ -2,10 +2,10 @@
 title: Attributes
 description: Block modifiers
 published: true
-date: 2023-09-26T21:01:41.143Z
+date: 2024-01-08T13:40:34.366Z
 tags: 
 editor: markdown
-dateCreated: 2023-05-11T06:38:38.143Z
+dateCreated: 2024-01-08T13:40:32.799Z
 ---
 
 > This page is incomplete and everything on this page is subject to change.

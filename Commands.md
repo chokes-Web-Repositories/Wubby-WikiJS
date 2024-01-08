@@ -2,10 +2,10 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2023-08-21T01:31:26.438Z
+date: 2024-01-08T13:40:44.219Z
 tags: 
 editor: markdown
-dateCreated: 2023-05-14T15:48:24.092Z
+dateCreated: 2024-01-08T13:40:42.475Z
 ---
 
 > If `[player]` is omitted, it will default to the player that ran the command

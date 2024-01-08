@@ -2,10 +2,10 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2023-08-20T05:48:56.548Z
+date: 2024-01-08T13:40:39.316Z
 tags: 
 editor: markdown
-dateCreated: 2023-05-13T05:57:37.428Z
+dateCreated: 2024-01-08T13:40:37.581Z
 ---
 
 > This page is a work in progress.

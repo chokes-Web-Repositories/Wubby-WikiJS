@@ -2,10 +2,10 @@
 title: Wubbit
 description: The currency used in Wubby
 published: true
-date: 2023-05-20T16:30:33.576Z
+date: 2024-01-08T13:40:59.999Z
 tags: 
 editor: markdown
-dateCreated: 2023-05-20T02:26:11.914Z
+dateCreated: 2024-01-08T13:40:58.544Z
 ---
 
 > This page is incomplete and everything in this page is subject to change.

@@ -2,10 +2,10 @@
 title: Privacy Policy
 description: 
 published: true
-date: 2023-07-10T09:38:42.730Z
+date: 2024-01-08T13:41:11.189Z
 tags: 
 editor: markdown
-dateCreated: 2023-07-10T09:21:38.322Z
+dateCreated: 2024-01-08T13:41:09.616Z
 ---
 
 This Privacy Policy describes how we collect, use, and handle your personal information when you use our service. By using our service, you agree to the collection and use of information in accordance with this policy.

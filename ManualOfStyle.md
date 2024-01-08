@@ -2,10 +2,10 @@
 title: Manual of Style
 description: Documentation on how to properly style a wiki page
 published: true
-date: 2023-07-02T16:37:33.196Z
+date: 2024-01-08T13:40:53.389Z
 tags: 
 editor: markdown
-dateCreated: 2023-07-02T10:00:04.728Z
+dateCreated: 2024-01-08T13:40:51.875Z
 ---
 
 # Time

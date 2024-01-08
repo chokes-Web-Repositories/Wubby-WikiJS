@@ -2,10 +2,10 @@
 title: World
 description: 
 published: true
-date: 2023-07-11T07:23:13.064Z
+date: 2024-01-08T13:40:57.800Z
 tags: 
 editor: markdown
-dateCreated: 2023-07-11T07:23:13.064Z
+dateCreated: 2024-01-08T13:40:56.348Z
 ---
 
 # Wubby Thumbnail Template (4K Resolution)
