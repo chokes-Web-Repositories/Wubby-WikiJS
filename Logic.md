@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-09T11:10:40.221Z
+date: 2024-01-09T11:10:51.791Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -126,9 +126,6 @@ Input: 2 values (any)
 Output: Bool
 Example circuit:
 ```mermaid
----
-title: AND Gate Demo
----
 graph LR
 	Input1 --> AND
   Input2 --> AND
