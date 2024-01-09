@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2024-01-08T13:40:36.797Z
+date: 2024-01-09T10:17:53.781Z
 tags: blocks
 editor: markdown
 dateCreated: 2024-01-08T13:40:35.140Z
@@ -11,9 +11,6 @@ dateCreated: 2024-01-08T13:40:35.140Z
 ---
 > This page is incomplete and everything in this page is subject to change.
 {.is-warning}
-
-> fixed - 🔨🧅
-{.is-success}
 
 # <i class="fa-regular fa-cube"></i> Basic
 
