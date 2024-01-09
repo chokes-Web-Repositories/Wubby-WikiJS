@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-09T11:03:46.913Z
+date: 2024-01-09T11:05:20.378Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -127,10 +127,12 @@ Output: Bool
 Example circuit:
 ```mermaid
 ---
-title: Node
+title: AND Gate Demo
 ---
-flowcharts LR
-	id
+flowchart LR
+	Input 1 --> AND
+  Input 2 --> AND
+  AND --> Output
 ```
 ### BOOL SETTER Gate
 > Sets the bool value to the connected BOOL STORAGE Gate
