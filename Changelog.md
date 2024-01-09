@@ -1,8 +1,8 @@
 ---
 title: Changelog
 description: The game's changelog for people who aren't in the discord
-published: true
-date: 2024-01-08T14:28:14.750Z
+published: false
+date: 2024-01-09T11:14:43.552Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:37.581Z
