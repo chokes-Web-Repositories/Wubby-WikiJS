@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-09T11:03:12.072Z
+date: 2024-01-09T11:03:46.913Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -127,7 +127,7 @@ Output: Bool
 Example circuit:
 ```mermaid
 ---
-title: a
+title: Node
 ---
 flowcharts LR
 	id
