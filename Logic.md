@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-09T11:05:20.378Z
+date: 2024-01-09T11:05:55.713Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -130,8 +130,8 @@ Example circuit:
 title: AND Gate Demo
 ---
 flowchart LR
-	Input 1 --> AND
-  Input 2 --> AND
+	Input1 --> AND
+  Input2 --> AND
   AND --> Output
 ```
 ### BOOL SETTER Gate
