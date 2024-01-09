@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-09T13:04:48.923Z
+date: 2024-01-09T13:16:50.501Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -130,9 +130,9 @@ Output: Bool
 Example Circuit:
 ```mermaid
 graph LR
-	Input1 --> AND
-  Input2 --> AND
-  AND --> Output
+Input1 --> AND
+Input2 --> AND
+AND --> Output
 ```
 ### BOOL SETTER Gate
 Sets a BOOL STORAGE to the set bool value.
@@ -143,8 +143,8 @@ Output: none
 Example Circuit:
 ```mermaid
 graph LR
-		Input1 --> gate1[BOOL Setter]
-  	gate1[BOOL Setter] --> gate2[BOOL Storage]
+Input1 --> gate1[BOOL Setter]
+gate1[BOOL Setter] --> gate2[BOOL Storage]
 ```
 
 ### BOOL STORAGE Gate
@@ -158,7 +158,7 @@ Output: Stored Value
 Example Circuit:
 ```mermaid
 graph LR
-	gate[BOOL Setter] --> gate1[BOOL Storage] --> Output
+gate[BOOL Setter] --> gate1[BOOL Storage] --> Output
 ```
 
 ### BOOL SWITCH Gate
