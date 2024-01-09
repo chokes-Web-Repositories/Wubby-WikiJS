@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-08T15:30:02.055Z
+date: 2024-01-09T11:03:12.072Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -19,15 +19,16 @@ These are blocks that are used to power wiring systems. They do not receive wiri
 ## {.tabset}
 ### Block Touch Detector
 Emits a signal when touched by an unachored block or gear debris.
-Outputs the part that touched it.
+Output: The part that touched it.
 Configurations:
 - Activation Time: How long it activates for. Default is 1
+- Anchor Type: Decides what blocks get detected. Default is NonAnchored
 - Color To Filter: When filter color is true, only blocks with this color will trigger it. Default is pearl.
 - Filter Color: Whether if this block will only trigger when a block with the specified color touches it. Default is false.
 
 ### Click Block
 Emits a signal when clicked on. 
-Outputs the player's username.
+Output: The player's username.
 Configurations: 
 - Activation Time: How long it activates for. Default is 1. 
 - Max Distance: How far you can click this block. Default is 32.
@@ -35,7 +36,7 @@ Configurations:
 
 ### Humanoid State Block
 Emits a signal when a humanoid changes to the specified state.
-Outputs the player's username.
+Output: The player's username.
 Configurations:
 - Activation Time: How long it activates for. Default is 1.
 - State: The block fires when a humanoid enters this state. Default is Landed.
@@ -43,24 +44,37 @@ Configurations:
 
 ### Key Input Block
 Emits a signal when a player presses the selected key or mobile button.
-Outputs the player's username.
+Output: The player's username.
 Configurations:
 - Activation Time: How long it activates for. Default is 1.
 - Input Detection Type: Determines if the block will fire if the input ended, or started.
 - Use Activation Time: When this is off, the block will only stop firing once the player releases the key. This can only be turned off if the "Input Detection Type" is set to "InputStarted", otherwise this setting will be forced.
 - Mobile Button Enabled: If this is on, touchscreen players will get a button on their screen that activates the block.
-- Mobile Button Position: The UDIM2 position of the mobile button on a players screen if "Mobile Button Enabled" is on.
+- Mobile Button Position: The [UDIM2](https://create.roblox.com/docs/reference/engine/datatypes/UDim2) position (possibly scale) of the mobile button on a players screen if "Mobile Button Enabled" is on.
 - Mobile Button Text: What the text on the block's mobile button will be if "Mobile Button Enabled" is on.
 
+### NPC Event Block
+Emits a signal once the an NPC does the selected NPC event.
+Output: The NPC's NPC Block.
+- Activation Time: How long it activates for. Default is 1.
+- Event: The NPC Event to detect.
+
 ### Player Chatted Block
-Emits a signal evrey time a player chats.
-Can output either the player's username or what they said depending on the "Output Type" setting.
+Emits a signal every time a player chats.
+Output: Either the player's username or what they said depending on the "Output Type" setting.
 Configurations:
 - Activation Time: How long it activates for. Default is 1.
 - Output Type: Determines if the block will output the players chat message or their username when its fired. Default is "Message".
 
+### Player Event Block
+Emits a signal when the selected player event is triggered.
+Output: The player's username
+- Activation Time: How long it activates for. Default is 1.
+- Event: The Player Event to detect.
+
 ### Player Touch Detector
 Emits a signal when a Player/NPC touches this block.
+Output: The player's username. (If Detect is set to "NPC" it always outputs the NPC Block)
 Configurations:
 - Activation Time: How long it activates for. Default is 1.
 - Detect: A dropdown menu with the items: Players, NPCs, Everything.
@@ -68,14 +82,28 @@ Configurations:
 
 ### Prompt Block
 Emits a signal when it's Proximity Prompt has been triggered.
+Output: The player's username.
 Configurations:
 - Activation Time: How long it activates for. Default is 1.
 - Hold Duration: Amount of time to trigger the prompt. Default is 0.5
 - Key: Key to hold when triggering the prompt. Default is E.
 - Toggleable: Whether if this block acts like a switch. Default is true.
 
+### Shop Event Block
+> **Keep this input parallel to reduce chances of failing.**
+{.is-warning}
+
+Emits a signal when the specified item name is bought.
+- Activation Time: How long it activates for. Default is 1.
+- Item Name: The item to detect a purchase on.
+
 ### Tap Input Block
-PLACEHOLDER
+Emits a signal when a player presses a mouse button.
+Output: The player's username.
+- Activation Time: How long it activates for. Default is 1.
+- Input Detection Type: Determines if the block will fire if the input ended, or started.
+- Key: What mouse button is being interacted with.
+- Use Activation Time: When this is off, the block will only stop firing once the Player stops giving inputs. (Will be turned On if Input Detection Type is "InputEnded")
 
 # <i class="fa-duotone fa-microchip"></i> Logic
 These are blocks that allow a player with build permissions to add extra functionality to their world, these examples include:
@@ -93,9 +121,17 @@ and etc.
 ## {.tabset}
 
 ### AND Gate
-> The AND gate takes a single or multiple input signal(s) and produces an output if all inputs are **true**.
-{.is-info}
-
+Checks whether if both inputs are true / same.
+Input: 2 values (any)
+Output: Bool
+Example circuit:
+```mermaid
+---
+title: a
+---
+flowcharts LR
+	id
+```
 ### BOOL SETTER Gate
 > Sets the bool value to the connected BOOL STORAGE Gate
 {.is-info}
