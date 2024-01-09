@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-09T12:59:29.644Z
+date: 2024-01-09T13:04:37.878Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -118,7 +118,7 @@ and etc.
 > "false" = inactive signal
 {.is-info}
 
-> i only edited up to number setter cuz too eepy gonna continue tommorrow - onion
+> i only edited up to number setter cuz too eepy gonna continue tommorrow, oh yeah mermaidjs is not rendering the graphs right so imma change it tomorrow to plantuml too - onion
 {.is-info}
 
 ## {.tabset}
