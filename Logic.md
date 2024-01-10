@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-10T10:54:41.095Z
+date: 2024-01-10T12:17:48.181Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -118,7 +118,7 @@ and etc.
 > "false" = inactive signal
 {.is-info}
 
-> try out the example circuits and maybe tinker with them to get different results! - onion
+> try out the example circuits and maybe tinker with them to get different results! - onion (if they dont give the expected results and you followed them correctly then the graph is false)
 {.is-info}
 
 ## {.tabset}
@@ -224,6 +224,30 @@ Input: Vector3
 Output: Number (none if Input is not a vector3)
 - Axis: The axis to get from the input.
 
+*Example Circuit:*
+*for this example "Block" will be placed at (10, 2, 41)*
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Get Block Property" as CBP {
+ 	destination = Block
+  property name = Position
+}
+object "Break Vector" as BV
+object "Message Display" as MD
+
+MD : description = "the block's X position is {INPUT}"
+BV : Axis = X
+
+CB --> CBP 
+CBP --> BV: this block's \npos is (10, 2, 41)
+BV --> MD: 10 
+
+@enduml
+```
+*Expected Output: "the block's X position is 10" (chat)*
 ### BUILD VECTOR Block
 Combines the X, Y, and Z Properties to form a Vector3.
 Input: any (Number if gate uses {INPUT})
@@ -232,6 +256,30 @@ Output: Vector3
 - Y: The Y Axis of the Vector3
 - Z: The Z Axis of the Vector3
 
+*Example Circuit:*
+*for this example "Block" can be placed anywhere*
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Build Vector" as BV {
+	X = 10
+	Y = 2
+	Z = 41
+}
+object "Property Changer" as PC {
+	destination = Block
+  property name = Position
+  use input = true
+}
+
+CB --> BV
+BV --> PC : (10, 2, 41)
+
+@enduml
+```
+*Expected Output: Block will move to 10, 2, 41.*
 ### CHANGE SIGNAL Block
 > The Property can be changed in the "Types" Tab in Properties
 {.is-info}
@@ -241,6 +289,30 @@ Input: any (Ignored)
 Output: any
 - Selected Property: The property type to change into.
 
+*Example Circuit:*
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Text Storage" as TS {
+	value = "here's a string"
+}
+object "Change Signal" as CS {
+	selected property = Text/Number
+  text property = here's a totally different string
+}
+object "Message Display" as MD {
+	description = "{INPUT}"
+}
+
+CB --> TS
+TS --> CS: 'here's a string'
+CS --> MD: 'here's a totally\n different string'
+
+@enduml
+```
+*Expected Output: "here's a totally different string" (chat)*
 ### DELAY Gate
 Delays the signal by X seconds. (equivalent of `wait()`)
 Input: any
