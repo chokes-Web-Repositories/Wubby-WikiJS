@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-10T09:25:02.490Z
+date: 2024-01-10T09:34:47.670Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -129,7 +129,7 @@ Input: 2 values (any)
 Output: Bool
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 Input1 --> AND
 Input2 --> AND
 AND --> Output
@@ -143,11 +143,11 @@ Output: none
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 Input1 --> gate1[BOOL Setter]
 gate1[BOOL Setter] --> gate2[BOOL Storage]
 ```
----
+
 
 ### BOOL STORAGE Gate
 Stores a bool value
@@ -159,20 +159,20 @@ Output: Stored Value
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 gate[BOOL Setter] --> gate1[BOOL Storage] --> Output
 ```
----
+
 ### BOOL SWITCH Gate
 Inverts / Switches the value of a BOOL STORAGE Gate
 Input: none
 Output: none
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	gate[BOOL Switch] --> gate1[BOOL Storage] --> Output
 ```
----
+
 ### BREAK VECTOR Block
 Gets a specified axis of a [Vector3](https://create.roblox.com/docs/reference/engine/datatypes/Vector3)
 Input: Vector3
@@ -181,10 +181,10 @@ Output: Number (none if Input is not a vector3)
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	Input --> gate1[BREAK VECTOR] --> Output
 ```
----
+
 ### BUILD VECTOR Block
 Combines the X, Y, and Z Properties to form a Vector3.
 Input: any (Number if gate uses {INPUT})
@@ -195,10 +195,10 @@ Output: Vector3
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	Input -.-> gate1[BUILD VECTOR] --> Output
 ```
----
+
 ### CHANGE SIGNAL Block
 > The Property can be changed in the "Types" Tab in Properties
 {.is-info}
@@ -210,10 +210,10 @@ Output: any
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	Input --> gate1[CHANGE SIGNAL] --> Output
 ```
----
+
 ### DELAY Gate
 Delays the signal by X seconds. (equivalent of `wait()`)
 Input: any
@@ -223,7 +223,7 @@ Output: any (same as Input)
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	Input --> gate1[Delay] --> Output
 ```
 ### GET BLOCK PROPERTY
@@ -235,7 +235,7 @@ Output: any (The type of the retrieved property)
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	Input -.-> gate1[GET BLOCK PROPERTY] --> Output
 ```
 ### GET GAME PROPERTY Gate
@@ -252,7 +252,7 @@ Depending on the chosen property the Input may need to be a specific type.
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	Input -.-> gate1[GET GAME PROPERTY] --> Output
 ```
 ### GET NPC PROPERTY Gate
@@ -264,7 +264,7 @@ Output: any (The type of the retrieved property)
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	Input -.-> gate1[GET NPC PROPERTY] --> Output
 ```
 ### GET PLAYER PROPERTY Gate
@@ -275,7 +275,7 @@ Output: any (The type of the retrieved property)
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	Input --> gate1[GET PLAYER PROPERTY] --> Output
 ```
 ### GET STAT Gate
@@ -287,7 +287,7 @@ Output: Number
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	Input --> gate1[GET STAT] --> Output
 ```
 ### IF Gate
@@ -300,7 +300,7 @@ Output: Bool
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	Input --> gate1[IF] --> Output
 ```
 
@@ -314,7 +314,7 @@ Output: Player Username
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	Input --> gate1[LOOP THROUGH EVERYONE] --> Output
 ```
 ### MATH Gate
@@ -329,12 +329,12 @@ Output: Number
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	Input --> gate1[MATH] --> Output
 ```
 (if Next Gate Type is "Storage")
 ```mermaid
-graph LR
+graph TD
 	Input --> gate1[MATH] --> gate2[NUMBER STORAGE] --> Output
 ```
 ### NOT Gate
@@ -344,7 +344,7 @@ Output: any (Bool probably??)
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	Input --> gate1[NOT] --> Output
 ```
 ### NUMBER SETTER Gate
@@ -361,7 +361,7 @@ Output: none
 
 Example Circuit:
 ```mermaid
-graph LR
+graph TD
 	Input --> gate1[NUMBER SETTER] --> gate2[NUMBER STORAGE]
 ```
 ### NUMBER STORAGE Gate
