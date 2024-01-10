@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-10T12:40:30.647Z
+date: 2024-01-10T13:01:08.814Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -448,12 +448,33 @@ Output: any (The type of the retrieved property)
 - Property Name: The property to retrieve.
 - Destination: The NPC Block to get the properties from.
 
+*Example Circuit:*
+*place an NPC block and set the NPC's name as "goober"*
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Get NPC Property" as GNP {
+  Property Name = Name
+  Destination = NPC Block
+}
+object "Message Display" as MD {
+	Title = "{INPUT}"
+}
+
+CB --> GNP
+GNP --> MD: 'goober'
+@enduml
+```
+*Expected Output: "goober" (chat)*
 ### GET PLAYER PROPERTY Gate
 Gets a property of the specified player.
 Input: Player Username
 Output: any (The type of the retrieved property)
 - Property Name: The property to retrieve.
 
+*Example Circuit: TODO*
 ### GET STAT Gate
 Gets the stat of the specified player.
 Input: Player Username
@@ -461,6 +482,7 @@ Output: Number
 
 - Stat Name: The stat to retrieve.
 
+*Example Circuit: TODO*
 ### IF Gate
 Checks if the inputted value is the same as Value
 Input: any
@@ -469,6 +491,34 @@ Output: Bool
 - Keep Activation: Determines if the gate will stop its signal when the previous gate stopped sending its signal
 - Value: The value to compare the Input to.
 
+*Example Circuit:*
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block 1" as CB
+object "Click Block 2" as CB2
+object "Text Storage" as TS {
+  Value = "incorrect"
+}
+object "Text Storage" as TS2 {
+  Value = "correct"
+}
+object "IF" as IF {
+  Value = "correct"
+}
+object "Message Display" as MD {
+	Title = "passed"
+}
+CB --> TS
+CB2 --> TS2
+TS --> IF: 'incorrect'
+TS2 --> IF: 'correct'
+IF --> MD
+
+@enduml
+```
+*Expected Output: "passed" (chat) if you pressed click block 2*
 ### LOOP THROUGH EVERYONE Gate
 When Powered, The gate will loop through every player in the world.
 Input: any
@@ -477,6 +527,7 @@ Output: Player Username
 - Delay: How long to wait for another loop. (seconds)
 - Loop Type: Determines if it loops through NPCs or Players.
 
+*Example Circuit: TODO*
 ### MATH Gate
 Does a math operation on the Input.
 Input: Number
@@ -487,6 +538,7 @@ Output: Number
 - Disable Output: Determines if a connected NUMBER STORAGE outputs its value after this gate output.
 - Value: The value to calculate the Input with.
 
+*Example Circuit: TODO*
 ### NOT Gate
 Inverts or "Flips" the signal.
 Input: any
