@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-10T09:34:47.670Z
+date: 2024-01-10T10:21:33.044Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -127,12 +127,24 @@ and etc.
 Checks whether if both inputs are true / same.
 Input: 2 values (any)
 Output: Bool
-Example Circuit:
-```mermaid
-graph TD
-Input1 --> AND
-Input2 --> AND
-AND --> Output
+
+*Example Circuit:*
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Text Input 1" as TI 
+object "Text Input 2" as TI2
+object AND
+object "Message Display Block" as MD
+
+TI : output = "same string"
+TI2 : output = "same string"
+
+TI --> AND
+TI2 --> AND
+AND --> MD
+@enduml
 ```
 
 ### BOOL SETTER Gate
@@ -140,13 +152,6 @@ Sets a BOOL STORAGE to the set bool value.
 Input: none
 Output: none
 - Value: The Bool Value to set a BOOL STORAGE to.
-
-Example Circuit:
-```mermaid
-graph TD
-Input1 --> gate1[BOOL Setter]
-gate1[BOOL Setter] --> gate2[BOOL Storage]
-```
 
 
 ### BOOL STORAGE Gate
@@ -157,33 +162,16 @@ Output: Stored Value
 - Save Value: ??? (presumambly decides whether value is saved on world restart)
 - Value: The stored value
 
-Example Circuit:
-```mermaid
-graph TD
-gate[BOOL Setter] --> gate1[BOOL Storage] --> Output
-```
-
 ### BOOL SWITCH Gate
 Inverts / Switches the value of a BOOL STORAGE Gate
 Input: none
 Output: none
-Example Circuit:
-```mermaid
-graph TD
-	gate[BOOL Switch] --> gate1[BOOL Storage] --> Output
-```
 
 ### BREAK VECTOR Block
 Gets a specified axis of a [Vector3](https://create.roblox.com/docs/reference/engine/datatypes/Vector3)
 Input: Vector3
 Output: Number (none if Input is not a vector3)
 - Axis: The axis to get from the input.
-
-Example Circuit:
-```mermaid
-graph TD
-	Input --> gate1[BREAK VECTOR] --> Output
-```
 
 ### BUILD VECTOR Block
 Combines the X, Y, and Z Properties to form a Vector3.
@@ -192,12 +180,6 @@ Output: Vector3
 - X: The X Axis of the Vector3
 - Y: The Y Axis of the Vector3
 - Z: The Z Axis of the Vector3
-
-Example Circuit:
-```mermaid
-graph TD
-	Input -.-> gate1[BUILD VECTOR] --> Output
-```
 
 ### CHANGE SIGNAL Block
 > The Property can be changed in the "Types" Tab in Properties
@@ -208,12 +190,6 @@ Input: any (Ignored)
 Output: any
 - Selected Property: The property type to change into.
 
-Example Circuit:
-```mermaid
-graph TD
-	Input --> gate1[CHANGE SIGNAL] --> Output
-```
-
 ### DELAY Gate
 Delays the signal by X seconds. (equivalent of `wait()`)
 Input: any
@@ -221,11 +197,6 @@ Output: any (same as Input)
 - Delay: The amount of time to delay.
 - Ignore Deactivation: Determines if the gate will stop its signal when the previous gate stopped sending its signal
 
-Example Circuit:
-```mermaid
-graph TD
-	Input --> gate1[Delay] --> Output
-```
 ### GET BLOCK PROPERTY
 Gets a property of the specified block.
 Input: any (Block if Destination is not set)
@@ -233,11 +204,6 @@ Output: any (The type of the retrieved property)
 - Property Name: The property to retrieve.
 - Destination: The block to get the properties from.
 
-Example Circuit:
-```mermaid
-graph TD
-	Input -.-> gate1[GET BLOCK PROPERTY] --> Output
-```
 ### GET GAME PROPERTY Gate
 Gets a property of the world.
 Input: any (Type Needed Differs)
@@ -250,11 +216,6 @@ Depending on the chosen property the Input may need to be a specific type.
 - IsPlayerOnServer: Requires a username as input.
 - TotalColoredBlocks: Requires a color as input.
 
-Example Circuit:
-```mermaid
-graph TD
-	Input -.-> gate1[GET GAME PROPERTY] --> Output
-```
 ### GET NPC PROPERTY Gate
 Gets a property of the specified NPC Block.
 Input: any (NPC Block if no Destination is set)
@@ -262,22 +223,12 @@ Output: any (The type of the retrieved property)
 - Property Name: The property to retrieve.
 - Destination: The NPC Block to get the properties from.
 
-Example Circuit:
-```mermaid
-graph TD
-	Input -.-> gate1[GET NPC PROPERTY] --> Output
-```
 ### GET PLAYER PROPERTY Gate
 Gets a property of the specified player.
 Input: Player Username
 Output: any (The type of the retrieved property)
 - Property Name: The property to retrieve.
 
-Example Circuit:
-```mermaid
-graph TD
-	Input --> gate1[GET PLAYER PROPERTY] --> Output
-```
 ### GET STAT Gate
 Gets the stat of the specified player.
 Input: Player Username
@@ -285,11 +236,6 @@ Output: Number
 
 - Stat Name: The stat to retrieve.
 
-Example Circuit:
-```mermaid
-graph TD
-	Input --> gate1[GET STAT] --> Output
-```
 ### IF Gate
 Checks if the inputted value is the same as Value
 Input: any
@@ -297,12 +243,6 @@ Output: Bool
 - Check Type: How the value is compared.
 - Keep Activation: Determines if the gate will stop its signal when the previous gate stopped sending its signal
 - Value: The value to compare the Input to.
-
-Example Circuit:
-```mermaid
-graph TD
-	Input --> gate1[IF] --> Output
-```
 
 ### LOOP THROUGH EVERYONE Gate
 When Powered, The gate will loop through every player in the world.
@@ -312,11 +252,6 @@ Output: Player Username
 - Delay: How long to wait for another loop. (seconds)
 - Loop Type: Determines if it loops through NPCs or Players.
 
-Example Circuit:
-```mermaid
-graph TD
-	Input --> gate1[LOOP THROUGH EVERYONE] --> Output
-```
 ### MATH Gate
 Does a math operation on the Input.
 Input: Number
@@ -327,26 +262,11 @@ Output: Number
 - Disable Output: Determines if a connected NUMBER STORAGE outputs its value after this gate output.
 - Value: The value to calculate the Input with.
 
-Example Circuit:
-```mermaid
-graph TD
-	Input --> gate1[MATH] --> Output
-```
-(if Next Gate Type is "Storage")
-```mermaid
-graph TD
-	Input --> gate1[MATH] --> gate2[NUMBER STORAGE] --> Output
-```
 ### NOT Gate
 Inverts or "Flips" the signal.
 Input: any
 Output: any (Bool probably??)
 
-Example Circuit:
-```mermaid
-graph TD
-	Input --> gate1[NOT] --> Output
-```
 ### NUMBER SETTER Gate
 > Use `<minimumNumber>`, `<maximumNumber>` as the value to randomly generate a number between `<minimumNumber>` and `<maximumNumber>`.
 >
@@ -359,11 +279,6 @@ Output: none
 - Disable Output: Determines if a connected NUMBER STORAGE outputs its value after this gate output.
 - Value: The value to store the NUMBER STORAGE.
 
-Example Circuit:
-```mermaid
-graph TD
-	Input --> gate1[NUMBER SETTER] --> gate2[NUMBER STORAGE]
-```
 ### NUMBER STORAGE Gate
 > Stores a number value
 {.is-info}
