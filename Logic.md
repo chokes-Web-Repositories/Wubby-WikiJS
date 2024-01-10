@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-10T12:17:48.181Z
+date: 2024-01-10T12:40:30.647Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -139,7 +139,7 @@ object "Text Storage" as TI2
 object AND
 object "Message Display" as MD
 
-MD : description = "wow both strings are true"
+MD : Title = "wow both strings are true"
 TI : Value = 'Same String'
 TI2 : Value = 'Same String'
 
@@ -192,7 +192,7 @@ object "Bool Storage" as BSt
 object "Message Display" as MD
 
 BSt : Value = true
-MD : description = "the bool storage's value is true!"
+MD : Title = "the bool storage's value is true!"
 
 CB --> BSt 
 BSt --> MD : true
@@ -232,13 +232,13 @@ Output: Number (none if Input is not a vector3)
 left to right direction
 object "Click Block" as CB
 object "Get Block Property" as CBP {
- 	destination = Block
-  property name = Position
+ 	Destination = Block
+  Property Name = Position
 }
 object "Break Vector" as BV
 object "Message Display" as MD
 
-MD : description = "the block's X position is {INPUT}"
+MD : Title = "the block's X position is {INPUT}"
 BV : Axis = X
 
 CB --> CBP 
@@ -269,9 +269,9 @@ object "Build Vector" as BV {
 	Z = 41
 }
 object "Property Changer" as PC {
-	destination = Block
-  property name = Position
-  use input = true
+	Destination = Block
+  Property Name = Position
+  Use Input = true
 }
 
 CB --> BV
@@ -296,14 +296,14 @@ Output: any
 left to right direction
 object "Click Block" as CB
 object "Text Storage" as TS {
-	value = "here's a string"
+	Value = "here's a string"
 }
 object "Change Signal" as CS {
-	selected property = Text/Number
-  text property = here's a totally different string
+	Selected Property = Text/Number
+  Text Property = here's a totally different string
 }
 object "Message Display" as MD {
-	description = "{INPUT}"
+	Title = "{INPUT}"
 }
 
 CB --> TS
@@ -320,6 +320,7 @@ Output: any (same as Input)
 - Delay: The amount of time to delay.
 - Ignore Deactivation: Determines if the gate will stop its signal when the previous gate stopped sending its signal
 
+*Example Circuit not available bc this gate is self explanatory*
 ### GET BLOCK PROPERTY
 Gets a property of the specified block.
 Input: any (Block if Destination is not set)
@@ -327,6 +328,26 @@ Output: any (The type of the retrieved property)
 - Property Name: The property to retrieve.
 - Destination: The block to get the properties from.
 
+*Example Circuit:*
+*for this example "Block" will be placed at (17, 9, 8)*
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Get Block Property" as GBP {
+	Destination = Block
+  Property Name = Position
+}
+object "Message Display" as MD {
+	Title = "{INPUT}"
+}
+
+CB --> GBP
+GBP --> MD: (17, 9, 8)
+@enduml
+```
+*Expected Output: "17 9 8" (chat)*
 ### GET GAME PROPERTY Gate
 Gets a property of the world.
 Input: any (Type Needed Differs)
@@ -334,10 +355,91 @@ Output: any (The type of the retrieved property)
 - Property Name: The property to retrieve.
 - Value: ??
 
+*Example Circuit:*
+*(this applies to most game properties)*
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Get Game Property" as GGP {
+  Property Name = NumPlayers
+}
+object "Message Display" as MD {
+	Title = "{INPUT}"
+}
+
+CB --> GGP
+GGP --> MD: [number of players]
+@enduml
+```
+*Expected Output: "\[number of players\]" (chat)*
+
 Depending on the chosen property the Input may need to be a specific type.
 - NumPlayersOnTeam: Requires a team name as input.
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Text Storage" as TS {
+	Value = [team name]
+}
+object "Get Game Property" as GGP {
+  Property Name = NumPlayersOnTeam
+}
+object "Message Display" as MD {
+	Title = "{INPUT}"
+}
+
+CB --> TS
+TS --> GGP: [team name]
+GGP --> MD: [number of players]
+@enduml
+```
 - IsPlayerOnServer: Requires a username as input.
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Text Storage" as TS {
+	Value = [player name]
+}
+object "Get Game Property" as GGP {
+  Property Name = IsPlayerOnServer
+}
+object "Message Display" as MD {
+	Title = "{INPUT}"
+}
+
+CB --> TS
+TS --> GGP: [player name]
+GGP --> MD: [bool]
+@enduml
+```
 - TotalColoredBlocks: Requires a color as input.
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Change Signal" as CS {
+	Selected Property = Color
+  Color Property = [color]
+}
+object "Get Game Property" as GGP {
+  Property Name = TotalColoredBlocks
+}
+object "Message Display" as MD {
+	Title = "{INPUT}"
+}
+
+CB --> CS
+CS --> GGP: [color]
+GGP --> MD: [amount of colored blocks of "color"]
+@enduml
+```
 
 ### GET NPC PROPERTY Gate
 Gets a property of the specified NPC Block.
