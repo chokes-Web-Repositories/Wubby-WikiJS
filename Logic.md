@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-10T10:21:33.044Z
+date: 2024-01-10T10:54:41.095Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -118,7 +118,7 @@ and etc.
 > "false" = inactive signal
 {.is-info}
 
-> i only edited up to number setter cuz too eepy gonna continue tommorrow, oh yeah mermaidjs is not rendering the graphs right so imma change it to plantuml tomorrow too - onion
+> try out the example circuits and maybe tinker with them to get different results! - onion
 {.is-info}
 
 ## {.tabset}
@@ -133,27 +133,47 @@ Output: Bool
 @startuml
 !theme spacelab
 left to right direction
-object "Text Input 1" as TI 
-object "Text Input 2" as TI2
+object "Click Block" as CB
+object "Text Storage" as TI 
+object "Text Storage" as TI2
 object AND
-object "Message Display Block" as MD
+object "Message Display" as MD
 
-TI : output = "same string"
-TI2 : output = "same string"
+MD : description = "wow both strings are true"
+TI : Value = 'Same String'
+TI2 : Value = 'Same String'
 
-TI --> AND
-TI2 --> AND
-AND --> MD
+CB --> TI
+CB --> TI2
+TI --> AND : 'Same String'
+TI2 --> AND : 'Same String'
+AND --> MD : true
 @enduml
 ```
-
+*Expected Output: "wow both strings are true" (chat)*
 ### BOOL SETTER Gate
 Sets a BOOL STORAGE to the set bool value.
 Input: none
 Output: none
 - Value: The Bool Value to set a BOOL STORAGE to.
 
+*Example Circuit:*
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Bool Setter" as BS 
+object "Bool Storage" as BSt
 
+BS : Value = true
+BSt : Value = true
+
+CB --> BS
+BS --> BSt : change value to true
+@enduml
+```
+*Expected Output: the bool storage's value should be true*
 ### BOOL STORAGE Gate
 Stores a bool value
 Input: Bool
@@ -162,11 +182,42 @@ Output: Stored Value
 - Save Value: ??? (presumambly decides whether value is saved on world restart)
 - Value: The stored value
 
+*Example Circuit:*
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Bool Storage" as BSt
+object "Message Display" as MD
+
+BSt : Value = true
+MD : description = "the bool storage's value is true!"
+
+CB --> BSt 
+BSt --> MD : true
+@enduml
+```
+*Expected Output: "the bool storage's value is true!" (chat)*
 ### BOOL SWITCH Gate
 Inverts / Switches the value of a BOOL STORAGE Gate
 Input: none
 Output: none
 
+*Example Circuit:*
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Bool Switch" as BS
+object "Bool Storage" as BSt
+
+CB --> BS
+BS --> BSt : invert your value pls
+@enduml
+```
+*Expected Output: the bool storage should be the opposite value*
 ### BREAK VECTOR Block
 Gets a specified axis of a [Vector3](https://create.roblox.com/docs/reference/engine/datatypes/Vector3)
 Input: Vector3
