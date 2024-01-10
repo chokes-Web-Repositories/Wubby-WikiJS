@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-09T13:16:50.501Z
+date: 2024-01-10T09:25:02.490Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -134,6 +134,7 @@ Input1 --> AND
 Input2 --> AND
 AND --> Output
 ```
+
 ### BOOL SETTER Gate
 Sets a BOOL STORAGE to the set bool value.
 Input: none
@@ -146,6 +147,7 @@ graph LR
 Input1 --> gate1[BOOL Setter]
 gate1[BOOL Setter] --> gate2[BOOL Storage]
 ```
+---
 
 ### BOOL STORAGE Gate
 Stores a bool value
@@ -160,7 +162,7 @@ Example Circuit:
 graph LR
 gate[BOOL Setter] --> gate1[BOOL Storage] --> Output
 ```
-
+---
 ### BOOL SWITCH Gate
 Inverts / Switches the value of a BOOL STORAGE Gate
 Input: none
@@ -170,7 +172,7 @@ Example Circuit:
 graph LR
 	gate[BOOL Switch] --> gate1[BOOL Storage] --> Output
 ```
-
+---
 ### BREAK VECTOR Block
 Gets a specified axis of a [Vector3](https://create.roblox.com/docs/reference/engine/datatypes/Vector3)
 Input: Vector3
@@ -182,6 +184,7 @@ Example Circuit:
 graph LR
 	Input --> gate1[BREAK VECTOR] --> Output
 ```
+---
 ### BUILD VECTOR Block
 Combines the X, Y, and Z Properties to form a Vector3.
 Input: any (Number if gate uses {INPUT})
@@ -195,6 +198,7 @@ Example Circuit:
 graph LR
 	Input -.-> gate1[BUILD VECTOR] --> Output
 ```
+---
 ### CHANGE SIGNAL Block
 > The Property can be changed in the "Types" Tab in Properties
 {.is-info}
@@ -209,6 +213,7 @@ Example Circuit:
 graph LR
 	Input --> gate1[CHANGE SIGNAL] --> Output
 ```
+---
 ### DELAY Gate
 Delays the signal by X seconds. (equivalent of `wait()`)
 Input: any
