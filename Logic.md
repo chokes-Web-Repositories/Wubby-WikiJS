@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-10T13:01:08.814Z
+date: 2024-01-11T11:17:48.060Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -13,6 +13,10 @@ dateCreated: 2024-01-08T13:40:49.408Z
 
 > This page explains advanced features, some players may not understand everything in this page.
 {.is-warning}
+
+> This page is currently outdated, onion (me) is working on updating this to V8.
+{.is-danger}
+
 
 # <i class="fa-duotone fa-inbox-in"></i> Input
 These are blocks that are used to power wiring systems. They do not receive wiring inputs, and can only output.
@@ -320,7 +324,6 @@ Output: any (same as Input)
 - Delay: The amount of time to delay.
 - Ignore Deactivation: Determines if the gate will stop its signal when the previous gate stopped sending its signal
 
-*Example Circuit not available bc this gate is self explanatory*
 ### GET BLOCK PROPERTY
 Gets a property of the specified block.
 Input: any (Block if Destination is not set)
@@ -527,7 +530,27 @@ Output: Player Username
 - Delay: How long to wait for another loop. (seconds)
 - Loop Type: Determines if it loops through NPCs or Players.
 
-*Example Circuit: TODO*
+*Example Circuit:*
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB {
+	Activation Time = 5
+}
+object "Loop Through Everyone" as LTE {
+  Active Time = 1
+  Delay = 0
+}
+object "Message Display" as MD {
+	Title = "{INPUT}"
+}
+
+CB --> LTE
+LTE --> MD: here's the name of [current player]
+@enduml
+```
+*Expected Output: all players in the world's usernames in chat*
 ### MATH Gate
 Does a math operation on the Input.
 Input: Number
@@ -538,12 +561,35 @@ Output: Number
 - Disable Output: Determines if a connected NUMBER STORAGE outputs its value after this gate output.
 - Value: The value to calculate the Input with.
 
-*Example Circuit: TODO*
+*Example Circuit:*
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Number Storage" as NS {
+  Value = 3
+}
+object "Math" as MT {
+  Operation Type = ADD
+  Value = 3
+}
+object "Message Display" as MD {
+	Title = "{INPUT}"
+}
+
+CB --> NS
+NS --> MT: '3'
+MT --> MD: '6'
+@enduml
+```
+*Expected Output: "6" (chat)*
 ### NOT Gate
 Inverts or "Flips" the signal.
 Input: any
 Output: any (Bool probably??)
 
+*Example Circuit: TODO*
 ### NUMBER SETTER Gate
 > Use `<minimumNumber>`, `<maximumNumber>` as the value to randomly generate a number between `<minimumNumber>` and `<maximumNumber>`.
 >
@@ -556,21 +602,21 @@ Output: none
 - Disable Output: Determines if a connected NUMBER STORAGE outputs its value after this gate output.
 - Value: The value to store the NUMBER STORAGE.
 
+*Example Circuit: TODO*
 ### NUMBER STORAGE Gate
-> Stores a number value
-{.is-info}
+Stores a number value.
+Input: Number
+Output: Number
 
+*Example Circuit: TODO*
 ### OR Gate
-> The OR gate takes one or multiple input signals and produces an output if at least one input is **true**.
-{.is-info}
+If 1 or more signals connected to this gate, this gate will fire.
+Input: Number
+Output: bool
 
+*Example Circuit: TODO*
 ### REPEATER Gate
-
-If repeat mode is Constant, will repeatedly send a signal after a set amount of seconds for a set amount of time.
-
-If repeat mode is Enumerated, will go from Start to Finish when fired and output the current Index.
-
-If repeat mode is Repetition, will go from Start to Finish when fired and output the input
+Repeatedly sends a signal, How it's sent depends on the loop type.
 
 - Activation time: how long the signal will last until it loops back again.
 
@@ -582,26 +628,32 @@ If repeat mode is Repetition, will go from Start to Finish when fired and output
 
 - Finish index: the ending number the repeater will use
 
+*Example Circuit: TODO*
 ### SET STAT Gate
 > Sets the stat of [STATNAME] to [STATVALUE] for the inputted player
 {.is-info}
 
+*Example Circuit: TODO*
 ### TEXT EDITING Gate
 > Sets text to a TEXT STORAGE Gate
 {.is-info}
 
+*Example Circuit: TODO*
 ### TEXT INPUT Gate
 > Waits for user input and outputs what the user typed
 {.is-info}
 
+*Example Circuit: TODO*
 ### TEXT STORAGE Gate
 > Stores a text value
 {.is-info}
 
+*Example Circuit: TODO*
 ### XOR Gate
 > The XOR gate takes multiple input signals and produces an output if the number of true inputs are odd.
 {.is-info}
 
+*Example Circuit: TODO*
 # <i class="fa-duotone fa-inbox-out"></i> Output
 These wiring blocks carry out functions that usually dont return a output. They power the next gate AFTER they are finished with their function.
 > The tabs here are unfinished.
