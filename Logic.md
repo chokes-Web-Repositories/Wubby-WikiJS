@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-11T11:17:48.060Z
+date: 2024-01-11T11:51:28.136Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -129,10 +129,10 @@ and etc.
 
 ### AND Gate
 Checks whether if both inputs are true / same.
-Input: 2 values (any)
-Output: Bool
+<span style="color: #72aacc;">Input: 2 values (any)
+Output: Bool</span>
 
-*Example Circuit:*
+<span style="color: #bdbdbd;">*Example Circuit:*</span>
 ```plantuml
 @startuml
 !theme spacelab
@@ -154,11 +154,11 @@ TI2 --> AND : 'Same String'
 AND --> MD : true
 @enduml
 ```
-*Expected Output: "wow both strings are true" (chat)*
+<span style="color: #bdbdbd;">*Expected Output: "wow both strings are true" (chat)*</span>
 ### BOOL SETTER Gate
 Sets a BOOL STORAGE to the set bool value.
-Input: none
-Output: none
+<span style="color: #72aacc;">Input: none
+Output: none</span>
 - Value: The Bool Value to set a BOOL STORAGE to.
 
 *Example Circuit:*
@@ -180,8 +180,8 @@ BS --> BSt : change value to true
 *Expected Output: the bool storage's value should be true*
 ### BOOL STORAGE Gate
 Stores a bool value
-Input: Bool
-Output: Stored Value
+<span style="color: #72aacc;">Input: Bool
+Output: Stored Value</span>
 - Delay Before Output: Seconds to wait before outputting
 - Save Value: ??? (presumambly decides whether value is saved on world restart)
 - Value: The stored value
