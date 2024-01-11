@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-11T11:51:28.136Z
+date: 2024-01-11T12:12:16.651Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -128,7 +128,7 @@ and etc.
 ## {.tabset}
 
 ### AND Gate
-Checks whether if both inputs are true / same.
+Checks whether if both inputs are active. <span style="color: rgba(255, 255, 255, 0.4);">(they do not check if the values are the same)</span>
 <span style="color: #72aacc;">Input: 2 values (any)
 Output: Bool</span>
 
@@ -143,18 +143,18 @@ object "Text Storage" as TI2
 object AND
 object "Message Display" as MD
 
-MD : Title = "wow both strings are true"
-TI : Value = 'Same String'
-TI2 : Value = 'Same String'
+MD : Title = "wow both strings are active"
+TI : Value = 'Some string'
+TI2 : Value = 'Some other String'
 
 CB --> TI
 CB --> TI2
-TI --> AND : 'Same String'
-TI2 --> AND : 'Same String'
+TI --> AND : 'Some string'
+TI2 --> AND : 'Some other String'
 AND --> MD : true
 @enduml
 ```
-<span style="color: #bdbdbd;">*Expected Output: "wow both strings are true" (chat)*</span>
+<span style="color: #bdbdbd;">*Expected Output: "wow both strings are active" (chat)*</span>
 ### BOOL SETTER Gate
 Sets a BOOL STORAGE to the set bool value.
 <span style="color: #72aacc;">Input: none
@@ -205,8 +205,8 @@ BSt --> MD : true
 *Expected Output: "the bool storage's value is true!" (chat)*
 ### BOOL SWITCH Gate
 Inverts / Switches the value of a BOOL STORAGE Gate
-Input: none
-Output: none
+<span style="color: #72aacc;">Input: none
+Output: none</span>
 
 *Example Circuit:*
 ```plantuml
@@ -224,8 +224,8 @@ BS --> BSt : invert your value pls
 *Expected Output: the bool storage should be the opposite value*
 ### BREAK VECTOR Block
 Gets a specified axis of a [Vector3](https://create.roblox.com/docs/reference/engine/datatypes/Vector3)
-Input: Vector3
-Output: Number (none if Input is not a vector3)
+<span style="color: #72aacc;">Input: Vector3
+Output: Number (none if Input is not a vector3)</span>
 - Axis: The axis to get from the input.
 
 *Example Circuit:*
@@ -254,8 +254,8 @@ BV --> MD: 10
 *Expected Output: "the block's X position is 10" (chat)*
 ### BUILD VECTOR Block
 Combines the X, Y, and Z Properties to form a Vector3.
-Input: any (Number if gate uses {INPUT})
-Output: Vector3
+<span style="color: #72aacc;">Input: any (Number if gate uses {INPUT})
+Output: Vector3</span>
 - X: The X Axis of the Vector3
 - Y: The Y Axis of the Vector3
 - Z: The Z Axis of the Vector3
@@ -289,8 +289,8 @@ BV --> PC : (10, 2, 41)
 {.is-info}
 
 Changes the signal into the selected property.
-Input: any (Ignored)
-Output: any
+<span style="color: #72aacc;">Input: any (Ignored)
+Output: any</span>
 - Selected Property: The property type to change into.
 
 *Example Circuit:*
@@ -319,15 +319,15 @@ CS --> MD: 'here's a totally\n different string'
 *Expected Output: "here's a totally different string" (chat)*
 ### DELAY Gate
 Delays the signal by X seconds. (equivalent of `wait()`)
-Input: any
-Output: any (same as Input)
+<span style="color: #72aacc;">Input: any
+Output: any (same as Input)</span>
 - Delay: The amount of time to delay.
 - Ignore Deactivation: Determines if the gate will stop its signal when the previous gate stopped sending its signal
 
 ### GET BLOCK PROPERTY
 Gets a property of the specified block.
-Input: any (Block if Destination is not set)
-Output: any (The type of the retrieved property)
+<span style="color: #72aacc;">Input: any (Block if Destination is not set)
+Output: any (The type of the retrieved property)</span>
 - Property Name: The property to retrieve.
 - Destination: The block to get the properties from.
 
@@ -353,8 +353,8 @@ GBP --> MD: (17, 9, 8)
 *Expected Output: "17 9 8" (chat)*
 ### GET GAME PROPERTY Gate
 Gets a property of the world.
-Input: any (Type Needed Differs)
-Output: any (The type of the retrieved property)
+<span style="color: #72aacc;">Input: any (Type Needed Differs)
+Output: any (The type of the retrieved property)</span>
 - Property Name: The property to retrieve.
 - Value: ??
 
@@ -446,8 +446,8 @@ GGP --> MD: [amount of colored blocks of "color"]
 
 ### GET NPC PROPERTY Gate
 Gets a property of the specified NPC Block.
-Input: any (NPC Block if no Destination is set)
-Output: any (The type of the retrieved property)
+<span style="color: #72aacc;">Input: any (NPC Block if no Destination is set)
+Output: any (The type of the retrieved property)</span>
 - Property Name: The property to retrieve.
 - Destination: The NPC Block to get the properties from.
 
@@ -473,8 +473,8 @@ GNP --> MD: 'goober'
 *Expected Output: "goober" (chat)*
 ### GET PLAYER PROPERTY Gate
 Gets a property of the specified player.
-Input: Player Username
-Output: any (The type of the retrieved property)
+<span style="color: #72aacc;">Input: Player Username
+Output: any (The type of the retrieved property)</span>
 - Property Name: The property to retrieve.
 
 *Example Circuit: TODO*
@@ -488,8 +488,8 @@ Output: Number
 *Example Circuit: TODO*
 ### IF Gate
 Checks if the inputted value is the same as Value
-Input: any
-Output: Bool
+<span style="color: #72aacc;">Input: any
+Output: Bool</span>
 - Check Type: How the value is compared.
 - Keep Activation: Determines if the gate will stop its signal when the previous gate stopped sending its signal
 - Value: The value to compare the Input to.
@@ -524,8 +524,8 @@ IF --> MD
 *Expected Output: "passed" (chat) if you pressed click block 2*
 ### LOOP THROUGH EVERYONE Gate
 When Powered, The gate will loop through every player in the world.
-Input: any
-Output: Player Username
+<span style="color: #72aacc;">Input: any
+Output: Player Username</span>
 - Active Time: How long each loop takes. (seconds)
 - Delay: How long to wait for another loop. (seconds)
 - Loop Type: Determines if it loops through NPCs or Players.
@@ -553,8 +553,8 @@ LTE --> MD: here's the name of [current player]
 *Expected Output: all players in the world's usernames in chat*
 ### MATH Gate
 Does a math operation on the Input.
-Input: Number
-Output: Number
+<span style="color: #72aacc;">Input: Number
+Output: Number</span>
 - Math Order: Determines if the Input is before the Value and vice versa.
 - Operation Type: The operation to do.
 - Next Gate Type: Determines if the output needs to go through a NUMBER STORAGE to complete an operation.
@@ -586,8 +586,8 @@ MT --> MD: '6'
 *Expected Output: "6" (chat)*
 ### NOT Gate
 Inverts or "Flips" the signal.
-Input: any
-Output: any (Bool probably??)
+<span style="color: #72aacc;">Input: any
+Output: any (Bool probably??)</span>
 
 *Example Circuit: TODO*
 ### NUMBER SETTER Gate
@@ -597,8 +597,8 @@ Output: any (Bool probably??)
 {.is-info}
 
 Sets the value of a NUMBER STORAGE Gate
-Input: any (Number if using Input)
-Output: none
+<span style="color: #72aacc;">Input: any (Number if using Input)
+Output: none</span>
 - Disable Output: Determines if a connected NUMBER STORAGE outputs its value after this gate output.
 - Value: The value to store the NUMBER STORAGE.
 
