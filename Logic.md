@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-11T12:25:05.680Z
+date: 2024-01-11T12:50:24.219Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -122,8 +122,8 @@ and etc.
 > "false" = inactive signal
 {.is-info}
 
-> try out the example circuits and maybe tinker with them to get different results! - onion (if they dont give the expected results and you followed them correctly then the graph is false)
-{.is-info}
+> the gate descriptions are in-progress and may be incorrect, if you find any incorrect circuits please dm **yourlocalonion**. <span style="color: rgba(255, 255, 255, 0.4);">(i will be making a dedicated server for wubwiki maintainers soon)</span>
+{.is-warning}
 
 ## {.tabset}
 
