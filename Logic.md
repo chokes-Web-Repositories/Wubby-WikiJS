@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-11T12:18:24.627Z
+date: 2024-01-11T12:25:05.680Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -161,7 +161,7 @@ Sets a BOOL STORAGE to the set bool value.
 Output: none</span>
 - Value: The Bool Value to set a BOOL STORAGE to.
 
-*Example Circuit:*
+<span style="color: #bdbdbd;">*Example Circuit:*</span>
 ```plantuml
 @startuml
 !theme spacelab
@@ -177,7 +177,7 @@ CB --> BS
 BS --> BSt : change value to true
 @enduml
 ```
-*Expected Output: the bool storage's value should be true*
+<span style="color: #bdbdbd;">*Expected Output: the bool storage's value should be true*</span>
 ### BOOL STORAGE Gate
 Stores a bool value
 <span style="color: #72aacc;">Input: Bool
@@ -186,7 +186,7 @@ Output: Stored Value</span>
 - Save Value: ??? (presumambly decides whether value is saved on world restart)
 - Value: The stored value
 
-*Example Circuit:*
+<span style="color: #bdbdbd;">*Example Circuit:*</span>
 ```plantuml
 @startuml
 !theme spacelab
@@ -202,13 +202,13 @@ CB --> BSt
 BSt --> MD : true
 @enduml
 ```
-*Expected Output: "the bool storage's value is true!" (chat)*
+<span style="color: #bdbdbd;">*Expected Output: "the bool storage's value is true!" (chat)*</span>
 ### BOOL SWITCH Gate
 Inverts / Switches the value of a BOOL STORAGE Gate
 <span style="color: #72aacc;">Input: none
 Output: none</span>
 
-*Example Circuit:*
+<span style="color: #bdbdbd;">*Example Circuit:*</span>
 ```plantuml
 @startuml
 !theme spacelab
@@ -221,15 +221,15 @@ CB --> BS
 BS --> BSt : invert your value pls
 @enduml
 ```
-*Expected Output: the bool storage should be the opposite value*
+<span style="color: #bdbdbd;">*Expected Output: the bool storage should be the opposite value*</span>
 ### BREAK VECTOR Block
 Gets a specified axis of a [Vector3](https://create.roblox.com/docs/reference/engine/datatypes/Vector3)
 <span style="color: #72aacc;">Input: Vector3
 Output: Number (none if Input is not a vector3)</span>
 - Axis: The axis to get from the input.
 
-*Example Circuit:*
-*for this example "Block" will be placed at (10, 2, 41)*
+<span style="color: #bdbdbd;">*Example Circuit:*
+*for this example "Block" will be placed at (10, 2, 41)*</span>
 ```plantuml
 @startuml
 !theme spacelab
@@ -251,7 +251,7 @@ BV --> MD: 10
 
 @enduml
 ```
-*Expected Output: "the block's X position is 10" (chat)*
+<span style="color: #bdbdbd;">*Expected Output: "the block's X position is 10" (chat)*</span>
 ### BUILD VECTOR Block
 Combines the X, Y, and Z Properties to form a Vector3.
 <span style="color: #72aacc;">Input: any (Number if gate uses {INPUT})
@@ -260,8 +260,8 @@ Output: Vector3</span>
 - Y: The Y Axis of the Vector3
 - Z: The Z Axis of the Vector3
 
-*Example Circuit:*
-*for this example "Block" can be placed anywhere*
+<span style="color: #bdbdbd;">*Example Circuit:*
+*for this example "Block" can be placed anywhere*</span>
 ```plantuml
 @startuml
 !theme spacelab
@@ -283,7 +283,7 @@ BV --> PC : (10, 2, 41)
 
 @enduml
 ```
-*Expected Output: Block will move to 10, 2, 41.*
+<span style="color: #bdbdbd;">*Expected Output: Block will move to 10, 2, 41.*</span>
 ### CHANGE SIGNAL Block
 > The Property can be changed in the "Types" Tab in Properties
 {.is-info}
@@ -293,7 +293,7 @@ Changes the signal into the selected property.
 Output: any</span>
 - Selected Property: The property type to change into.
 
-*Example Circuit:*
+<span style="color: #bdbdbd;">*Example Circuit:*</span>
 ```plantuml
 @startuml
 !theme spacelab
@@ -316,7 +316,7 @@ CS --> MD: 'here's a totally\n different string'
 
 @enduml
 ```
-*Expected Output: "here's a totally different string" (chat)*
+<span style="color: #bdbdbd;">*Expected Output: "here's a totally different string" (chat)*</span>
 ### DELAY Gate
 Delays the signal by X seconds. (equivalent of `wait()`)
 <span style="color: #72aacc;">Input: any
@@ -331,8 +331,8 @@ Output: any (The type of the retrieved property)</span>
 - Property Name: The property to retrieve.
 - Destination: The block to get the properties from.
 
-*Example Circuit:*
-*for this example "Block" will be placed at (17, 9, 8)*
+<span style="color: #bdbdbd;">*Example Circuit:*
+*for this example "Block" will be placed at (17, 9, 8)*</span>
 ```plantuml
 @startuml
 !theme spacelab
@@ -350,7 +350,7 @@ CB --> GBP
 GBP --> MD: (17, 9, 8)
 @enduml
 ```
-*Expected Output: "17 9 8" (chat)*
+<span style="color: #bdbdbd;">*Expected Output: "17 9 8" (chat)*</span>
 ### GET GAME PROPERTY Gate
 Gets a property of the world.
 <span style="color: #72aacc;">Input: any (Type Needed Differs)
@@ -358,8 +358,8 @@ Output: any (The type of the retrieved property)</span>
 - Property Name: The property to retrieve.
 - Value: ??
 
-*Example Circuit:*
-*(this applies to most game properties)*
+<span style="color: #bdbdbd;">*Example Circuit:*
+*(this applies to most game properties)*</span>
 ```plantuml
 @startuml
 !theme spacelab
@@ -376,7 +376,7 @@ CB --> GGP
 GGP --> MD: [number of players]
 @enduml
 ```
-*Expected Output: "\[number of players\]" (chat)*
+<span style="color: #bdbdbd;">*Expected Output: "\[number of players\]" (chat)*</span>
 
 Depending on the chosen property the Input may need to be a specific type.
 - NumPlayersOnTeam: Requires a team name as input.
@@ -451,8 +451,8 @@ Output: any (The type of the retrieved property)</span>
 - Property Name: The property to retrieve.
 - Destination: The NPC Block to get the properties from.
 
-*Example Circuit:*
-*place an NPC block and set the NPC's name as "goober"*
+<span style="color: #bdbdbd;">*Example Circuit:*
+*place an NPC block and set the NPC's name as "goober"*</span>
 ```plantuml
 @startuml
 !theme spacelab
@@ -470,7 +470,7 @@ CB --> GNP
 GNP --> MD: 'goober'
 @enduml
 ```
-*Expected Output: "goober" (chat)*
+<span style="color: #bdbdbd;">*Expected Output: "goober" (chat)*</span>
 ### GET PLAYER PROPERTY Gate
 Gets a property of the specified player.
 <span style="color: #72aacc;">Input: Player Username
@@ -494,7 +494,7 @@ Output: Bool</span>
 - Keep Activation: Determines if the gate will stop its signal when the previous gate stopped sending its signal
 - Value: The value to compare the Input to.
 
-*Example Circuit:*
+<span style="color: #bdbdbd;">*Example Circuit:*</span>
 ```plantuml
 @startuml
 !theme spacelab
@@ -521,7 +521,7 @@ IF --> MD
 
 @enduml
 ```
-*Expected Output: "passed" (chat) if you pressed click block 2*
+<span style="color: #bdbdbd;">*Expected Output: "passed" (chat) if you pressed click block 2*</span>
 ### LOOP THROUGH EVERYONE Gate
 When Powered, The gate will loop through every player in the world.
 <span style="color: #72aacc;">Input: any
@@ -530,7 +530,7 @@ Output: Player Username</span>
 - Delay: How long to wait for another loop. (seconds)
 - Loop Type: Determines if it loops through NPCs or Players.
 
-*Example Circuit:*
+<span style="color: #bdbdbd;">*Example Circuit:*</span>
 ```plantuml
 @startuml
 !theme spacelab
@@ -550,7 +550,7 @@ CB --> LTE
 LTE --> MD: here's the name of [current player]
 @enduml
 ```
-*Expected Output: all players in the world's usernames in chat*
+<span style="color: #bdbdbd;">*Expected Output: all players in the world's usernames in chat*</span>
 ### MATH Gate
 Does a math operation on the Input.
 <span style="color: #72aacc;">Input: Number
@@ -561,7 +561,7 @@ Output: Number</span>
 - Disable Output: Determines if a connected NUMBER STORAGE outputs its value after this gate output.
 - Value: The value to calculate the Input with.
 
-*Example Circuit:*
+<span style="color: #bdbdbd;">*Example Circuit:*</span>
 ```plantuml
 @startuml
 !theme spacelab
@@ -583,7 +583,7 @@ NS --> MT: '3'
 MT --> MD: '6'
 @enduml
 ```
-*Expected Output: "6" (chat)*
+<span style="color: #bdbdbd;">*Expected Output: "6" (chat)*</span>
 ### NOT Gate
 Inverts or "Flips" the signal.
 <span style="color: #72aacc;">Input: any
