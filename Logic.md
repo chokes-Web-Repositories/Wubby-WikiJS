@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-11T12:50:24.219Z
+date: 2024-01-11T13:10:34.042Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -122,7 +122,7 @@ and etc.
 > "false" = inactive signal
 {.is-info}
 
-> the gate descriptions are in-progress and may be incorrect, if you find any incorrect circuits please dm **yourlocalonion**. <span style="color: rgba(255, 255, 255, 0.4);">(i will be making a dedicated server for wubwiki maintainers soon)</span>
+> the gate descriptions are in-progress and may be incorrect, if you find any incorrect circuits please dm **yourlocalonion**. <span style="color: rgba(255, 255, 255, 0.4);">(i have a webhook setup but idk how to connect this wiki to it (the webhook is in the maintainers discord))</span>
 {.is-warning}
 
 ## {.tabset}
