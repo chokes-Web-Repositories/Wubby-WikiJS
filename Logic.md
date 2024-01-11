@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-11T12:12:16.651Z
+date: 2024-01-11T12:18:24.627Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -480,8 +480,8 @@ Output: any (The type of the retrieved property)</span>
 *Example Circuit: TODO*
 ### GET STAT Gate
 Gets the stat of the specified player.
-Input: Player Username
-Output: Number
+<span style="color: #72aacc;">Input: Player Username
+Output: Number</span>
 
 - Stat Name: The stat to retrieve.
 
