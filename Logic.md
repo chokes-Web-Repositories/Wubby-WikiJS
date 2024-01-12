@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-12T11:37:16.943Z
+date: 2024-01-12T11:38:54.640Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -746,7 +746,10 @@ Clones the blocks inside it. If the input is a block, it will be used as a conta
 > This output can be used with the Local Output block!
 {.is-success}
 
-Runs a command like a normal player. **Be careful with this block as players can run any Builder+ commands. (so dont be dumb on about who you will perm.)**
+> Be careful with this block as players can run any Builder+ commands. (so dont be dumb on about who you will perm.)
+{.is-warning}
+
+Runs a command like a normal player. 
 <span style="color: #72aacc;">Input: any</span>
 - Command: The command to run. **(Only Builder+ Commands can be run for obvious security reasons.)**
 
