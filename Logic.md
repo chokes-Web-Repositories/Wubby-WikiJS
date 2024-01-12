@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-12T12:54:42.624Z
+date: 2024-01-12T12:56:07.279Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -686,8 +686,6 @@ Output: Bool</span>
 *Example Circuit: TODO*
 # <i class="fa-duotone fa-inbox-out"></i> Output
 These wiring blocks carry out functions that usually dont return a output. They power the next gate AFTER they are finished with their function.
-> The tabs here are unfinished.
-{.is-warning}
 ## {.tabset}
 ### Attach Block
 > This output can be used with the Local Output block!
