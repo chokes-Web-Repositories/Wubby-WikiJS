@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-12T11:38:54.640Z
+date: 2024-01-12T11:41:28.901Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -14,8 +14,9 @@ dateCreated: 2024-01-08T13:40:49.408Z
 > This page explains advanced features, some players may not understand everything in this page.
 {.is-warning}
 
-> This page is currently outdated, onion (me) is working on updating this to V8.
-{.is-danger}
+> This page *should* be up to date with Wubby V8!
+{.is-success}
+
 
 
 # <i class="fa-duotone fa-inbox-in"></i> Input
