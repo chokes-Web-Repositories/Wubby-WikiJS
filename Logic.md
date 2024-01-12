@@ -2,14 +2,11 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-12T11:41:28.901Z
+date: 2024-01-12T12:54:42.624Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
 ---
-
-> This page is incomplete and everything in this page is subject to change.
-{.is-warning}
 
 > This page explains advanced features, some players may not understand everything in this page.
 {.is-warning}
@@ -17,8 +14,11 @@ dateCreated: 2024-01-08T13:40:49.408Z
 > This page *should* be up to date with Wubby V8!
 {.is-success}
 
+Wubby Logic is the second-most important thing in your wubby worlds, They can do mostly anything such as changing block colors, moving blocks, and even custom NPC movement!
 
-
+Here are some useful links for wiring:
+- [Easing functions *Contains most easing types with directions.*](https://easings.net/)
+{.links-list}
 # <i class="fa-duotone fa-inbox-in"></i> Input
 These are blocks that are used to power wiring systems. They do not receive wiring inputs, and can only output.
 ## {.tabset}
