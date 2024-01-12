@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-12T12:56:07.279Z
+date: 2024-01-12T14:59:40.507Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -125,7 +125,7 @@ and etc.
 > **This is known as a bool.**
 {.is-info}
 
-> the gate descriptions are in-progress and may be incorrect, if you find any incorrect circuits please dm **yourlocalonion**. <span style="color: rgba(255, 255, 255, 0.4);">(i have a webhook setup but idk how to connect this wiki to it (the webhook is in the maintainers discord))</span>
+> the gate descriptions are in-progress and may be incorrect, if you find any incorrect circuits please use the [wiki feedback form](https://forms.gle/8szUe2x9H9t8gfYq7).</span>
 {.is-warning}
 
 ## {.tabset}
