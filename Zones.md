@@ -2,18 +2,14 @@
 title: Zones
 description: sample text
 published: true
-date: 2024-01-08T13:41:02.353Z
+date: 2024-01-13T02:04:29.158Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:41:00.765Z
 ---
 
->  desc goes here i'm too lazy to make one lol!
+>  This page is incomplete and everything in this page is subject to change.
 {.is-warning}
-
-> This page is a work in progress!
-{.is-warning}
-
 
 There are currently **6 types** of zones in Wubby, and 4 types of actions that can be done on said zones.
 
