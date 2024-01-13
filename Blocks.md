@@ -2,71 +2,118 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2024-01-09T10:17:53.781Z
+date: 2024-01-13T10:23:21.614Z
 tags: blocks
 editor: markdown
 dateCreated: 2024-01-08T13:40:35.140Z
 ---
 
 ---
-> This page is incomplete and everything in this page is subject to change.
+> This page is being edited for Wubby V8.
 {.is-warning}
 
-# <i class="fa-regular fa-cube"></i> Basic
-
-> Basic building parts. Can be positioned/shaped/rotated and can inhabit any color or material.
+These are the most fundamental and essential part of our wubby world. Blocks can be resized, positioned, and colored with brick colors. (Color picker for [Wubby+](https://www.roblox.com/game-pass/156858958/Wubby-Plus) users)
+# <i class="fa-regular fa-cube"></i> Basic 
+# {.tabset}
+## Block
+![block](/blocks/new/block.png =300x)
+## Cone
+![block](/blocks/new/cone.png =300x)
+## Conical Frustum
+![block](/blocks/new/conical_fustrum.png =300x)
+## Corner Cylinder
+![block](/blocks/new/corner_cylinder.png =300x)
+## Corner Cylinder 2
+![block](/blocks/new/corner_cylinder2.png =300x)
+## Corner Wedge
+![block](/blocks/new/corner_wedge.png =300x)
+## Corner Wedge 2
+![block](/blocks/new/corner_wedge2.png =300x)
+## Cube
+![block](/blocks/new/cube.png =300x)
+## Cylinder
+![block](/blocks/new/cylinder.png =300x)
+## Cylinder Cap
+![block](/blocks/new/cylinder_cap.png =300x)
+## Dodecahedron
+![block](/blocks/new/dodecahedron.png =300x)
+## Edge Sphere
+![block](/blocks/new/edge_sphere.png =300x)
+## Edge Wedge
+![block](/blocks/new/edge_wedge.png =300x)
+## Egg
+![block](/blocks/new/egg.png =300x)
+## Fence
+![block](/blocks/new/fence.png =300x)
+## Frustum
+![block](/blocks/new/frustrum.png =300x)
+## Half Sphere
+![block](/blocks/new/half_sphere.png =300x)
+## Head
+![block](/blocks/new/head.png =300x)
+## Hexagon
+![block](/blocks/new/hexagon.png =300x)
+## Hexagon Ring
+![block](/blocks/new/hexagon_ring.png =300x)
+## Hexagonal Cone
+![block](/blocks/new/hexagonal_cone.png =300x)
+## Hollow Cylinder
+![block](/blocks/new/hollow_cylinder.png =300x)
+## Hollow Sphere / Sphere
+![block](/blocks/new/sphere.png =300x)
+## Inverted Cylinder
+![block](/blocks/new/inverted_cylinder.png =300x)
+## Inverted Edge Sphere
+![block](/blocks/new/inverted_edge_sphere.png =300x)
+## Inverted Quarter Cylidner
+![block](/blocks/new/inverted_quarter_cylinder.png =300x)
+## Octagon
+![block](/blocks/new/octagon.png =300x)
+## Pentagon
+![block](/blocks/new/pentagon.png =300x)
+## Pentagon Ring
+![block](/blocks/new/pentagon_ring.png =300x)
+## Pentagonal Cone
+![block](/blocks/new/pentagonal_cone.png =300x)
+## Pyramid
+![block](/blocks/new/pyramid.png =300x)
+## Pyramidal Frustum
+![block](/blocks/new/pyramidal_frustrum.png =300x)
+## Pyramidal Hexagon
+![block](/blocks/new/pyramidal_hexagon.png =300x)
+## Quarter Cylinder
+![block](/blocks/new/quarter_cylinder.png =300x)
+## Ring
+![block](/blocks/new/ring.png =300x)
+## Seat Block
+![block](/blocks/new/seat_block.png =150x) ![alt](/blocks/new/seat_block_alt.png =150x)
+## Spiked Cylinder
+![block](/blocks/new/spiked_cylinder.png =300x)
+## Square Ring
+![block](/blocks/new/square_ring.png =300x)
+## Squashed Ring
+![block](/blocks/new/squashed_ring.png =300x)
+## Stairs
+![block](/blocks/new/stairs.png =300x)
+## Star
+![block](/blocks/new/star.png =300x)
+## Thick Hollow Cylinder
+![block](/blocks/new/thick_hollow_cylinder.png =300x)
+## Thin Hollow Cylinder
+![block](/blocks/new/thin_hollow_cylinder.png =300x)
+## Triangle
+> This block has a special placement system!
 {.is-info}
 
-| Block Name | Preview |
-|-----|---------|
-| Block | ![block.png](/block.png =40%x) |
-| Cone | ![cone.png](/cone.png =40%x) |
-| Corner Cylinder | ![cornercylinder.png](/cornercylinder.png =40%x) |
-| Corner Cylinder 2 | ![corndercylinder2.png](/cornercylinder2.png =40%x) |
-| Corner Wedge | ![cornerwedge.png](/cornerwedge.png =40%x) |
-| Corner Wedge 2 | ![cornerwedge2.png](/cornerwedge2.png =40%x) |
-| Cube | ![cube.png](/cube.png =40%x) |
-| Cylinder | ![cylinder.png](/cylinder.png =40%x) |
-| Cylinder Cap | ![cylindercap.png](/cylindercap.png =40%x) |
-| Edge Sphere | ![edgesphere.png](/edgesphere.png =40%x) |
-| Edge Wedge | ![edgewedge.png](/edgewedge.png =40%x) (funny name) |
-| Half Sphere | ![halfsphere.png](/halfsphere.png =40%x) |
-| Hexagon | ![hexagon.png](/hexagon.png =40%x) |
-| Hollow Sphere | ![hollowsphere.png](/hollowsphere.png =40%x) |
-| Inverted Cylinder | ![invertedcylinder.png](/invertedcylinder.png =40%x) |
-| Inverted Edge Sphere | ![invertededgesphere.png](/invertededgesphere.png =40%x) |
-| Inverted Quarter Cylinder | ![invertedquartercylinder.png](/invertedquartercylinder.png =40%x) |
-| Dodecahedron | ![dodecahedron.png](/dodecahedron.png =40%x) (will fix the bg inconsistency soon)| 
-| Egg | ![egg.png](/egg.png =40%x) |
-| Fence | ![fence.png](/fence.png =40%x) |
-| Frustrum | ![frustrum.png](/frustrum.png =40%x) |
-| Head | ![head.png](/head.png =40%x) |
-| Hexagon Ring | ![hexagonring.png](/hexagonring.png =40%x) |
-| Hexagonal Cone | ![hexagonalcone.png](/hexagonalcone.png =40%x) |
-| Hollow Cylinder | ![hollowcylinder.png](/hollowcylinder.png =40%x) |
-| Octagon | ![octagon.png](/octagon.png =40%x) |
-| Pyramid | ![pyramid.png](/pyramid.png =40%x) |
-| Pyramidal Hexagon | ![pyramidalhexagon.png](/pyramidalhexagon.png =40%x) |
-| Quarter Cylinder | ![quartercylinder.png](/quartercylinder.png =40%x) |
-| Pentagon | ![pentagon.png](/pentagon.png =40%x) |
-| Pentagon Ring | ![pentagonring.png](/pentagonring.png =40%x) |
-| Pentagonal Cone | ![pentagonalcome.png](/pentagonalcone.png =40%x) |
-| Ring | ![ring.png](/blocks/ring.png =40%x) |
-| Seat Block | ![seatblock.png](/seatblock.png =40%x) |
-| Sphere | ![sphere.png](/sphere.png =40%x) |
-| Spiked Cylinder | ![spikedcylinder.png](/spikedcylinder.png =40%x) |
-| Square Ring | ![.png](/blocks/squarering.png =40%x) |
-| Squashed Ring | ![squashedring.png](/blocks/squashedring.png =40%x) |
-| Stairs | ![stairs.png](/blocks/stairs.png =40%x) |
-| Star | ![star.png](/blocks/star.png =40%x) |
-| Thick Hollow Cylinder | ![thickhollowcylinder.png](/blocks/thickhollowcylinder.png =40%x) |
-| Thin Hollow Cylinder | ![thinhollowcylinder.png](/blocks/thinhollowcylinder.png =40%x) |
-| Triangle | ![triangle.png](/blocks/triangle.png =40%x) |
-| Triangle Ring | ![trianglering.png](/blocks/trianglering.png =40%x) |
-| Triangular Cone | ![triangularcone.png](/blocks/triangularcone.png =40%x) |
-| Truss | ![truss.png](/truss.png =40%x) |
-| Wedge | ![wedge.png](/wedge.png =40%x) |
-
+![block](/blocks/new/triangle.png =300x)
+## Triangle Ring
+![block](/blocks/new/triangle_ring.png =300x)
+## Triangular Cone 
+![block](/blocks/new/triangular_cone.png =300x)
+## Truss
+![block](/blocks/new/truss.png =300x)
+## Wedge
+![block](/blocks/new/wedge.png =300x)
 # <i class="fa-regular fa-wand-magic-sparkles"></i> Special
 
 > Special Parts.
