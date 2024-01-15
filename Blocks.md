@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2024-01-13T10:23:21.614Z
+date: 2024-01-15T13:45:42.452Z
 tags: blocks
 editor: markdown
 dateCreated: 2024-01-08T13:40:35.140Z
@@ -102,10 +102,9 @@ These are the most fundamental and essential part of our wubby world. Blocks can
 ## Thin Hollow Cylinder
 ![block](/blocks/new/thin_hollow_cylinder.png =300x)
 ## Triangle
+![block](/blocks/new/triangle.png =300x)
 > This block has a special placement system!
 {.is-info}
-
-![block](/blocks/new/triangle.png =300x)
 ## Triangle Ring
 ![block](/blocks/new/triangle_ring.png =300x)
 ## Triangular Cone 
@@ -116,11 +115,41 @@ These are the most fundamental and essential part of our wubby world. Blocks can
 ![block](/blocks/new/wedge.png =300x)
 # <i class="fa-regular fa-wand-magic-sparkles"></i> Special
 
-> Special Parts.
+Special parts are blocks that offer extra functionality.
+
+# {.tabset}
+## Floating Text Block
+![block](/blocks/new/special/floating_text_block.png =300x)
+## Gear Block
+![block](/blocks/new/special/gear_block.png =300x)
+## Local Output Block
+![block](/blocks/new/special/local_output_block.png =300x)
+## Mesh Block
+![block](/blocks/new/special/mesh_block_alt.png =300x)
+> Without a mesh, the mesh block would just look like a normal block. The mesh id used in this image is **11439110061** with the texture id **11439110176**.
+{.is-info}
+## Morph Block
+![block](/blocks/new/special/morph_block.png =300x)
+## Motor, Servo, Hinge Block
+![block](/blocks/new/special/mot_hin_ser_alt.png =300x)
+> The motor block, hinge block and servo block are combined into one tab as their appearances are the same.
+{.is-info}
+## NPC Block
+![block](/blocks/new/special/npc_block.png =300x)
+## Parallel Wiring Block
+![block](/blocks/new/special/parallel_wiring_block.png =300x)
+## Spawnpoint
+![block](/blocks/new/special/spawn_point.png =300x)
+## Stat Block
+![block](/blocks/new/special/stat_block.png =300x)
+> It can also be substituted with GET STAT and SET STAT gates.
+{.is-info}
+## Text Block
+![block](/blocks/new/special/text_block.png =300x)
+## Water Block
+![block](/blocks/new/special/water_block.png =300x)
+> It looks like a blue block before you place it but it immediately turns into water terrain after you place it.
 {.is-info}
 
-| Block Name | Preview |
-|-----|---------|
-| Text Block | ![image_2023-08-20_123511782.png](/blocks/image_2023-08-20_123511782.png =40%x) |
-| Vehicle Seat | ![image_2023-08-20_123733620.png](/blocks/image_2023-08-20_123733620.png =40%x) |
-| NPC Block | ![image_2023-08-20_123944283.png](/blocks/image_2023-08-20_123944283.png =40%x) |
+
+
