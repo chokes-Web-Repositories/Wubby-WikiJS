@@ -2,7 +2,7 @@
 title: Home
 description: Welcome to Wubby! A roblox building game based on (the now content deleted) World Builder.
 published: true
-date: 2024-01-12T13:20:48.079Z
+date: 2024-01-15T09:20:26.379Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:41:03.769Z
@@ -14,9 +14,10 @@ dateCreated: 2024-01-08T13:41:03.769Z
 > Griefing a page will result in your edit permissions being revoked
 {.is-warning}
 
-> Some parts of the wiki is being refurbished. Expected completion date in **t:1705766400:C**.
+> onion postponed the wiki renovation because he's busy w/ school, sorry!!
 {.is-warning}
 
+[](comment**t:1705766400:C**)
 # <i class="fa-regular fa-hand-wave"></i> Introduction
 
 Welcome to the official Wubby wiki
