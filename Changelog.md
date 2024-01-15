@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: false
-date: 2024-01-15T10:49:50.895Z
+date: 2024-01-15T10:54:04.574Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:37.581Z
@@ -932,6 +932,7 @@ Velocity, Position, Orientation, Mouse3DPosition
 -fixed useinput in the property changer
 ```
 
+## August
 ### t:1690941480:D (V2.0.16 | NPC Update)
 ```diff
 +! npcs
@@ -1119,6 +1120,7 @@ Velocity, Position, Orientation, Mouse3DPosition
 - fixed setting images on attributes
 ```
 
+## September
 ### t:1695002280:D (V??.??.?? (V4 or V5 i forgot) | Commercial Update)
 ```diff
 +! in-world shop
@@ -1167,6 +1169,7 @@ Velocity, Position, Orientation, Mouse3DPosition
 - fixed ragdolls having a standing still seizure
 ```
 
+## November
 ### t:1699235880:D (V8.13.21 | Transform+ Update)
 > The changelog is so long lmaoo - onion
 
@@ -1258,5 +1261,7 @@ Velocity, Position, Orientation, Mouse3DPosition
 - fixed morph blocks on npcs
 ```
 
+# 2024
+## January
 ### t:1704160680:D
 no changelog, deeplinking got added.
