@@ -2,15 +2,15 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2024-01-15T13:45:42.452Z
+date: 2024-01-15T13:46:26.013Z
 tags: blocks
 editor: markdown
 dateCreated: 2024-01-08T13:40:35.140Z
 ---
 
 ---
-> This page is being edited for Wubby V8.
-{.is-warning}
+> This page *should* be up to date with Wubby V8.
+{.is-success}
 
 These are the most fundamental and essential part of our wubby world. Blocks can be resized, positioned, and colored with brick colors. (Color picker for [Wubby+](https://www.roblox.com/game-pass/156858958/Wubby-Plus) users)
 # <i class="fa-regular fa-cube"></i> Basic 
