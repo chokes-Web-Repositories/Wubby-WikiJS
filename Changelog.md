@@ -1,14 +1,14 @@
 ---
 title: Changelog
 description: The game's changelog for people who aren't in the discord
-published: false
-date: 2024-01-15T10:56:37.645Z
+published: true
+date: 2024-01-15T10:57:35.720Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:37.581Z
 ---
 
-> This page should be up to date with Wubby V8.
+> This page *should* be up to date with Wubby V8.
 {.is-success}
 
 > This page will automatically update dates depending on your local timezone.
