@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: false
-date: 2024-01-15T09:59:36.131Z
+date: 2024-01-15T10:49:50.895Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:37.581Z
@@ -932,7 +932,7 @@ Velocity, Position, Orientation, Mouse3DPosition
 -fixed useinput in the property changer
 ```
 
-### t:1690941480:D (V2.0.16)
+### t:1690941480:D (V2.0.16 | NPC Update)
 ```diff
 +! npcs
 +! path blocks
@@ -973,3 +973,290 @@ Velocity, Position, Orientation, Mouse3DPosition
 - fixed setting attributes faces manually
 - fixed duplicating attributes with the duplicate selection tool
 ```
+
+### t:1691114280:D (V2.0.20)
+```diff
++ npc transparency
++ search bar for dropdowns
+```
+
+### t:1691546280:D (V3.0.10 | Camera Update) 
+```diff
++! camera blocks
++! camera zones
++ name property to get npc property gate
++ normal property to text editing gate
++ drop-down search bar
++ drop-down hints
++ dropper tool for vectors
++ filter properties
++ stat show command
++ added mouse movement to touch detector
++ added get num npcs alive to get game property
+
+* number sequences no longer require ">" to work (the "omggg i can't set size" bug)
+* changing perms no longer changes ur tool if you're still permed
+
+- fixed attributes dropdowns
+- fixed the annoying "sliders setting all to 0" when dragging bug
+- fixed attach block debris
+- fixed some attributes with attach blocks and clone blocks
+- fixed hints still being there after removing attributes
+- fixed pixels per stud being a boolean
+```
+
+> V3.013 got pushed few hours after.
+{.is-info}
+
+```diff
+- fixed sliders not working
+- fixed getting out of ambient zones
+- fixed paint tool
+```
+
+### t:1691805480:D (V3.1.17)
+```diff
++! npc teams
++ bubble setting to message display blocks (works with players, npcs and blocks)
++ camerashake command
++ cameraoffset command
++ added loop through all npcs into loop through everyone gate
++ pyramidal frustum
++ conical frustum
++ vector dropper now supports velocity
++ double block attributes now show the block they're linked to
+
+* rejoin now sends you to the hub if you're the only player on the server
+* any command that kicks the player is now instant and more exploiter-proof
+* build zones now show their limits
+
+-! fixed build zones
+- fixed number sequences being negative
+- fixed exiting ambient zones
+- fixed camera zone killing you for no reason
+- fixed core menu not appearing when creating a world
+- fixed switching from one camera zone to another
+- fixed switching from a sound zone to another
+- fixed duplicating wiring
+- fixed rotating slider setting grid size to 0.01
+- made npcs a bit more performant
+```
+
+### t:1692064680:D (V3.2.6)
+```diff
++ npcs now climb trusses correctly
+
+* changed how npcs chase and they should be smarter now
+* r6 ballers and ragdolls will now change the camera focus to the center of your character to avoid seizures
+
+- fixed if gates
+- fixed wiring overall
+- fixed r15 attach blocks
+- ballers and ragdolls no longer mess up the camera on a camera zone
+```
+
+### t:1692237480:D (V3.3.4)
+```diff
++ noclip command
++ clip command
++ :notepad command
++ animations for the gui
++ cameraoffset and camerashake now have animations to reduce eyestrain
++ icons for the gui
++ ;freecamstiff command
++ documented :time
++ no output property for storage changer gates
+
+* lastedited is now a player command
+* when you select a transparent block, it's surface box will now be invisible
+* when transforming blocks, their outlines are now hidden until you release the mouse
+
+-! made some important fixes to saving 
+- fixed set stat taggin
+- attach blocks without collision now don't get detected by raycasting 
+- fixed unburn
+- removed dummy
+```
+
+### t:1692323880:D (V3.4.7)
+```diff
++! water world settings
++! water configuration to ambient zones
++ gui improvements overall
++ search bar for attributes
++ icons for attributes
+
+* changed how npcs die to be more performant and have less physics glitches
+* gui adjustments
+
+-! fixed attach blocks despawning probably
+- fixed editing some properties inside build zones
+- fixed ballers detaching your camera
+```
+
+### t:1692410280:D (V3.4.12)
+```diff
++! :clearduplicates command
+
+-! saving now does some extra checks when saving blocks to ensure that there are no duplicates
+- fixed using rotation with the property changer
+- fixed setting mesh ids
+- wubby now does a few extra checks after inserting the scripts to ensure that the world doesn't load in twice
+```
+
+### t:1692755880:D (V3.5.2)
+```diff
++! added a lot of chat configuration settings to the world settings (14 to be exact)
++! time cycle world setting lol 😹😹
++ smoke attribute
++ fire attribute
++ sparkles attribute
+
+* :mute now hides the input bar too
+
+-! fixed spawning npcs with wiring
+- fixed loading being infinite
+- fixed setting images on attributes
+```
+
+### t:1695002280:D (V??.??.?? (V4 or V5 i forgot) | Commercial Update)
+```diff
++! in-world shop
++! shop
++! hats, auras and chat tags
++! inventory
++! local output block
++! wirer block
++! backups
++ you can now buy wubbits with robux
++ plus perk: you get more wubbits from worlds
++ plus perk: free chat tag and hat
++ plus perk: 2 extra backups
++ plus perk: equip 2 auras at once
++ added world settings to control if u want items from the wubby shop in your world
++ shop purchase block (input)
++ player has pass gate
++ camera coordinates in get player property gate
++ normal players can now set a block's color to 0 0 0
++ readvariables command (shows all the wiring variables in the notepad)
++ upgraded how variables filter
++ world owners can do purchase tests to test if their stuff work
++ gui improvements
+
+*! drastically changed how wubbits are obtained
+*! drastically changed how npcs check for players (massive optimization improvement)
+*! drastically changed how most input blocks work (another massive optimization improvement)
+*! drastically changed how some touch attributes are handled (handled by clients, much more performant and instant)
+* not, and, xor and or gates now do a "cleanup" when fired, removing unnecessary inputs and outputs
+* if you're not permed the "perm ur friends" notification won't appear anymore
+* wiring is now slightly faster checking inputs
+* command blocks now require the last player who edited them to have the "can use commands"
+* placed mesh blocks now get hidden when saved, to avoid issues
+* cloned wiring is no longer dropped if it's inside the cloned model
+* cloned and attached blocks now listen for input if they're handled on the server 
+
+-! fixed the annoying npc stutter bug
+- removed the player parameter from the message command
+- fixed attach block tping you sometimes
+- fixed some wiring blocks not deactivating
+- parallel wiring and local outputs cannot be cloned anymore
+- fixed sky bottom not saving
+- fixed player chatted's cooldown
+- fixed NaN in a lot of commands
+- fixed R6 not having forcefields
+- fixed ragdolls having a standing still seizure
+```
+
+### t:1699235880:D (V8.13.21 | Transform+ Update)
+> The changelog is so long lmaoo - onion
+
+```diff
++! hugely revamped the transform gui
++! global movement
++! non pivot rotating
++! dragging
++ passes and items now support decal ids
++! tutorial template + small gui tutorial
++! added "safe mode" world status (temporarily disables wiring, attributes (except newly placed), special blocks and temporarily freezes physics (anchors all blocks))
++! implemented the "backrub" saving system which makes saving faster, more lightweight and more reliable
++! added a lot of sounds (opening the menu, clicking a boolean, etc)
++ added "(team name)" player identifier that selects every player inside a team
++ added a lot of game juice and game feedback
++ added "(team name)"{number} player identifier which selects {number} random players in a team
++ added "(team name)"{number}% player identifier which selects {number}% of the players in a team
++ added reverb, pitch shift and echo settings to newly placed sound zones
++ on mobile, now you can hold on a block to add/remove it from the selection
++ added color correction settings to world settings / ambient zones
++ added anchor settings to the block touch detector
++ added "includes" and "excludes" to the if gate and stat teles
++ added "device" to get player property gate
++ added unattach command
++ added SUPER SECRET BLOCK!!!!
++ added a rules popup button to the hub
++ added 9 auras
++ added 3 hats
++ added ;rotation command which sets a player's rotation
+
+*! cloned and attached input/special blocks now work
+* backup failing operation notifications are now more descriptive
+* attacking npcs with gears no longer deal damage if their tool is taken away from them
+* smart npcs whose tools got taken away from them now toggle on the fleeing state
+* changed how :cmds searches commands so it's now more comfortable to use
+* the transform tool now uses the last block you selected as the pivot instead of the oldest one
+* property changers now have a tiny cooldown to avoid crashes
+* changed how some properties sort for the better
+* morph blocks are now output blocks too that use a player's name/npc block as input to morph it
+* anything that requires images now gets saved in a much more performant way
+* changed how rotating and tilting works so now you can rotate a block in any way
+* sound zones now muffle when you open the world menu
+* usernames are now copyable (menu)
+* face transparency now matches head transparency in morph and npc blocks
+* upgraded the sign gui (it was ugly)
+* the lightning command now accepts coordinates
+* attach blocks now output the main block instead of a random one
+* variables are now compatible with vectors too
+
+-! fixed undo and redo not saving changes
+-! fixed the grid offset bug
+-! fixed blocks being weirdly offseted from the pivot block when placing blocks
+-! fixed resize not resizing blocks in the correct way
+- fixed stocks with gear and stat blocks
+- npcs with wander cooldown set to 0 no longer dance like crazy
+- tried fixing the "stats not loading" bug
+- fixed some gui animations not displaying correctly
+- fixed a visual bug while copying blocks
+- fixed the path block
+- fixed some aspects of the prompt block when using parallel wiring
+- fixed running commands at players which names start with "random"
+- fixed bool storage
+- fixed NaN in the world shop
+- fixed world setup jamming
+- fixed mesh blocks not saving their texture correctly
+- fixed blue resetting when opening the menu
+- fixed some hats not showing up correctly
+- attribute names no longer tag
+- attempted to fix welds breaking on rejoin
+- motors, hinges and servos should now break way less often
+- fixed setting world name/description through the hub
+- fixed placing zones not saving properties
+- fixed beam attribute
+- fixed rotating and tilting in mobile
+- fixed copying colors with c
+```
+
+### t:1699667880:D (V8.14.4)
+```diff
++! new awesome and juicy and super awesome repeater gate which replaces the old one (logic)
++ new :scale command
+
+*! changed a lot of gate colors
+
+- fixed 360° rotating with property changer and etc
+- fixed the annoying selection box bug
+- fixed a bug that would display the wrong amount of wubbits when buying something
+- fixed anchoring attach/cloned blocks returning to their og pos
+- fixed morph blocks on npcs
+```
+
+### t:1704160680:D
+no changelog, deeplinking got added.
