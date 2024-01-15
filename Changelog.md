@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: false
-date: 2024-01-09T11:14:43.552Z
+date: 2024-01-15T09:59:36.131Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:37.581Z
@@ -930,4 +930,46 @@ Velocity, Position, Orientation, Mouse3DPosition
 -fixed /c system and /team
 -fixed rotation increment for plus
 -fixed useinput in the property changer
+```
+
+### t:1690941480:D (V2.0.16)
+```diff
++! npcs
++! path blocks
++ "motor orientation" to servos, motors and hinges
++ added a bunch of aliases for different blocks
++ added get npc property gate
++ path modifier attribute
++ message shout options for message display
++ message color for message display
++ message time for message display
++ attach block setting "replace existing blocks"
++added byte, length and packsize to text editing gates
+
+* jump command now ignores if you're mid air
+* changed how some blocks load in, so mechanisms with these blocks no longer break
+* changed how blocks setup, so now there should be less bugs with precise first times
+* affect npcs properties in attributes has been replaced by a dropdown that lets you customize what will attributes affect
+* wiring is now a bit faster
+*anchoring blocks now resets their angular velocity too
+*menu now orders players by how important they are
+
+-! fixed motors
+-! fixed hinges
+-! fixed servos
+-! fixed variables
+-! fixed effects maybe
+-! impulse command is FIXED!!!
+- fixed some animations
+- fixed some freecam problems
+- fixed burn command
+- fixed trails
+- fixed some wiring problems
+- fixed property changers with enums
+- fixed how some attributes get edited
+- fixed setting mesh ids after placing mesh blocks
+- fixed stat save false
+- fixed block count
+- fixed setting attributes faces manually
+- fixed duplicating attributes with the duplicate selection tool
 ```
