@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2024-01-16T07:38:45.230Z
+date: 2024-01-16T07:38:46.999Z
 tags: blocks
 editor: markdown
 dateCreated: 2024-01-08T13:40:35.140Z
