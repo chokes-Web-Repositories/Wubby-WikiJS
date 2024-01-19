@@ -2,7 +2,7 @@
 title: choke's yapping page
 description: if you find this, then cool (please dont leak it though)
 published: true
-date: 2024-01-19T09:19:43.055Z
+date: 2024-01-19T12:04:11.048Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T09:45:08.849Z
@@ -41,6 +41,6 @@ and also iconic doing what seems like a fucking ban speedrun from the blockate d
 
 # Chapter 3: why some services have limited functionality
 - kory removed my access to wubby [datastores](https://create.roblox.com/docs/cloud-services/datastores), hence why the [wubby api](https://api.wubbygame.com/docs) is non-functional
-- still angry that two wubby mods were going to ban me for reasons stated in chapter 2
+- still angry that two wubby mods were going to ban me for reasons stated in [chapter 2](#chapter-2-the-ranting-part)
 
 will update this page when i remember more shit
