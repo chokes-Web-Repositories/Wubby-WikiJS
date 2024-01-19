@@ -2,10 +2,10 @@
 title: choke's yapping page
 description: if you find this, then cool (please dont leak it though)
 published: true
-date: 2024-01-17T10:16:10.748Z
+date: 2024-01-19T00:27:23.594Z
 tags: 
 editor: markdown
-dateCreated: 2024-01-17T09:45:08.849Z
+dateCreated: 2024-01-08T09:45:08.849Z
 ---
 
 > if you don't agree to some of these then i dont give a shit
@@ -22,9 +22,11 @@ i will continue to keep my services online (some of these services have limited 
 will stop interacting with the **wubby community** unless kory actually hires a very much needed community manager
 
 # Chapter 2: the ranting part
-i was banned from the server because of a group chat server with zero connection to wubby
+long story short i was banned from the wubby discord server because of a group chat server with no connection to wubby whatsoever
+- i poorly worded to why the server was closed (in this case i labeled it as a "porn dump")
+- the server was full of minors, yes, including me (`_choke`)
+
 like what the fuck?? its literally none of your business
-we were also **friends**, not some randos
 
 not to mention [iconic](https://discord.com/users/583110584288018467) and [fireflanger](https://discord.com/users/228672475343355905) sharing shit to blockate staff
 ![](https://media.choke.dev/ShareX/2024/01/Discord_BfSEZWE32m.png)
@@ -33,7 +35,7 @@ i am not going to fucking get my friends banned on blockate because of this shit
 ---
 
 also regarding fireflanger, i love how he went online daily trying to figure out the contents of the group chat server
-then proceeds to go inactive after i get banned 👏👏👏
+then proceeds to go inactive after i get banned 44F44F44F
 
 ---
 
