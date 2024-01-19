@@ -2,7 +2,7 @@
 title: Zones
 description: sample text
 published: true
-date: 2024-01-13T02:04:30.756Z
+date: 2024-01-19T11:08:54.575Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:41:00.765Z
@@ -52,3 +52,7 @@ You can use this for:
 - etc
 
 ![image_2023-08-20_114049526.png](/zones/image_2023-08-20_114049526.png)
+
+# Ambient Zone
+
+# Camera Zone
