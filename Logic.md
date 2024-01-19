@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-12T14:59:45.997Z
+date: 2024-01-19T15:39:44.329Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -24,7 +24,7 @@ These are blocks that are used to power wiring systems. They do not receive wiri
 ## {.tabset}
 ### Block Touch Detector
 Emits a signal when touched by an unachored block or gear debris.
-<span style="color: #72aacc;">Output: The part that touched it.</span>
+<span class="property">Output: The part that touched it.</span>
 Configurations:
 - Activation Time: How long it activates for. Default is 1
 - Anchor Type: Decides what blocks get detected. Default is NonAnchored
@@ -33,7 +33,7 @@ Configurations:
 
 ### Click Block
 Emits a signal when clicked on. 
-<span style="color: #72aacc;">Output: The player's username.</span>
+<span class="property">Output: The player's username.</span>
 Configurations: 
 - Activation Time: How long it activates for. Default is 1. 
 - Max Distance: How far you can click this block. Default is 32.
@@ -41,7 +41,7 @@ Configurations:
 
 ### Humanoid State Block
 Emits a signal when a humanoid changes to the specified state.
-<span style="color: #72aacc;">Output: The player's username.</span>
+<span class="property">Output: The player's username.</span>
 Configurations:
 - Activation Time: How long it activates for. Default is 1.
 - State: The block fires when a humanoid enters this state. Default is Landed.
@@ -49,7 +49,7 @@ Configurations:
 
 ### Key Input Block
 Emits a signal when a player presses the selected key or mobile button.
-<span style="color: #72aacc;">Output: The player's username.</span>
+<span class="property">Output: The player's username.</span>
 Configurations:
 - Activation Time: How long it activates for. Default is 1.
 - Input Detection Type: Determines if the block will fire if the input ended, or started.
@@ -60,26 +60,26 @@ Configurations:
 
 ### NPC Event Block
 Emits a signal once the an NPC does the selected NPC event.
-<span style="color: #72aacc;">Output: The NPC's NPC Block.</span>
+<span class="property">Output: The NPC's NPC Block.</span>
 - Activation Time: How long it activates for. Default is 1.
 - Event: The NPC Event to detect.
 
 ### Player Chatted Block
 Emits a signal every time a player chats.
-<span style="color: #72aacc;">Output: Either the player's username or what they said depending on the "Output Type" setting.</span>
+<span class="property">Output: Either the player's username or what they said depending on the "Output Type" setting.</span>
 Configurations:
 - Activation Time: How long it activates for. Default is 1.
 - Output Type: Determines if the block will output the players chat message or their username when its fired. Default is "Message".
 
 ### Player Event Block
 Emits a signal when the selected player event is triggered.
-<span style="color: #72aacc;">Output: The player's username</span>
+<span class="property">Output: The player's username</span>
 - Activation Time: How long it activates for. Default is 1.
 - Event: The Player Event to detect.
 
 ### Player Touch Detector
 Emits a signal when a Player/NPC touches this block.
-<span style="color: #72aacc;">Output: The player's username. (If Detect is set to "NPC" it always outputs the NPC Block)</span>
+<span class="property">Output: The player's username. (If Detect is set to "NPC" it always outputs the NPC Block)</span>
 Configurations:
 - Activation Time: How long it activates for. Default is 1.
 - Detect: A dropdown menu with the items: Players, NPCs, Everything.
@@ -87,7 +87,7 @@ Configurations:
 
 ### Prompt Block
 Emits a signal when it's Proximity Prompt has been triggered.
-<span style="color: #72aacc;">Output: The player's username.</span>
+<span class="property">Output: The player's username.</span>
 Configurations:
 - Activation Time: How long it activates for. Default is 1.
 - Hold Duration: Amount of time to trigger the prompt. Default is 0.5
@@ -99,13 +99,13 @@ Configurations:
 {.is-warning}
 
 Emits a signal when the specified item name is bought.
-<span style="color: #72aacc;">Output: Player Username</span>
+<span class="property">Output: Player Username</span>
 - Activation Time: How long it activates for. Default is 1.
 - Item Name: The item to detect a purchase on.
 
 ### Tap Input Block
 Emits a signal when a player presses a mouse button.
-<span style="color: #72aacc;">Output: The player's username.</span>
+<span class="property">Output: The player's username.</span>
 - Activation Time: How long it activates for. Default is 1.
 - Input Detection Type: Determines if the block will fire if the input ended, or started.
 - Key: What mouse button is being interacted with.
@@ -131,11 +131,11 @@ and etc.
 ## {.tabset}
 
 ### AND Gate
-Checks whether if both inputs are active. <span style="color: rgba(255, 255, 255, 0.4);">(they do not check if the values are the same)</span>
-<span style="color: #72aacc;">Input: 2 values (any)
+Checks whether if both inputs are active. <span class="desc-note">(they do not check if the values are the same)</span>
+<span class="property">Input: 2 values (any)
 Output: Bool</span>
 
-<span style="color: #bdbdbd;">*Example Circuit:*</span>
+<span class="example-circuit">*Example Circuit:*</span>
 ```plantuml
 @startuml
 !theme spacelab
@@ -157,10 +157,10 @@ TI2 --> AND : 'Some other String'
 AND --> MD : true
 @enduml
 ```
-<span style="color: #bdbdbd;">*Expected Output: "wow both strings are active" (chat)*</span>
+<span class="example-circuit">*Expected Output: "wow both strings are active" (chat)*</span>
 ### BOOL SETTER Gate
 Sets a BOOL STORAGE to the set bool value.
-<span style="color: #72aacc;">Input: none
+<span class="property">Input: none
 Output: none</span>
 - Value: The Bool Value to set a BOOL STORAGE to.
 
@@ -183,7 +183,7 @@ BS --> BSt : change value to true
 <span style="color: #bdbdbd;">*Expected Output: the bool storage's value should be true*</span>
 ### BOOL STORAGE Gate
 Stores a bool value
-<span style="color: #72aacc;">Input: Bool
+<span class="property">Input: Bool
 Output: Stored Value</span>
 - Delay Before Output: Seconds to wait before outputting.
 - Save Value: ??? (presumambly decides whether value is saved on world restart)
@@ -208,7 +208,7 @@ BSt --> MD : true
 <span style="color: #bdbdbd;">*Expected Output: "the bool storage's value is true!" (chat)*</span>
 ### BOOL SWITCH Gate
 Inverts / Switches the value of a BOOL STORAGE Gate
-<span style="color: #72aacc;">Input: none
+<span class="property">Input: none
 Output: none</span>
 
 <span style="color: #bdbdbd;">*Example Circuit:*</span>
@@ -227,7 +227,7 @@ BS --> BSt : invert your value pls
 <span style="color: #bdbdbd;">*Expected Output: the bool storage should be the opposite value*</span>
 ### BREAK VECTOR Block
 Gets a specified axis of a [Vector3](https://create.roblox.com/docs/reference/engine/datatypes/Vector3)
-<span style="color: #72aacc;">Input: Vector3
+<span class="property">Input: Vector3
 Output: Number (none if Input is not a vector3)</span>
 - Axis: The axis to get from the input.
 
@@ -257,7 +257,7 @@ BV --> MD: 10
 <span style="color: #bdbdbd;">*Expected Output: "the block's X position is 10" (chat)*</span>
 ### BUILD VECTOR Block
 Combines the X, Y, and Z Properties to form a Vector3.
-<span style="color: #72aacc;">Input: any (Number if gate uses {INPUT})
+<span class="property">Input: any (Number if gate uses {INPUT})
 Output: Vector3</span>
 - X: The X Axis of the Vector3
 - Y: The Y Axis of the Vector3
@@ -292,7 +292,7 @@ BV --> PC : (10, 2, 41)
 {.is-info}
 
 Changes the signal into the selected property.
-<span style="color: #72aacc;">Input: any (Ignored)
+<span class="property">Input: any (Ignored)
 Output: any</span>
 - Selected Property: The property type to change into.
 
@@ -322,14 +322,14 @@ CS --> MD: 'here's a totally\n different string'
 <span style="color: #bdbdbd;">*Expected Output: "here's a totally different string" (chat)*</span>
 ### DELAY Gate
 Delays the signal by X seconds. (equivalent of `wait()`)
-<span style="color: #72aacc;">Input: any
+<span class="property">Input: any
 Output: any (same as Input)</span>
 - Delay: The amount of time to delay.
 - Ignore Deactivation: Determines if the gate will stop its signal when the previous gate stopped sending its signal
 
 ### GET BLOCK PROPERTY
 Gets a property of the specified block.
-<span style="color: #72aacc;">Input: any (Block if Destination is not set)
+<span class="property">Input: any (Block if Destination is not set)
 Output: any (The type of the retrieved property)</span>
 - Property Name: The property to retrieve.
 - Destination: The block to get the properties from.
@@ -356,7 +356,7 @@ GBP --> MD: (17, 9, 8)
 <span style="color: #bdbdbd;">*Expected Output: "17 9 8" (chat)*</span>
 ### GET GAME PROPERTY Gate
 Gets a property of the world.
-<span style="color: #72aacc;">Input: any (Type Needed Differs)
+<span class="property">Input: any (Type Needed Differs)
 Output: any (The type of the retrieved property)</span>
 - Property Name: The property to retrieve.
 - Value: ??
@@ -449,7 +449,7 @@ GGP --> MD: [amount of colored blocks of "color"]
 
 ### GET NPC PROPERTY Gate
 Gets a property of the specified NPC Block.
-<span style="color: #72aacc;">Input: any (NPC Block if no Destination is set)
+<span class="property">Input: any (NPC Block if no Destination is set)
 Output: any (The type of the retrieved property)</span>
 - Property Name: The property to retrieve.
 - Destination: The NPC Block to get the properties from.
@@ -483,7 +483,7 @@ Output: any (The type of the retrieved property)</span>
 *Example Circuit: TODO*
 ### GET STAT Gate
 Gets the stat of the specified player.
-<span style="color: #72aacc;">Input: Player Username
+<span class="property">Input: Player Username
 Output: Number</span>
 
 - Stat Name: The stat to retrieve.
@@ -491,7 +491,7 @@ Output: Number</span>
 *Example Circuit: TODO*
 ### IF Gate
 Checks if the inputted value is the same as Value
-<span style="color: #72aacc;">Input: any
+<span class="property">Input: any
 Output: Bool</span>
 - Check Type: How the value is compared.
 - Keep Activation: Determines if the gate will stop its signal when the previous gate stopped sending its signal
@@ -527,7 +527,7 @@ IF --> MD
 <span style="color: #bdbdbd;">*Expected Output: "passed" (chat) if you pressed click block 2*</span>
 ### LOOP THROUGH EVERYONE Gate
 When Powered, The gate will loop through every player in the world.
-<span style="color: #72aacc;">Input: any
+<span class="property">Input: any
 Output: Player Username</span>
 - Active Time: How long each loop takes. (seconds)
 - Delay: How long to wait for another loop. (seconds)
@@ -556,7 +556,7 @@ LTE --> MD: here's the name of [current player]
 <span style="color: #bdbdbd;">*Expected Output: all players in the world's usernames in chat*</span>
 ### MATH Gate
 Does a math operation on the Input.
-<span style="color: #72aacc;">Input: Number
+<span class="property">Input: Number
 Output: Number</span>
 - Math Order: Determines if the Input is before the Value and vice versa.
 - Operation Type: The operation to do.
@@ -589,7 +589,7 @@ MT --> MD: '6'
 <span style="color: #bdbdbd;">*Expected Output: "6" (chat)*</span>
 ### NOT Gate
 Inverts or "Flips" the signal.
-<span style="color: #72aacc;">Input: any
+<span class="property">Input: any
 Output: any (Bool probably??)</span>
 
 *Example Circuit: TODO*
@@ -600,7 +600,7 @@ Output: any (Bool probably??)</span>
 {.is-info}
 
 Sets the value of a NUMBER STORAGE Gate
-<span style="color: #72aacc;">Input: any (Number if using Input)
+<span class="property">Input: any (Number if using Input)
 Output: none</span>
 - Disable Output: Determines if a connected NUMBER STORAGE outputs its value after this gate output.
 - Value: The value to store the NUMBER STORAGE.
@@ -608,7 +608,7 @@ Output: none</span>
 *Example Circuit: TODO*
 ### NUMBER STORAGE Gate
 Stores a number value.
-<span style="color: #72aacc;">Input: Number
+<span class="property">Input: Number
 Output: Number</span>
 - Delay Before Output: Seconds to wait before outputting.
 - Save Value: ??? (presumambly decides whether value is saved on world restart)
@@ -617,7 +617,7 @@ Output: Number</span>
 *Example Circuit: TODO*
 ### OR Gate
 If 1 or more signals connected to this gate, this gate will fire.
-<span style="color: #72aacc;">Input: Number
+<span class="property">Input: Number
 Output: bool</span>
 
 *Example Circuit: TODO*
@@ -633,7 +633,7 @@ Repeatedly sends a signal, How it's sent depends on the loop type.
 *Example Circuit: TODO*
 ### SET STAT Gate
 Sets the stat of the input and outputs the stat's value
-<span style="color: #72aacc;">Input: Player Username
+<span class="property">Input: Player Username
 Output: Number</span>
 - Operation Type: Set, add or subteact the stat value.
 - Stat name: The stat name to set.
@@ -642,7 +642,7 @@ Output: Number</span>
 *Example Circuit: TODO*
 ### TEXT EDITING Gate
 Sets the value of the connected TEXT STORAGE.
-<span style="color: #72aacc;">Input: any
+<span class="property">Input: any
 Output: none (String if Next Gate Type is Normal)</span>
 - Next Gate Type: Decides if it can go through only a TEXT STORAGE or any gate.
 - Disable Output: Determines if a connected TEXT STORAGE outputs its value after this gate output.
@@ -652,7 +652,7 @@ Output: none (String if Next Gate Type is Normal)</span>
 *Example Circuit: TODO*
 ### TEXT INPUT Gate
 Brings up a dialog box on the Input's screen and outputs the response.
-<span style="color: #72aacc;">Input: any
+<span class="property">Input: any
 Output: String</span>
 - Cancel Button Disabled: Decides of if the Cancel / X Button shows up.
 - Input Position: Changes the dialog's position.
@@ -661,7 +661,7 @@ Output: String</span>
 *Example Circuit: TODO*
 ### TEXT STORAGE Gate
 Stores a text value that can be edited using a TEXT EDITING Gate.
-<span style="color: #72aacc;">Input: TEXT EDITING Signal
+<span class="property">Input: TEXT EDITING Signal
 Output: String</span>
 - Delay Before Output: Seconds to wait before outputting.
 - Save Value: ??? (presumambly decides whether value is saved on world restart)
@@ -670,7 +670,7 @@ Output: String</span>
 *Example Circuit: TODO*
 ### TRIPLE MATH Gate
 Special variant of the MATH Gate that uses vectors (x, y. z).
-<span style="color: #72aacc;">Input: Number
+<span class="property">Input: Number
 Output: Number</span>
 - Operation type: Decides what to do with the X, Y and Z numbers.
 - X: X of the vector.
@@ -680,7 +680,7 @@ Output: Number</span>
 *Example Circuit: TODO*
 ### XOR Gate
 Takes multiple signals and produces an output if the number of true inputs are odd.
-<span style="color: #72aacc;">Input: any (Multiple)
+<span class="property">Input: any (Multiple)
 Output: Bool</span>
 
 *Example Circuit: TODO*
@@ -692,7 +692,7 @@ These wiring blocks carry out functions that usually dont return a output. They 
 {.is-success}
 
 Attaches parts to a player.
-<span style="color: #72aacc;">Input: Player Username</span>
+<span class="property">Input: Player Username</span>
 - Body Part: The Body part to attach the block onto.
 - Cooldown: Amount of time before you can attach another block again. **(3s if the last person who edited wasnt the owner)**
 - Offset: How offset the block are from the Body Part.
@@ -706,7 +706,7 @@ Attaches parts to a player.
 *Example Circuit: TODO*
 ### Attribute Changer
 Changes an attribute of a block.
-<span style="color: #72aacc;">Input: none (Block if destination is empty)</span>
+<span class="property">Input: none (Block if destination is empty)</span>
 - Attribute Name: The attribute to change.
 - Property Name: The attribute property to change.
 - Destination: The block to change the attribute to.
@@ -714,7 +714,7 @@ Changes an attribute of a block.
 *Example Circuit: TODO*
 ### Camera Block
 Moves the Input's Camera to the specified position and rotation.
-<span style="color: #72aacc;">Input: Player Username</span>
+<span class="property">Input: Player Username</span>
 - Easing Direction: Decides the easing direction of the ease.
 - Easing Style: The type of easing to use for the animation.
 - Repeat Count: How many times to repeat the animation.
@@ -731,7 +731,7 @@ Moves the Input's Camera to the specified position and rotation.
 {.is-success}
 
 Clones the blocks inside it. If the input is a block, it will be used as a container for all the blocks that will be cloned.
-<span style="color: #72aacc;">Input: any</span>
+<span class="property">Input: any</span>
 - Despawn Enabled: Decides if Despawn time will be used.
 - Cooldown: Amount of time before you can attach another block again. **(3s if the last person who edited wasnt the owner)**
 - Despawn Time: Amount of time before the blocks despawn.
@@ -749,7 +749,7 @@ Clones the blocks inside it. If the input is a block, it will be used as a conta
 {.is-warning}
 
 Runs a command like a normal player. 
-<span style="color: #72aacc;">Input: any</span>
+<span class="property">Input: any</span>
 - Command: The command to run. **(Only Builder+ Commands can be run for obvious security reasons.)**
 
 *Example Circuit: TODO*
@@ -758,7 +758,7 @@ Runs a command like a normal player.
 {.is-success}
 
 Displays a message.
-<span style="color: #72aacc;">Input: any (Player Username if using SpecificPlayer)</span>
+<span class="property">Input: any (Player Username if using SpecificPlayer)</span>
 - Affect: Controls who will see the message.
 - Message Color: The color of the message.
 - Description: The message description. Only works if the Message Type is set to Notification.
@@ -770,7 +770,7 @@ Displays a message.
 *Example Circuit: TODO*
 ### Path Block
 Used with the NPC Block to control where the NPC goes.
-<span style="color: #72aacc;">Input: any (NPC Block if NPC property is empty)</span>
+<span class="property">Input: any (NPC Block if NPC property is empty)</span>
 
 - Custom Target: The player/NPC to walk to.
 - Priority Mode: Controls how the NPC interprets the path.
@@ -782,7 +782,7 @@ Used with the NPC Block to control where the NPC goes.
 {.is-success}
 
 Changes a property of a block.
-<span style="color: #72aacc;">Input: any</span>
+<span class="property">Input: any</span>
 - Easing Direction: Decides the easing direction of the ease.
 - Easing Style: The type of easing to use for the animation.
 - Platform Stand: Decides if the player can stand on the block while moving.
@@ -796,7 +796,7 @@ Changes a property of a block.
 *Example Circuit: TODO*
 ### Wirer Block
 Makes a temporary connection from the Input to the specified block.
-<span style="color: #72aacc;">Input: Block</span>
+<span class="property">Input: Block</span>
 - Connect Direction: Decides how they're connected.
 - Operation: Decides if the connection will be created or removed.
 - Connect to: The block to connect the Input to.
@@ -804,7 +804,7 @@ Makes a temporary connection from the Input to the specified block.
 *Example Circuit: TODO*
 ### Wiring Variable Block
 Makes a variable that you can use anywhere in the world. Syntax for variables are "{\[var name\]}"
-<span style="color: #72aacc;">Input: any</span>
+<span class="property">Input: any</span>
 - Operation: Decides if it should create / set or remove the variable.
 - Value: What to set the variable to.
 - Variable Name: What the variable name should be.
