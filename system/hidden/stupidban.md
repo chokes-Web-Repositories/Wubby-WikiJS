@@ -2,7 +2,7 @@
 title: choke's yapping page
 description: if you find this, then cool (please dont leak it though)
 published: true
-date: 2024-01-19T00:29:41.450Z
+date: 2024-01-19T00:31:21.099Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T09:45:08.849Z
@@ -30,7 +30,7 @@ like what the fuck?? its literally none of your business
 
 not to mention [iconic](https://discord.com/users/583110584288018467) and [fireflanger](https://discord.com/users/228672475343355905) sharing shit to blockate staff
 ![](https://media.choke.dev/ShareX/2024/01/Discord_BfSEZWE32m.png)
-i am not going to fucking get my friends banned on blockate because of this shit
+i wouldnt want my other group of friends banned on blockate because of this
 
 ---
 
