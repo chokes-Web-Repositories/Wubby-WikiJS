@@ -2,7 +2,7 @@
 title: choke's yapping page
 description: if you find this, then cool (please dont leak it though)
 published: true
-date: 2024-01-19T00:40:40.593Z
+date: 2024-01-19T09:19:43.055Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T09:45:08.849Z
