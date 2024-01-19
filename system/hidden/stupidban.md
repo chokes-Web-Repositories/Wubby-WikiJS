@@ -2,14 +2,11 @@
 title: choke's yapping page
 description: if you find this, then cool (please dont leak it though)
 published: true
-date: 2024-01-19T00:31:21.099Z
+date: 2024-01-19T00:36:03.196Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T09:45:08.849Z
 ---
-
-> if you don't agree to some of these then i dont give a shit
-{.is-warning}
 
 # Chapter 1: introduction and updates
 hi, choke here
