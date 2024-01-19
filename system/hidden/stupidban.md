@@ -2,7 +2,7 @@
 title: choke's yapping page
 description: if you find this, then cool (please dont leak it though)
 published: true
-date: 2024-01-19T00:29:17.282Z
+date: 2024-01-19T00:29:41.450Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T09:45:08.849Z
@@ -35,7 +35,7 @@ i am not going to fucking get my friends banned on blockate because of this shit
 ---
 
 also regarding fireflanger, i love how he went online daily trying to figure out the contents of the group chat server
-then proceeds to go inactive after i get banned :clapping_hands: :clapping_hands: :clapping_hands:
+then proceeds to go inactive after i get banned
 
 ---
 
