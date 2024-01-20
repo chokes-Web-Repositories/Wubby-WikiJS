@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2024-01-08T13:40:44.219Z
+date: 2024-01-20T06:37:16.516Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:42.475Z
@@ -11,6 +11,21 @@ dateCreated: 2024-01-08T13:40:42.475Z
 > If `[player]` is omitted, it will default to the player that ran the command
 {.is-info}
 
+<details>
+<summary>All command prefixes</summary>
+:<br>
+;<br>
+!<br>
+/<br>
+?<br>
+$<br>
+^<br>
+-<br>
+.<br>
+,<br>
++<br>
+&
+</details>
 
 # <i class="fa-duotone fa-user"></i> Visitor+
 | Command | Description |
@@ -105,4 +120,4 @@ dateCreated: 2024-01-08T13:40:42.475Z
 | globalunban | `[player]` | Unbans `[player]` from wubby |
 | putonreview | - | Puts a world under review until ger approves it |
 | feature | - | Toggles if a world will appear on the featured tab or not |
-| clearworlddata | - | Clears all information about a world. |
+| clearworlddata | - | Deletes every block in the world. |
