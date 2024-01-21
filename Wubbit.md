@@ -2,7 +2,7 @@
 title: Wubbit
 description: The currency used in Wubby
 published: true
-date: 2024-01-08T13:40:59.999Z
+date: 2024-01-21T23:17:17.034Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:58.544Z
@@ -11,7 +11,12 @@ dateCreated: 2024-01-08T13:40:58.544Z
 > This page is incomplete and everything in this page is subject to change.
 {.is-warning}
 
-![wubbit4096.png](/wubbit4096.png =20%x){.align-center}
-# Wubbit
+> This page was taken from [blockate's blux page](https://wiki.blockate.com/wiki/Blux).
+{.is-info}
 
-Wubbit is Wubby's own currency, it can be used to buy hats
+
+# Wubbit
+![wubbit4096.png](/wubbit4096.png =10%x){.align-right}Wubbit is the universal currency of Wubby. Using Wubbits, you can purchase new worlds, chat tags, hats, auras, crates, items, passes, and gears sold in a world.
+
+## Obtaining Wubbits
+There are multiple ways to obtain Wubbits, the most common and safe of which being to get people to visit your world. Once you've had people visit your world, you can withdraw it by opening the world menu locaated on the left side of the screen, Scroll down then click "Withdraw". This will also give you all earnings from passes, gears, and items sold in-game.
