@@ -2,7 +2,7 @@
 title: Commands
 description: Actions that can be executed on a player
 published: true
-date: 2024-01-20T06:37:16.516Z
+date: 2024-01-21T07:37:29.896Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:42.475Z
@@ -66,7 +66,7 @@ $<br>
 | lightning/smite/thunder | `[player]` | Summons Zeus and throws a lightning bolt at `[player]` |
 | magnet | `[player]` `(amount)` | Attracts every single player to `[player]` with a force of `(amount)` |
 | maxhealth | `[player]` `(amount)` | Sets `[player]`'s maximum health to `(amount)` |
-| message/m/msg/shout/announce | `[player]` (message) | Displays (message) in `[player]`'s screen |
+| message/m/msg/shout/announce | `(message)` | Displays `(message)` in every player's screen |
 | noclip | `[player]` | Allows `[player]` to walk through walls. |
 | mute | `[player]` | Disables `[player]`'s ability to talk, Only works for permissions below you. (Builder cannot mute Admins+)
 | nuke | `[player]`/`[coordinates]` | Places a nuke in `[player]`/`[coordinates]` |
