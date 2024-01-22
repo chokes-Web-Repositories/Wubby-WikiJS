@@ -2,7 +2,7 @@
 title: Wubbit
 description: The currency used in Wubby
 published: true
-date: 2024-01-21T23:17:17.034Z
+date: 2024-01-22T23:15:25.575Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:58.544Z
@@ -10,10 +10,6 @@ dateCreated: 2024-01-08T13:40:58.544Z
 
 > This page is incomplete and everything in this page is subject to change.
 {.is-warning}
-
-> This page was taken from [blockate's blux page](https://wiki.blockate.com/wiki/Blux).
-{.is-info}
-
 
 # Wubbit
 ![wubbit4096.png](/wubbit4096.png =10%x){.align-right}Wubbit is the universal currency of Wubby. Using Wubbits, you can purchase new worlds, chat tags, hats, auras, crates, items, passes, and gears sold in a world.
