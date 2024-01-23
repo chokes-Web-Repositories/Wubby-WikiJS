@@ -2,7 +2,7 @@
 title: choke's yapping page
 description: if you find this, then cool (please dont leak it though)
 published: true
-date: 2024-01-23T12:33:32.265Z
+date: 2024-01-23T12:33:57.646Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T09:45:08.849Z
@@ -19,7 +19,7 @@ i will continue to keep my services online (some of these services have limited 
 will stop interacting with the **wubby community** unless kory actually hires a very much needed community manager
 
 # Chapter 2: the ranting part
-long story short i was banned from the wubby discord server because of a group chat server that i labelled as a "porn dump" with no connection to wubby whatsoever
+long story short i was `permanently` banned from the wubby discord server because of a group chat server that i labelled as a "porn dump" with no connection to wubby whatsoever
 - i [poorly worded to why the group chat server was closed](https://media.discordapp.net/attachments/1021208753560883252/1197701965174538300/Screenshot_20240119_083928.jpg?ex=65bc39e0&is=65a9c4e0&hm=9e8dfaef497b8e6511271ae2c50ab7a0cecbbfe55f3c1f700fbf0163ec71d496&)
 - the server was full of minors, yes, including me (`_choke`)
 
