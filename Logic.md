@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-23T10:38:05.513Z
+date: 2024-01-23T10:57:50.437Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -620,7 +620,24 @@ Output: none</span>
 - Disable Output: Determines if a connected NUMBER STORAGE outputs its value after this gate output.
 - Value: The value to store the NUMBER STORAGE.
 
-*Example Circuit: TODO*
+<span style="color: #bdbdbd;">*Example Circuit:*</span>
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Number Setter Gate" as NSetterG {
+	Value = 1,10
+}
+object "Number Storage Gate" as NStorageG {
+	Value = 7
+}
+
+CB --> NSetterG
+NSetterG --> NStorageG: <Random value between 1 and 10>
+@enduml
+```
+<span style="color: #bdbdbd;">*Expected Output: "false" (chat)*</span>
 ### NUMBER STORAGE Gate
 Stores a number value.
 <span class="property">Input: Number
@@ -631,11 +648,31 @@ Output: Number</span>
 
 *Example Circuit: TODO*
 ### OR Gate
-If 1 or more signals connected to this gate, this gate will fire.
-<span class="property">Input: Number
-Output: bool</span>
+> This gate will pass any input it receives to its output.
+{.is-info}
 
-*Example Circuit: TODO*
+
+If 1 or more signals are connected to this gate, this gate will fire.
+<span class="property">Input: any
+Output: any</span>
+
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Player Touch Detector" as PTD
+object "OR Gate" as ORG
+object "Message Display" as MD {
+	Title = "{INPUT}"
+}
+
+CB --> ORG: true
+PTD --> ORG: <player name that touched this block>
+ORG --> MD: <player name> / true
+@enduml
+```
+<span style="color: #bdbdbd;">*Expected Output: "true" or `the name of the player that touched the player touch detector` (chat)*</span>
 ### REPEATER Gate
 Repeatedly sends a signal, How it's sent depends on the loop type.
 
@@ -767,7 +804,19 @@ Runs a command like a normal player.
 <span class="property">Input: any</span>
 - Command: The command to run. **(Only Builder+ Commands can be run for obvious security reasons.)**
 
-*Example Circuit: TODO*
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Command Block" as CoB {
+	Command = /smite Player1
+}
+
+CB --> CoB
+@enduml
+```
+<span style="color: #bdbdbd;">*Expected Output: Player named "Player1" gets killed*</span>
 ### Message Display Block
 > This output can be used with the Local Output block!
 {.is-success}
