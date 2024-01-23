@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-23T10:59:51.910Z
+date: 2024-01-23T11:48:32.107Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -11,12 +11,15 @@ dateCreated: 2024-01-08T13:40:49.408Z
 > This page explains advanced features, some players may not understand everything in this page.
 {.is-warning}
 
-Wubby Logic is the second-most important thing in your wubby worlds, They can do mostly anything such as changing block colors, moving blocks, and even custom NPC movement!
+Wubby Logic is the second-most important thing in your wubby worlds, They can do mostly anything such as changing block colors, moving blocks, and even custom NPC movement.
 
 Here are some useful links for wiring:
 - [Easing functions *Contains most easing types with directions.*](https://easings.net/)
 {.links-list}
 # <i class="fa-duotone fa-inbox-in"></i> Input
+> Using a parallel wiring block helps reduce the chances of these blocks not firing correctly
+{.is-info}
+
 These are blocks that are used to power wiring systems. They do not receive wiring inputs, and can only output.
 ## {.tabset}
 ### Block Touch Detector
@@ -73,6 +76,13 @@ Emits a signal when the selected player event is triggered.
 <span class="property">Output: The player's username</span>
 - Activation Time: How long it activates for. Default is 1.
 - Event: The Player Event to detect.
+<details>
+<summary>All player events</summary>
+PlayerJoined - Triggers when a player joins the world<br>
+PlayerLeft - Triggers when a player leaves the world<br>
+PlayerRespawned - Triggers when a player respawns<br>
+PlayerKills - Triggers when a player kills another player
+</details>
 
 ### Player Touch Detector
 Emits a signal when a Player/NPC touches this block.
@@ -92,9 +102,6 @@ Configurations:
 - Toggleable: Whether if this block acts like a switch. Default is true.
 
 ### Shop Event Block
-> **Keep this input parallel to reduce chances of failing.**
-{.is-warning}
-
 Emits a signal when the specified item name is bought.
 <span class="property">Output: Player Username</span>
 - Activation Time: How long it activates for. Default is 1.
@@ -122,11 +129,10 @@ and etc.
 > **This is known as a bool.**
 {.is-info}
 
-> the gate descriptions are in-progress and may be incorrect, if you find any incorrect circuits please use the [wiki feedback form](https://forms.gle/8szUe2x9H9t8gfYq7).</span>
+> Gate descriptions are in-progress and may be incorrect, if you find any incorrect circuits please use the [wiki feedback form](https://forms.gle/8szUe2x9H9t8gfYq7).</span>
 {.is-warning}
 
 ## {.tabset}
-
 ### AND Gate
 Checks whether if both inputs are active. <span class="desc-note">(they do not check if the values are the same)</span>
 <span class="property">Input: 2 values (any)
