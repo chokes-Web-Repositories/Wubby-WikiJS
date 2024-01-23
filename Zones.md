@@ -2,7 +2,7 @@
 title: Zones
 description: sample text
 published: true
-date: 2024-01-20T11:09:28.372Z
+date: 2024-01-23T12:42:39.997Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:41:00.765Z
@@ -26,6 +26,9 @@ It allows the player to build inside the zone. Nothing can be built outside of t
 
 ## Sound Zone
 ![zone](/zones/new/sound_zone.png =200x)
+[Sound Zone Demo (cant embed videos)](https://yourlocalonion.github.io/media/sound_zone_demo.mp4)
 
 Any player walking in this zone will hear the music of your choice. Any player walking out will stop hearing it.
+
+
 
