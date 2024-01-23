@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-19T15:39:44.329Z
+date: 2024-01-23T10:38:05.513Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -590,9 +590,24 @@ MT --> MD: '6'
 ### NOT Gate
 Inverts or "Flips" the signal.
 <span class="property">Input: any
-Output: any (Bool probably??)</span>
+Output: Bool (true/false)</span>
 
-*Example Circuit: TODO*
+<span style="color: #bdbdbd;">*Example Circuit:*</span>
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "NOT Gate" as NG
+object "Message Display" as MD {
+	Title = "{INPUT}"
+}
+
+CB --> NG: 'true'
+NG --> MD: 'false'
+@enduml
+```
+<span style="color: #bdbdbd;">*Expected Output: "false" (chat)*</span>
 ### NUMBER SETTER Gate
 > Use `<minimumNumber>`, `<maximumNumber>` as the value to randomly generate a number between `<minimumNumber>` and `<maximumNumber>`.
 >
