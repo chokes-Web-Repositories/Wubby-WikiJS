@@ -2,7 +2,7 @@
 title: Zones
 description: Areas that can affect the player in many ways
 published: true
-date: 2024-01-24T23:34:21.323Z
+date: 2024-01-24T23:59:40.729Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:41:00.765Z
@@ -25,23 +25,43 @@ It allows the player to build inside the zone. Nothing can be built outside of t
 - Whitelist: The player(s) that can build in the zone.
 
 ## Sound Zone
-![zone](/zones/new/sound_zone.png =200x)
+![zone](/zones/new/sound_zone.png =200x) 
+
+Any player walking in this zone will hear the music of your choice. Any player walking out will stop hearing it.
 
 <video controls>
   <source src="https://yourlocalonion.github.io/media/sound_zone_demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video> 
-
-Any player walking in this zone will hear the music of your choice. Any player walking out will stop hearing it.
+</video>
 
 ## Safe Zone
 Players inside this zone will recieve a forcefield.
 
+<video controls>
+  <source src="https://yourlocalonion.github.io/media/safe_zone_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Physics Zone
 Players inside this zone will have settings related to physics changed (gravity, etc.)
+
+<video controls>
+  <source src="https://yourlocalonion.github.io/media/physics_zone_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Ambient Zone
 Players inside this zone will have settings related to the world's environment changed (world time, fog, etc.)
 
+<video controls>
+  <source src="https://yourlocalonion.github.io/media/ambient_zone_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Camera Zone
 Players inside this zone will have settings related to the player's camera chanhed (camera offset, camera position, etc.)
+
+<video controls>
+  <source src="https://yourlocalonion.github.io/media/camera_zone_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
