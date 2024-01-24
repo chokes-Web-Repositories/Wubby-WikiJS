@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-24T00:32:11.863Z
+date: 2024-01-24T00:35:59.485Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -213,7 +213,7 @@ BSt --> MD : true
 ```
 <span style="color: #bdbdbd;">*Expected Output: "the bool storage's value is true!" (chat)*</span>
 ### BOOL SWITCH Gate
-Inverts / Switches the value of a BOOL STORAGE Gate
+Inverts / Switches the value of a BOOL STORAGE Gate (false becomes true and vice versa)
 <span class="property">Input: none
 Output: none</span>
 
@@ -224,13 +224,14 @@ Output: none</span>
 left to right direction
 object "Click Block" as CB
 object "Bool Switch" as BS
-object "Bool Storage" as BSt
+object "Bool Storage" as BSt {
+    Value = false / true
 
 CB --> BS
-BS --> BSt : invert your value pls
+BS --> BSt
 @enduml
 ```
-<span style="color: #bdbdbd;">*Expected Output: the bool storage should be the opposite value*</span>
+<span style="color: #bdbdbd;">*Expected Output: The bool storage has its value inverted*</span>
 ### BREAK VECTOR Block
 Gets a specified axis of a [Vector3](https://create.roblox.com/docs/reference/engine/datatypes/Vector3)
 <span class="property">Input: Vector3
