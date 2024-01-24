@@ -1,8 +1,8 @@
 ---
 title: Zones
-description: sample text
+description: Areas that can affect the player in many ways
 published: true
-date: 2024-01-24T00:27:37.242Z
+date: 2024-01-24T00:28:46.109Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:41:00.765Z
