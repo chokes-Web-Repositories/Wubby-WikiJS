@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-24T00:36:49.805Z
+date: 2024-01-24T00:51:34.415Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -488,7 +488,25 @@ Gets a property of the specified player.
 Output: any (The type of the retrieved property)</span>
 - Property Name: The property to retrieve.
 
-*Example Circuit: TODO*
+<span style="color: #bdbdbd;">*Example Circuit:*
+*Player1 clicks the Click Block*</span>
+```plantuml
+@startuml
+!theme spacelab
+left to right direction
+object "Click Block" as CB
+object "Get Player Property" as GPP {
+  Property = Health
+}
+object "Message Display" as MD {
+	Title = "Player1 has {INPUT}HP."
+}
+
+CB --> GPP
+GBP --> MD: 100
+@enduml
+```
+<span style="color: #bdbdbd;">*Expected Output: "Player1 has 100HP." (chat)*</span>
 ### GET STAT Gate
 Gets the stat of the specified player.
 <span class="property">Input: Player Username
