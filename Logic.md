@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-24T00:51:34.415Z
+date: 2024-01-24T00:52:19.305Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -503,7 +503,7 @@ object "Message Display" as MD {
 }
 
 CB --> GPP
-GBP --> MD: 100
+GPP --> MD: 100
 @enduml
 ```
 <span style="color: #bdbdbd;">*Expected Output: "Player1 has 100HP." (chat)*</span>
