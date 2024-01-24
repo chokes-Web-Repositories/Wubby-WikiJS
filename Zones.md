@@ -2,7 +2,7 @@
 title: Zones
 description: sample text
 published: true
-date: 2024-01-23T12:42:39.997Z
+date: 2024-01-24T00:27:37.242Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:41:00.765Z
@@ -30,5 +30,14 @@ It allows the player to build inside the zone. Nothing can be built outside of t
 
 Any player walking in this zone will hear the music of your choice. Any player walking out will stop hearing it.
 
+## Safe Zone
+Players inside this zone will recieve a forcefield.
 
+## Physics Zone
+Players inside this zone will have settings related to physics changed (gravity, etc.)
 
+## Ambient Zone
+Players inside this zone will have settings related to the world's environment changed (world time, fog, etc.)
+
+## Camera Zone
+Players inside this zone will have settings related to the player's camera chanhed (camera offset, camera position, etc.)
