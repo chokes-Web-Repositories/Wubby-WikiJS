@@ -2,7 +2,7 @@
 title: Zones
 description: Areas that can affect the player in many ways
 published: true
-date: 2024-01-24T23:19:01.733Z
+date: 2024-01-24T23:34:21.323Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:41:00.765Z
@@ -26,9 +26,11 @@ It allows the player to build inside the zone. Nothing can be built outside of t
 
 ## Sound Zone
 ![zone](/zones/new/sound_zone.png =200x)
-<video width="426" height="426" controls>
- <source src="https://yourlocalonion.github.io/media/sound_zone_demo.mp4" type="video/mp4">
-</video>
+
+<video controls>
+  <source src="https://yourlocalonion.github.io/media/sound_zone_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
 
 Any player walking in this zone will hear the music of your choice. Any player walking out will stop hearing it.
 
