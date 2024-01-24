@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-24T00:35:59.485Z
+date: 2024-01-24T00:36:49.805Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -226,6 +226,7 @@ object "Click Block" as CB
 object "Bool Switch" as BS
 object "Bool Storage" as BSt {
     Value = false / true
+}
 
 CB --> BS
 BS --> BSt
