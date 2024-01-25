@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2024-01-16T07:38:46.999Z
+date: 2024-01-25T01:08:28.712Z
 tags: blocks
 editor: markdown
 dateCreated: 2024-01-08T13:40:35.140Z
@@ -117,19 +117,27 @@ Special parts are blocks that offer extra functionality.
 ## Floating Text Block
 ![block](/blocks/new/special/floating_text_block.png =300x)
 ## Gear Block
+> Gives the player the gear specified in the block.
+{.is-info}
+
 ![block](/blocks/new/special/gear_block.png =300x)
 ## Local Output Block
 ![block](/blocks/new/special/local_output_block.png =300x)
 ## Mesh Block
-![block](/blocks/new/special/mesh_block_alt.png =300x)
 > Without a mesh, the mesh block would just look like a normal block. The mesh id used in this image is **11439110061** with the texture id **11439110176**.
 {.is-info}
+
+![block](/blocks/new/special/mesh_block_alt.png =300x)
 ## Morph Block
+> Changes a player's appearance by either copying another player's current outfit or through manually specified accessory ids.
+{.is-info}
+
 ![block](/blocks/new/special/morph_block.png =300x)
 ## Motor, Servo, Hinge Block
-![block](/blocks/new/special/mot_hin_ser_alt.png =300x)
 > The motor block, hinge block and servo block are combined into one tab as their appearances are the same.
 {.is-info}
+
+![block](/blocks/new/special/mot_hin_ser_alt.png =300x)
 ## NPC Block
 ![block](/blocks/new/special/npc_block.png =300x)
 ## Parallel Wiring Block
