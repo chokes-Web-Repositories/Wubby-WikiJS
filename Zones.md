@@ -2,7 +2,7 @@
 title: Zones
 description: Areas that can affect the player in many ways
 published: true
-date: 2024-01-25T00:01:22.620Z
+date: 2024-01-25T00:56:26.098Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:41:00.765Z
@@ -26,18 +26,31 @@ It allows the player to build inside the zone. Nothing can be built outside of t
 
 ## Sound Zone
 ![zone](/zones/new/sound_zone.png =200x)
-[Sound Zone Demo (cant embed videos)](https://yourlocalonion.github.io/media/sound_zone_demo.mp4)
+
+<video controls>
+  <source src="https://yourlocalonion.github.io/media/sound_zone_demo.mp4" type="video/mp4">
+</video>
 
 Any player walking in this zone will hear the music of your choice. Any player walking out will stop hearing it.
 
 ## Safe Zone
 Players inside this zone will recieve a forcefield.
 
+![](https://yourlocalonion.github.io/media/safe_zone_demo.gif)
+
 ## Physics Zone
 Players inside this zone will have settings related to physics changed (gravity, etc.)
+
+![](https://yourlocalonion.github.io/media/physics_zone_demo.gif)
+
 
 ## Ambient Zone
 Players inside this zone will have settings related to the world's environment changed (world time, fog, etc.)
 
+![](https://yourlocalonion.github.io/media/ambient_zone_demo.gif)
+
+
 ## Camera Zone
 Players inside this zone will have settings related to the player's camera chanhed (camera offset, camera position, etc.)
+
+![](https://yourlocalonion.github.io/media/camera_zone_demo.gif)
