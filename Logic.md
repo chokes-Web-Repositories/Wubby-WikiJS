@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-26T23:28:29.249Z
+date: 2024-01-26T23:49:18.603Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -712,7 +712,7 @@ Repeatedly sends a signal, How it's sent depends on the loop type.
 - Activation time: how long the signal will last until it loops back again.
 - Delay: how long to wait before the next loop starts
 - Loop Type: How the repeater will behave.
-- Increment: The Increment to use when in enumerating or repetition mode.
+- Increment: The Increment to use when in enumerating or repetition mode (eg if increment is 2 then the loop would be like 2, 4, 6,...).
 - Start index: the starting number the repeater will use
 - Finish index: the ending number the repeater will use
 
