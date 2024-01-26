@@ -2,7 +2,7 @@
 title: Logic
 description: The blocks that make it possible to create a mechanic in your world
 published: true
-date: 2024-01-24T00:52:19.305Z
+date: 2024-01-26T23:28:29.249Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:49.408Z
@@ -41,6 +41,13 @@ Configurations:
 - Activation Time: How long it activates for. Default is 1. 
 - Max Distance: How far you can click this block. Default is 32.
 - Toggleable: Whether if this block acts like a switch. Default is true.
+
+### Frame Loop Block
+Emits a signal everytime the server calculates a physics frame.
+<span class="property">Output: The `deltaTime` between the frames.</span>
+> deltaTime is the time (in milliseconds) the server took calculating a physics frame.
+{.is-info}
+
 
 ### Humanoid State Block
 Emits a signal when a humanoid changes to the specified state.
@@ -704,7 +711,8 @@ Repeatedly sends a signal, How it's sent depends on the loop type.
 
 - Activation time: how long the signal will last until it loops back again.
 - Delay: how long to wait before the next loop starts
-- Loop type: how the repeater will behave
+- Loop Type: How the repeater will behave.
+- Increment: The Increment to use when in enumerating or repetition mode.
 - Start index: the starting number the repeater will use
 - Finish index: the ending number the repeater will use
 
@@ -875,12 +883,13 @@ Changes a property of a block.
 <span class="property">Input: any</span>
 - Easing Direction: Decides the easing direction of the ease.
 - Easing Style: The type of easing to use for the animation.
-- Platform Stand: Decides if the player can stand on the block while moving.
+- Respect Physics: Decides if changing the property should follow Roblox's physics (eg player sticking ontop of a moving platform).
 - Property Name: The property to change.
 - Repeat Count: How many times to repeat the animation.
 - Reverses: Decides if repeating reverses to the initial position.
 - Animation Time: How long the animation takes.
 - Destination: The block to change the properties of.
+- Color, Vector, Boolean, Number, Text Property: What the property's value should be set to.
 - Use Input: Decides if it uses the input or the defined type properties.
 
 *Example Circuit: TODO*
@@ -896,7 +905,37 @@ Makes a temporary connection from the Input to the specified block.
 Makes a variable that you can use anywhere in the world. Syntax for variables are "{\[var name\]}"
 <span class="property">Input: any</span>
 - Operation: Decides if it should create / set or remove the variable.
+- Variable Type: Decides if the variable is global or local.
 - Value: What to set the variable to.
 - Variable Name: What the variable name should be.
+
+*Example Circuit: TODO*
+
+### World Setting Changer
+> This output can be used with the Local Output block!
+{.is-success}
+
+Changes a setting in your world.
+<span class="property">Input: any</span>
+
+- Color, Vector, Boolean, Number, Text Property: What the setting's value should be set to.
+- Setting Name: The setting to change.
+- Use Input: Decides if it uses the input or the defined type properties.
+
+*Example Circuit: TODO*
+### Zone Changer
+> This output can be used with the Local Output block!
+{.is-success}
+
+Changes a property of the zone this block is in.
+<span class="property">Input: any</span>
+- Easing Direction: Decides the easing direction of the ease.
+- Easing Style: The type of easing to use for the animation.
+- Property Name: The property to change.
+- Repeat Count: How many times to repeat the animation.
+- Reverses: Decides if repeating reverses to the initial position.
+- Animation Time: How long the animation takes.
+- Color, Vector, Boolean, Number, Text Property: What the property's value should be set to.
+- Use Input: Decides if it uses the input or the defined type properties.
 
 *Example Circuit: TODO*
