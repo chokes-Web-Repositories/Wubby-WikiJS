@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2024-01-26T22:50:23.895Z
+date: 2024-01-26T23:19:10.717Z
 tags: blocks
 editor: markdown
 dateCreated: 2024-01-08T13:40:35.140Z
@@ -135,6 +135,9 @@ Special parts are blocks that offer extra functionality.
 
 ![block](/blocks/new/special/mesh_block_alt.png =300x)
 ## Morph Block
+> This block can be used with the Local Output block!
+{.is-success}
+
 > Changes a player's appearance by either copying another player's current outfit or through manually specified accessory ids.
 {.is-info}
 
