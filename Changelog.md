@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2024-01-26T22:10:41.634Z
+date: 2024-01-26T22:11:06.096Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:37.581Z
@@ -1264,7 +1264,7 @@ Velocity, Position, Orientation, Mouse3DPosition
 ### t:1704160680:D
 no changelog, deeplinking got added.
 
-### t:1706306820:D
+### t:1706306820:D (V12.24.26)
 [original devforum post](https://devforum.roblox.com/t/wubby-changelog-v122426/2810418)
 ```diff
 +! world setting changer block
