@@ -2,7 +2,7 @@
 title: Zones
 description: Areas that can affect the player in many ways
 published: true
-date: 2024-01-25T11:49:16.700Z
+date: 2024-01-26T23:41:45.912Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:41:00.765Z
@@ -42,12 +42,22 @@ Any player walking in this zone will hear the music of your choice. Any player w
 - Pitch Shift Enabled: Decides if the pitch shift effect is enabled.
 - Octave: The percentage to shift the original pitch.
 ---
-*unfinished*
+- Reverb Decay Time: Sets how long it takes for the reverberating echoes to fade out completely.
+- Reverb Density: Controls how many reflections are generated.
+- Reverb Diffusion: Controls how smooth and reflective the simulated surfaces are.
+- Reverb Dry Level: The output volume of the original sound.
+- Reverb Enabled: Decides if the reverb effect is enabled.
+- Reverb Wet Level: The output volume of the echoed effect.
+---
+- Playback Speed: How fast the audio's playback will be.
+- Sound ID: The asset ID of the sound.
+- Volume: How lod the sound will be.
 ## Safe Zone
 Players inside this zone will recieve a forcefield.
 
 ![](https://yourlocalonion.github.io/media/safe_zone_demo.gif =200x)
 
+- Forcefield Visible: Decided if the Forcefield can be seen.
 
 ## Physics Zone
 ![zone](/zones/new/physics_zone.png =200x)
@@ -56,6 +66,11 @@ Players inside this zone will have settings related to physics changed (gravity,
 
 ![](https://yourlocalonion.github.io/media/physics_zone_demo.gif =200x)
 
+- Applied Impulse: The applied force that parts get.
+- Go To Point: The position where parts are pushed/pulled to (like a black hole).
+- Go To Point Enabled: Decided if Go To Point is enabled.
+- Go To Point Force: The amount of force that Go To Point exerts.
+- Gravity: The gravity to apply parts to.
 
 ## Ambient Zone
 ![zone](/zones/new/ambient_zone.png =200x)
@@ -68,6 +83,6 @@ Players inside this zone will have settings related to the world's environment c
 ## Camera Zone
 ![zone](/zones/new/camera_zone.png =200x)
 
-Players inside this zone will have settings related to the player's camera chanhed (camera offset, camera position, etc.)
+Players inside this zone will have settings related to the player's camera changed (camera offset, camera position, etc.).
 
 ![](https://yourlocalonion.github.io/media/camera_zone_demo.gif =200x)
