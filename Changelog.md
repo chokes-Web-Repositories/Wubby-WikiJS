@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2024-01-15T10:57:37.574Z
+date: 2024-01-26T22:10:41.634Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:37.581Z
@@ -1263,3 +1263,119 @@ Velocity, Position, Orientation, Mouse3DPosition
 ## January
 ### t:1704160680:D
 no changelog, deeplinking got added.
+
+### t:1706306820:D
+[original devforum post](https://devforum.roblox.com/t/wubby-changelog-v122426/2810418)
+```diff
++! world setting changer block
++! variable support blocks
++! local variables 
++! zone changer block 
++! atmosphere world setting
++! warp attribute
++! break gate
++! new world info panel
++! multiple thumbnails
++! favorite count
++! player list
++! world panel customizable color
++! wubby now uses a much faster networking module that makes connections between the server and the client as fast as possible 
++! WIRING INTERPRETER!!
++ sharing variables through warps
++ added increment setting to repeaters
++ the gui now has new sounds to increase feedback
++ hollow half sphere
++ ingot
++ spiked sphere
++ coil
++ wind world setting
++ gravity world setting
++ cloud world settings 
++ added getting an npc by name et viceversa
++ banned people now display their ban reason
++ "focus block" property in camera blocks that makes your camera focus on a block
++ min and max camera distance properties to the camera zone
++ paint tool now lets you specific whether color material and color or just color or just material
++ 7 new command prefixes: , " & ( ) _ #
++ maxhealth to get player property
++ equippedgear to get player property 
++ ignore deactivation to repeater gates
++ "player despawn delay" world setting
++ healthchanged property to player event block
++ :nightvision command 
++ "clear variables on shutdown" world setting 
++ added a ;spectate command
++ input and output blocks now have images to differentiate them more
++ added frame loop block
++ there's a list of random descriptions u can get for ur world now 
++ "world visible on actives page" world setting
++ added a few keys to the key input block
+
+*! MASSIVE OPTIMIZATION (istg the game feels like it now has 20 extra fps for me)
+*! implemented native code to wiring so it runs way faster
+*! massive gui changes across the entire game
+*! teleporting requests now react better because the player now loads the area before teleporting
+*! zones can now have up to 5 different shapes: block, sphere, cylinder, wedge and cornerwedge
+*! when ctrl c, the cloned blocks' connections will remain
+*! replaced "platform stand" property in property changer blocks by "respect physics"
+*! respect physics property in property changers now keep your movement and your momentum
+* sound blocks now muffle too when opening the menu 
+* npcs now wander in a much more desyncronized way to make them look more human
+* normal builders can't see inaccesible blocks anymore
+* bulk delete should now crash less
+* get npc property now supports npc names
+* permissions will now be listed by their importance
+* blockstepping in get npc and player property now respects the block's collisions
+* get mouse pos now excludes zones
+* :team autoassign is now false by default
+* attached blocks with attributes no longer affect the player that they're attached to
+* some wiring outputs and inputs are now faster
+* more properties in wiring blocks are variable compatible 
+* :explode now allows coordinates 
+* world setting sliders now update in real time
+* blocks that used to require the last player who edited them to be the owner now only require the last player to be an admin
+* the saving system is now more stable when saving big worlds
+* gates no longer render if they're 500 studs away from the camera
+* "hold" in path blocks now creates a queue of places to go to
+* searching blocks now supports other languages
+
+-! fixed whitelisted, private and banned worlds from being accessed by randos
+-! fixed R15 in R6 worlds
+-! fixed not being able to change some properties in build zones 
+-! fixed some gates not turning off in parallel wiring
+-! fixed health changing attributes not correctly setting your health
+-! fixed placing triangles
+-! fixed and gates on parallel wiring
+-! fixed setting a block property in mobile
+-! fixed "force" in path block not forcing the npc to move to a certain place the way it should
+- fixed dying while ragdoll not resetting your character
+- tried fixing the build gui being visible by visitors 
+- tried fixing :set stat
+- fixed some guis not working on mobile
+- fixed some problems with the player touch block
+- fixed being able to select npcs' hats
+- fixed health regen rate for npcs
+- fixed ambient zones not updating in real time
+- fixed camera zones not updating in real time
+- fixed beam attribute 
+- fixed some issues on morph blocks and npcs
+- fixed excludes in IF gates
+- fixed a bug in which number storages weren't able to store numbers if it did complex calculations earlier
+- fixed scrolling through the properties panel of a zone in mobile 
+- fixed exiting ambient zones with color correction 
+- fixed placing zones in mobile
+- fixed players having different colors on their screens
+- fixed text property in text input gates
+- fixed shoulder accessory in morph blocks and npcs
+- fixed placing attributes in build zones
+- fixed skyboxes not working sometimes
+- fixed not being able to change your status in mobile
+- fixed sound blocks
+- attempted fixing welds
+- tried fixing npc died and was killed events
+- fixed renaming backups
+- fixed a few problems with attributes' particles 
+- fixed some minor gui bugs in the hub
+- fixed the rotation command lagging your character
+- pressing X on a text input gate should no longer fire the gate
+```
