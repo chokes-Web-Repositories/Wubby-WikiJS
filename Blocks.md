@@ -2,7 +2,7 @@
 title: Blocks
 description: The building blocks used in every world
 published: true
-date: 2024-01-25T01:08:28.712Z
+date: 2024-01-26T22:50:23.895Z
 tags: blocks
 editor: markdown
 dateCreated: 2024-01-08T13:40:35.140Z
@@ -13,6 +13,8 @@ Blocks are the most fundamental and essential part of our wubby world. Blocks ca
 # {.tabset}
 ## Block
 ![block](/blocks/new/block.png =300x)
+## Coil
+![block](/blocks/new/coil.png =300x)
 ## Cone
 ![block](/blocks/new/cone.png =300x)
 ## Conical Frustum
@@ -55,6 +57,8 @@ Blocks are the most fundamental and essential part of our wubby world. Blocks ca
 ![block](/blocks/new/hexagonal_cone.png =300x)
 ## Hollow Cylinder
 ![block](/blocks/new/hollow_cylinder.png =300x)
+## Hollow Half Sphere
+![block](/blocks/new/hollow_half_sphere.png =300x)
 ## Hollow Sphere / Sphere
 ![block](/blocks/new/sphere.png =300x)
 ## Inverted Cylinder
@@ -85,6 +89,8 @@ Blocks are the most fundamental and essential part of our wubby world. Blocks ca
 ![block](/blocks/new/seat_block.png =150x) ![alt](/blocks/new/seat_block_alt.png =150x)
 ## Spiked Cylinder
 ![block](/blocks/new/spiked_cylinder.png =300x)
+## Spiked Sphere
+![block](/blocks/new/spiked_sphere.png =300x)
 ## Square Ring
 ![block](/blocks/new/square_ring.png =300x)
 ## Squashed Ring
