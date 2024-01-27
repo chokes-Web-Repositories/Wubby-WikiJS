@@ -2,11 +2,14 @@
 title: Hats
 description: Floating wearable cosmetics on your player character
 published: true
-date: 2024-01-27T09:46:23.280Z
+date: 2024-01-27T09:51:35.538Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:47.226Z
 ---
+
+> This page is incomplete and everything on this page is subject to change.
+{.is-warning}
 
 # Auras
 # {.tabset}
@@ -58,7 +61,9 @@ dateCreated: 2024-01-08T13:40:47.226Z
 <span class="unknown">**Unknown**</span>
 
 ## gloo
-<span class="unknown">**Unknown**</span>
+<span class="common">**Common**</span>
+
+> means "idk" or "i don't feel like answering", this is supposed to mimic the sound of a fish underwater (none)
 
 ## lol
 <span class="unknown">**Unknown**</span>
@@ -86,7 +91,7 @@ dateCreated: 2024-01-08T13:40:47.226Z
 ## 2024 Hat
 <span class="exclusive">**Exclusive**</span>
 
-"YAYYY HAPPY NEW YEAR!!!!! Obtained in the New Year's Eve 2024 event."
+> YAYYY HAPPY NEW YEAR!!!!! Obtained in the New Year's Eve 2024 event.
 
 ## Cold Snowfall
 <span class="unknown">**Unknown**</span>
@@ -104,10 +109,12 @@ dateCreated: 2024-01-08T13:40:47.226Z
 <span class="unknown">**Unknown**</span>
 
 ## Grey Moon
+<span class="common">**Common**</span>
+
+## Hot Mug
 <span class="unknown">**Unknown**</span>
 
-## Hats
-<span class="unknown">**Unknown**</span>
+> Fireplace not included.
 
 ## Money Hat
 <span class="rare">**Rare**</span>
@@ -117,7 +124,12 @@ dateCreated: 2024-01-08T13:40:47.226Z
 ## Plus Hat
 <span class="exclusive">**Exclusive**</span>
 
-"Awarded to you because you're AWESOME and you wanted to contribute to the game."
+> Awarded to you because you're AWESOME and you wanted to contribute to the game.
+
+## Potato
+<span class="common">**Common**</span>
+
+> what did you expect
 
 ## Property Changer
 <span class="unknown">**Unknown**</span>
