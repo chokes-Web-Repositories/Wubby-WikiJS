@@ -2,7 +2,7 @@
 title: Hats
 description: Floating wearable cosmetics on your player character
 published: true
-date: 2024-01-27T09:45:59.092Z
+date: 2024-01-27T09:46:23.280Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:47.226Z
@@ -43,9 +43,6 @@ dateCreated: 2024-01-08T13:40:47.226Z
 # Chat Tags
 # {.tabset}
 ## 2023er
-<span class="exclusive">**Exclusive**</span>
-
-## 2024 Hat
 <span class="exclusive">**Exclusive**</span>
 
 ## Awesome
