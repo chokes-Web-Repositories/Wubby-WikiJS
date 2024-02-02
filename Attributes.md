@@ -2,11 +2,14 @@
 title: Attributes
 description: Block modifiers
 published: true
-date: 2024-01-08T13:40:34.366Z
+date: 2024-02-02T22:49:16.211Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:32.799Z
 ---
+
+> This page is outdated and is going to be renovated.
+{.is-danger}
 
 > This page is incomplete and everything on this page is subject to change.
 {.is-warning}
