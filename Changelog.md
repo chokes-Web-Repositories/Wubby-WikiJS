@@ -2,7 +2,7 @@
 title: Changelog
 description: The game's changelog for people who aren't in the discord
 published: true
-date: 2024-02-02T22:35:18.984Z
+date: 2024-02-02T22:37:35.040Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-08T13:40:37.581Z
@@ -15,7 +15,6 @@ dateCreated: 2024-01-08T13:40:37.581Z
 {.is-info}
 
 > Wubby was released on t:1688520360:D
-Wubby was last updated on t:1704160680:D
 {.is-info}
 
 [comment]: # (Please use https://www.unixtimestamp.com/ to add dates.)
@@ -826,7 +825,7 @@ Velocity, Position, Orientation, Mouse3DPosition
 +  cleaned up some animations
 ```
 ## July
-### t:1688520360:D
+### t:1688520360:D (Release)
 ```diff
 ! released wubby
 +attribute changers now use the input if the property matches
